@@ -1,0 +1,60 @@
+Processing batch 0 of epoch 0
+epoch: 0 {'ce_loss_train': 2.9729573726654053, 'centroid_loss_train': 0.0, 'total_train': 2.9729573726654053}
+Processing batch 1 of epoch 0
+epoch: 0 {'ce_loss_train': 2.844026803970337, 'centroid_loss_train': 0.0, 'total_train': 2.844026803970337}
+Processing batch 2 of epoch 0
+epoch: 0 {'ce_loss_train': 2.830881118774414, 'centroid_loss_train': 0.0, 'total_train': 2.830881118774414}
+Processing batch 3 of epoch 0
+epoch: 0 {'ce_loss_train': 2.7205097675323486, 'centroid_loss_train': 0.0, 'total_train': 2.7205097675323486}
+Processing batch 4 of epoch 0
+epoch: 0 {'ce_loss_train': 2.613898992538452, 'centroid_loss_train': 0.0, 'total_train': 2.613898992538452}
+Processing batch 5 of epoch 0
+epoch: 0 {'ce_loss_train': 2.5024728775024414, 'centroid_loss_train': 0.0, 'total_train': 2.5024728775024414}
+Processing batch 6 of epoch 0
+epoch: 0 {'ce_loss_train': 2.4146885871887207, 'centroid_loss_train': 0.0, 'total_train': 2.4146885871887207}
+Processing batch 7 of epoch 0
+epoch: 0 {'ce_loss_train': 2.3739418983459473, 'centroid_loss_train': 0.0, 'total_train': 2.3739418983459473}
+Processing batch 8 of epoch 0
+epoch: 0 {'ce_loss_train': 2.5301036834716797, 'centroid_loss_train': 0.0, 'total_train': 2.5301036834716797}
+Processing batch 9 of epoch 0
+epoch: 0 {'ce_loss_train': 2.414888858795166, 'centroid_loss_train': 0.0, 'total_train': 2.414888858795166}
+Processing batch 10 of epoch 0
+epoch: 0 {'ce_loss_train': 2.4621407985687256, 'centroid_loss_train': 0.0, 'total_train': 2.4621407985687256}
+Processing batch 11 of epoch 0
+epoch: 0 {'ce_loss_train': 2.433628559112549, 'centroid_loss_train': 0.0, 'total_train': 2.433628559112549}
+Processing batch 12 of epoch 0
+epoch: 0 {'ce_loss_train': 2.356717824935913, 'centroid_loss_train': 0.0, 'total_train': 2.356717824935913}
+Processing batch 13 of epoch 0
+epoch: 0 {'ce_loss_train': 2.2826526165008545, 'centroid_loss_train': 0.0, 'total_train': 2.2826526165008545}
+Processing batch 14 of epoch 0
+epoch: 0 {'ce_loss_train': 2.308422327041626, 'centroid_loss_train': 0.0, 'total_train': 2.308422327041626}
+Processing batch 15 of epoch 0
+epoch: 0 {'ce_loss_train': 2.5272040367126465, 'centroid_loss_train': 0.0, 'total_train': 2.5272040367126465}
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 50, in <module>
+    runner(config, model)
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 105, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/pointnet_pp_dg_model.py", line 83, in step
+    output = self.module(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp_dg.py", line 139, in forward
+    l0_points, l3_points, l0_xyz, l3_xyz, offset_result, dist_result, cls_pred = self.first_sem_model(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp_dg.py", line 88, in forward
+    l2_xyz, l2_points = self.sa2(l1_xyz, l1_points)#[b,3,512],[b,256,512]
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 281, in forward
+    group_idx = query_ball_point(radius, K, xyz, new_xyz)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 133, in query_ball_point
+    sqrdists = square_distance(new_xyz, xyz)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 38, in square_distance
+    dist = -2 * torch.matmul(src, dst.permute(0, 2, 1))
+KeyboardInterrupt

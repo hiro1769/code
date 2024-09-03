@@ -1,0 +1,51 @@
+Processing batch 0 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.8915607929229736, 'total_train': 2.8915607929229736}
+epoch: 0 {'tooth_class_loss_1_val': 2.728750705718994, 'total_val': 2.728750705718994}
+epoch: 0 {'tooth_class_loss_1_val': 2.7576029300689697, 'total_val': 2.7576029300689697}
+epoch: 0 {'tooth_class_loss_1_val': 2.7329273223876953, 'total_val': 2.7329273223876953}
+Processing batch 0 of epoch 1
+epoch: 1 {'tooth_class_loss_1_train': 2.482125997543335, 'total_train': 2.482125997543335}
+epoch: 1 {'tooth_class_loss_1_val': 2.719907522201538, 'total_val': 2.719907522201538}
+epoch: 1 {'tooth_class_loss_1_val': 2.750317335128784, 'total_val': 2.750317335128784}
+epoch: 1 {'tooth_class_loss_1_val': 2.725145101547241, 'total_val': 2.725145101547241}
+Processing batch 0 of epoch 2
+epoch: 2 {'tooth_class_loss_1_train': 2.320672035217285, 'total_train': 2.320672035217285}
+epoch: 2 {'tooth_class_loss_1_val': 2.7031569480895996, 'total_val': 2.7031569480895996}
+epoch: 2 {'tooth_class_loss_1_val': 2.7370917797088623, 'total_val': 2.7370917797088623}
+epoch: 2 {'tooth_class_loss_1_val': 2.7100095748901367, 'total_val': 2.7100095748901367}
+Processing batch 0 of epoch 3
+epoch: 3 {'tooth_class_loss_1_train': 2.6291019916534424, 'total_train': 2.6291019916534424}
+epoch: 3 {'tooth_class_loss_1_val': 2.683746576309204, 'total_val': 2.683746576309204}
+epoch: 3 {'tooth_class_loss_1_val': 2.721766948699951, 'total_val': 2.721766948699951}
+epoch: 3 {'tooth_class_loss_1_val': 2.6924045085906982, 'total_val': 2.6924045085906982}
+Processing batch 0 of epoch 4
+epoch: 4 {'tooth_class_loss_1_train': 2.244188070297241, 'total_train': 2.244188070297241}
+epoch: 4 {'tooth_class_loss_1_val': 2.66245698928833, 'total_val': 2.66245698928833}
+epoch: 4 {'tooth_class_loss_1_val': 2.7046988010406494, 'total_val': 2.7046988010406494}
+epoch: 4 {'tooth_class_loss_1_val': 2.6733920574188232, 'total_val': 2.6733920574188232}
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 32, in <module>
+    runner(config, model)
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 105, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/pointnet_pp_model.py", line 25, in step
+    output = self.module(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 88, in forward
+    l0_points, l3_points, l0_xyz, l3_xyz, offset_result, dist_result, cls_pred = self.first_sem_model(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 48, in forward
+    l2_xyz, l2_points = self.sa2(l1_xyz, l1_points)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 282, in forward
+    grouped_points = index_points(points, group_idx)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 59, in index_points
+    batch_indices = torch.arange(B, dtype=torch.long).to(device).view(view_shape).repeat(repeat_shape)
+RuntimeError: CUDA error: device-side assert triggered

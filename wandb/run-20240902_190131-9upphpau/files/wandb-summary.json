@@ -1,0 +1,1 @@
+{"ce_loss_train": 0.06799011677503586, "centroid_loss_train": 0.0, "total_train": 0.06799011677503586, "_timestamp": 1725278668.0246887, "_runtime": 3776.676527738571, "_step": 15190, "step_lr": 0.0005824350601949143, "ce_loss_val": 0.21774242721084092, "centroid_loss_val": 0.0, "total_val": 0.21774242721084092, "_wandb": {"runtime": 3779}}

@@ -1,0 +1,168 @@
+
+[34m[1mwandb[39m[22m: Network error resolved after 0:01:08.533167, resuming normal operation.
+Processing batch 0 of epoch 0
+epoch: 0 {'ce_loss_train': 2.969881772994995, 'centroid_loss_train': 0.0, 'total_train': 2.969881772994995}
+Processing batch 1 of epoch 0
+epoch: 0 {'ce_loss_train': 2.862957000732422, 'centroid_loss_train': 0.0, 'total_train': 2.862957000732422}
+Processing batch 2 of epoch 0
+epoch: 0 {'ce_loss_train': 2.8008804321289062, 'centroid_loss_train': 0.0, 'total_train': 2.8008804321289062}
+Processing batch 3 of epoch 0
+epoch: 0 {'ce_loss_train': 2.743152379989624, 'centroid_loss_train': 0.0, 'total_train': 2.743152379989624}
+Processing batch 4 of epoch 0
+epoch: 0 {'ce_loss_train': 2.618715286254883, 'centroid_loss_train': 0.0, 'total_train': 2.618715286254883}
+Processing batch 5 of epoch 0
+epoch: 0 {'ce_loss_train': 2.647068500518799, 'centroid_loss_train': 0.0, 'total_train': 2.647068500518799}
+Processing batch 6 of epoch 0
+epoch: 0 {'ce_loss_train': 2.52632474899292, 'centroid_loss_train': 0.0, 'total_train': 2.52632474899292}
+Processing batch 7 of epoch 0
+epoch: 0 {'ce_loss_train': 2.4264822006225586, 'centroid_loss_train': 0.0, 'total_train': 2.4264822006225586}
+Processing batch 8 of epoch 0
+epoch: 0 {'ce_loss_train': 2.50337815284729, 'centroid_loss_train': 0.0, 'total_train': 2.50337815284729}
+Processing batch 9 of epoch 0
+epoch: 0 {'ce_loss_train': 2.6623756885528564, 'centroid_loss_train': 0.0, 'total_train': 2.6623756885528564}
+Processing batch 10 of epoch 0
+epoch: 0 {'ce_loss_train': 2.400480031967163, 'centroid_loss_train': 0.0, 'total_train': 2.400480031967163}
+Processing batch 11 of epoch 0
+epoch: 0 {'ce_loss_train': 2.487199306488037, 'centroid_loss_train': 0.0, 'total_train': 2.487199306488037}
+Processing batch 12 of epoch 0
+epoch: 0 {'ce_loss_train': 2.4104442596435547, 'centroid_loss_train': 0.0, 'total_train': 2.4104442596435547}
+Processing batch 13 of epoch 0
+epoch: 0 {'ce_loss_train': 2.4331765174865723, 'centroid_loss_train': 0.0, 'total_train': 2.4331765174865723}
+Processing batch 14 of epoch 0
+epoch: 0 {'ce_loss_train': 2.334465742111206, 'centroid_loss_train': 0.0, 'total_train': 2.334465742111206}
+Processing batch 15 of epoch 0
+epoch: 0 {'ce_loss_train': 2.4270806312561035, 'centroid_loss_train': 0.0, 'total_train': 2.4270806312561035}
+Processing batch 16 of epoch 0
+epoch: 0 {'ce_loss_train': 2.5041003227233887, 'centroid_loss_train': 0.0, 'total_train': 2.5041003227233887}
+Processing batch 17 of epoch 0
+epoch: 0 {'ce_loss_train': 2.5498876571655273, 'centroid_loss_train': 0.0, 'total_train': 2.5498876571655273}
+Processing batch 18 of epoch 0
+epoch: 0 {'ce_loss_train': 2.3727424144744873, 'centroid_loss_train': 0.0, 'total_train': 2.3727424144744873}
+Processing batch 19 of epoch 0
+epoch: 0 {'ce_loss_train': 2.3868987560272217, 'centroid_loss_train': 0.0, 'total_train': 2.3868987560272217}
+Processing batch 20 of epoch 0
+epoch: 0 {'ce_loss_train': 2.3523802757263184, 'centroid_loss_train': 0.0, 'total_train': 2.3523802757263184}
+Processing batch 21 of epoch 0
+epoch: 0 {'ce_loss_train': 2.388371467590332, 'centroid_loss_train': 0.0, 'total_train': 2.388371467590332}
+Processing batch 22 of epoch 0
+epoch: 0 {'ce_loss_train': 2.3371405601501465, 'centroid_loss_train': 0.0, 'total_train': 2.3371405601501465}
+Processing batch 23 of epoch 0
+epoch: 0 {'ce_loss_train': 2.3302581310272217, 'centroid_loss_train': 0.0, 'total_train': 2.3302581310272217}
+Processing batch 24 of epoch 0
+epoch: 0 {'ce_loss_train': 2.2740044593811035, 'centroid_loss_train': 0.0, 'total_train': 2.2740044593811035}
+Processing batch 25 of epoch 0
+epoch: 0 {'ce_loss_train': 2.22385311126709, 'centroid_loss_train': 0.0, 'total_train': 2.22385311126709}
+Processing batch 26 of epoch 0
+epoch: 0 {'ce_loss_train': 2.215451717376709, 'centroid_loss_train': 0.0, 'total_train': 2.215451717376709}
+Processing batch 27 of epoch 0
+epoch: 0 {'ce_loss_train': 2.191431999206543, 'centroid_loss_train': 0.0, 'total_train': 2.191431999206543}
+Processing batch 28 of epoch 0
+epoch: 0 {'ce_loss_train': 2.2107460498809814, 'centroid_loss_train': 0.0, 'total_train': 2.2107460498809814}
+Processing batch 29 of epoch 0
+epoch: 0 {'ce_loss_train': 2.155606746673584, 'centroid_loss_train': 0.0, 'total_train': 2.155606746673584}
+Processing batch 30 of epoch 0
+epoch: 0 {'ce_loss_train': 2.1792867183685303, 'centroid_loss_train': 0.0, 'total_train': 2.1792867183685303}
+Processing batch 31 of epoch 0
+epoch: 0 {'ce_loss_train': 2.1799309253692627, 'centroid_loss_train': 0.0, 'total_train': 2.1799309253692627}
+Processing batch 32 of epoch 0
+epoch: 0 {'ce_loss_train': 2.1456058025360107, 'centroid_loss_train': 0.0, 'total_train': 2.1456058025360107}
+Processing batch 33 of epoch 0
+epoch: 0 {'ce_loss_train': 2.1343822479248047, 'centroid_loss_train': 0.0, 'total_train': 2.1343822479248047}
+Processing batch 34 of epoch 0
+epoch: 0 {'ce_loss_train': 2.1631410121917725, 'centroid_loss_train': 0.0, 'total_train': 2.1631410121917725}
+Processing batch 35 of epoch 0
+epoch: 0 {'ce_loss_train': 2.1432316303253174, 'centroid_loss_train': 0.0, 'total_train': 2.1432316303253174}
+Processing batch 36 of epoch 0
+epoch: 0 {'ce_loss_train': 2.0869805812835693, 'centroid_loss_train': 0.0, 'total_train': 2.0869805812835693}
+Processing batch 37 of epoch 0
+epoch: 0 {'ce_loss_train': 2.2642288208007812, 'centroid_loss_train': 0.0, 'total_train': 2.2642288208007812}
+Processing batch 38 of epoch 0
+epoch: 0 {'ce_loss_train': 2.143226385116577, 'centroid_loss_train': 0.0, 'total_train': 2.143226385116577}
+Processing batch 39 of epoch 0
+epoch: 0 {'ce_loss_train': 2.104215383529663, 'centroid_loss_train': 0.0, 'total_train': 2.104215383529663}
+Processing batch 40 of epoch 0
+epoch: 0 {'ce_loss_train': 2.1279714107513428, 'centroid_loss_train': 0.0, 'total_train': 2.1279714107513428}
+Processing batch 41 of epoch 0
+epoch: 0 {'ce_loss_train': 2.2045187950134277, 'centroid_loss_train': 0.0, 'total_train': 2.2045187950134277}
+Processing batch 42 of epoch 0
+epoch: 0 {'ce_loss_train': 2.018602132797241, 'centroid_loss_train': 0.0, 'total_train': 2.018602132797241}
+Processing batch 43 of epoch 0
+epoch: 0 {'ce_loss_train': 2.0541181564331055, 'centroid_loss_train': 0.0, 'total_train': 2.0541181564331055}
+Processing batch 44 of epoch 0
+epoch: 0 {'ce_loss_train': 2.0339348316192627, 'centroid_loss_train': 0.0, 'total_train': 2.0339348316192627}
+Processing batch 45 of epoch 0
+epoch: 0 {'ce_loss_train': 1.9814594984054565, 'centroid_loss_train': 0.0, 'total_train': 1.9814594984054565}
+Processing batch 46 of epoch 0
+epoch: 0 {'ce_loss_train': 1.9902236461639404, 'centroid_loss_train': 0.0, 'total_train': 1.9902236461639404}
+Processing batch 47 of epoch 0
+epoch: 0 {'ce_loss_train': 1.9916439056396484, 'centroid_loss_train': 0.0, 'total_train': 1.9916439056396484}
+Processing batch 48 of epoch 0
+epoch: 0 {'ce_loss_train': 2.0874314308166504, 'centroid_loss_train': 0.0, 'total_train': 2.0874314308166504}
+Processing batch 49 of epoch 0
+epoch: 0 {'ce_loss_train': 1.932891607284546, 'centroid_loss_train': 0.0, 'total_train': 1.932891607284546}
+Processing batch 50 of epoch 0
+epoch: 0 {'ce_loss_train': 1.9036210775375366, 'centroid_loss_train': 0.0, 'total_train': 1.9036210775375366}
+Processing batch 51 of epoch 0
+epoch: 0 {'ce_loss_train': 1.9475895166397095, 'centroid_loss_train': 0.0, 'total_train': 1.9475895166397095}
+Processing batch 52 of epoch 0
+epoch: 0 {'ce_loss_train': 1.929607629776001, 'centroid_loss_train': 0.0, 'total_train': 1.929607629776001}
+Processing batch 53 of epoch 0
+epoch: 0 {'ce_loss_train': 1.876125693321228, 'centroid_loss_train': 0.0, 'total_train': 1.876125693321228}
+Processing batch 54 of epoch 0
+epoch: 0 {'ce_loss_train': 1.8839460611343384, 'centroid_loss_train': 0.0, 'total_train': 1.8839460611343384}
+Processing batch 55 of epoch 0
+epoch: 0 {'ce_loss_train': 1.8292665481567383, 'centroid_loss_train': 0.0, 'total_train': 1.8292665481567383}
+Processing batch 56 of epoch 0
+epoch: 0 {'ce_loss_train': 1.9120713472366333, 'centroid_loss_train': 0.0, 'total_train': 1.9120713472366333}
+Processing batch 57 of epoch 0
+epoch: 0 {'ce_loss_train': 1.9333603382110596, 'centroid_loss_train': 0.0, 'total_train': 1.9333603382110596}
+Processing batch 58 of epoch 0
+epoch: 0 {'ce_loss_train': 1.8288377523422241, 'centroid_loss_train': 0.0, 'total_train': 1.8288377523422241}
+Processing batch 59 of epoch 0
+epoch: 0 {'ce_loss_train': 1.8376368284225464, 'centroid_loss_train': 0.0, 'total_train': 1.8376368284225464}
+Processing batch 60 of epoch 0
+epoch: 0 {'ce_loss_train': 1.8640260696411133, 'centroid_loss_train': 0.0, 'total_train': 1.8640260696411133}
+Processing batch 61 of epoch 0
+epoch: 0 {'ce_loss_train': 1.851818561553955, 'centroid_loss_train': 0.0, 'total_train': 1.851818561553955}
+Processing batch 62 of epoch 0
+epoch: 0 {'ce_loss_train': 1.890488624572754, 'centroid_loss_train': 0.0, 'total_train': 1.890488624572754}
+Processing batch 63 of epoch 0
+epoch: 0 {'ce_loss_train': 1.7749314308166504, 'centroid_loss_train': 0.0, 'total_train': 1.7749314308166504}
+Processing batch 64 of epoch 0
+epoch: 0 {'ce_loss_train': 1.8596913814544678, 'centroid_loss_train': 0.0, 'total_train': 1.8596913814544678}
+Processing batch 65 of epoch 0
+epoch: 0 {'ce_loss_train': 1.7580572366714478, 'centroid_loss_train': 0.0, 'total_train': 1.7580572366714478}
+Processing batch 66 of epoch 0
+epoch: 0 {'ce_loss_train': 1.825383186340332, 'centroid_loss_train': 0.0, 'total_train': 1.825383186340332}
+Processing batch 67 of epoch 0
+epoch: 0 {'ce_loss_train': 1.7002698183059692, 'centroid_loss_train': 0.0, 'total_train': 1.7002698183059692}
+Processing batch 68 of epoch 0
+epoch: 0 {'ce_loss_train': 1.832250952720642, 'centroid_loss_train': 0.0, 'total_train': 1.832250952720642}
+Processing batch 69 of epoch 0
+epoch: 0 {'ce_loss_train': 1.7633503675460815, 'centroid_loss_train': 0.0, 'total_train': 1.7633503675460815}
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 50, in <module>
+    runner(config, model)
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 106, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/pointnet_pp_dg_model.py", line 83, in step
+    output = self.module(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp_dg.py", line 139, in forward
+    l0_points, l3_points, l0_xyz, l3_xyz, offset_result, dist_result, cls_pred = self.first_sem_model(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp_dg.py", line 81, in forward
+    l1_xyz, l1_points = self.sa1(l0_xyz, l0_points)#[b,3,1024],[b,64,1024]
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 281, in forward
+    group_idx = query_ball_point(radius, K, xyz, new_xyz)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 135, in query_ball_point
+    group_idx = group_idx.sort(dim=-1)[0][:, :, :nsample]
+KeyboardInterrupt

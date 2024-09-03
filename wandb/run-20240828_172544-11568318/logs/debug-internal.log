@@ -1,0 +1,185 @@
+2024-08-28 17:25:44,339 INFO    StreamThr :17005 [internal.py:wandb_internal():85] W&B internal server running at pid: 17005, started at: 2024-08-28 17:25:44.339249
+2024-08-28 17:25:44,341 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: status
+2024-08-28 17:25:44,344 INFO    WriterThread:17005 [datastore.py:open_for_write():87] open: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/run-11568318.wandb
+2024-08-28 17:25:44,344 DEBUG   SenderThread:17005 [sender.py:send():391] send: header
+2024-08-28 17:25:44,345 DEBUG   SenderThread:17005 [sender.py:send():391] send: run
+2024-08-28 17:25:45,009 INFO    SenderThread:17005 [dir_watcher.py:__init__():211] watching files in: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files
+2024-08-28 17:25:45,009 INFO    SenderThread:17005 [sender.py:_start_run_threads():1200] run started: 11568318 with start time 1724837144.339161
+2024-08-28 17:25:45,014 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: check_version
+2024-08-28 17:25:45,015 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: check_version
+2024-08-28 17:25:45,455 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: run_start
+2024-08-28 17:25:45,489 DEBUG   HandlerThread:17005 [system_info.py:__init__():26] System info init
+2024-08-28 17:25:45,489 DEBUG   HandlerThread:17005 [system_info.py:__init__():41] System info init done
+2024-08-28 17:25:45,490 INFO    HandlerThread:17005 [system_monitor.py:start():194] Starting system monitor
+2024-08-28 17:25:45,490 INFO    SystemMonitor:17005 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-28 17:25:45,490 INFO    HandlerThread:17005 [system_monitor.py:probe():214] Collecting system info
+2024-08-28 17:25:45,491 INFO    SystemMonitor:17005 [interfaces.py:start():188] Started cpu monitoring
+2024-08-28 17:25:45,493 INFO    SystemMonitor:17005 [interfaces.py:start():188] Started disk monitoring
+2024-08-28 17:25:45,495 INFO    SystemMonitor:17005 [interfaces.py:start():188] Started gpu monitoring
+2024-08-28 17:25:45,496 INFO    SystemMonitor:17005 [interfaces.py:start():188] Started memory monitoring
+2024-08-28 17:25:45,497 INFO    SystemMonitor:17005 [interfaces.py:start():188] Started network monitoring
+2024-08-28 17:25:45,521 DEBUG   HandlerThread:17005 [system_info.py:probe():152] Probing system
+2024-08-28 17:25:45,525 DEBUG   HandlerThread:17005 [gitlib.py:_init_repo():56] git repository is invalid
+2024-08-28 17:25:45,525 DEBUG   HandlerThread:17005 [system_info.py:probe():200] Probing system done
+2024-08-28 17:25:45,525 DEBUG   HandlerThread:17005 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-119-generic-x86_64-with-glibc2.17', 'python': '3.8.19', 'heartbeatAt': '2024-08-28T09:25:45.522013', 'startedAt': '2024-08-28T09:25:44.334693', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/hiro/3d_tooth_seg/code/start_train.py', 'codePathLocal': 'start_train.py', 'codePath': 'start_train.py', 'host': 'hiro-System-Product-Name', 'username': 'hiro', 'executable': '/home/hiro/anaconda3/envs/3d_seg/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3692.03275, 'min': 800.0, 'max': 5100.0}, 'cpu_freq_per_core': [{'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 2072.524, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}, {'current': 3800.0, 'min': 800.0, 'max': 5100.0}], 'disk': {'/': {'total': 186.6822395324707, 'used': 18.32776641845703}}, 'gpu': 'NVIDIA GeForce RTX 3060 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Ti', 'memory_total': 8589934592}], 'memory': {'total': 15.513072967529297}}
+2024-08-28 17:25:45,525 INFO    HandlerThread:17005 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-28 17:25:45,525 INFO    HandlerThread:17005 [system_monitor.py:probe():227] Publishing system info
+2024-08-28 17:25:45,525 DEBUG   HandlerThread:17005 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-08-28 17:25:46,010 INFO    Thread-12 :17005 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/conda-environment.yaml
+2024-08-28 17:25:48,496 DEBUG   HandlerThread:17005 [system_info.py:_save_conda():224] Saving conda packages done
+2024-08-28 17:25:48,497 INFO    HandlerThread:17005 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-28 17:25:48,498 DEBUG   SenderThread:17005 [sender.py:send():391] send: files
+2024-08-28 17:25:48,498 INFO    SenderThread:17005 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-08-28 17:25:48,551 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-28 17:25:48,551 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-28 17:25:48,551 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: python_packages
+2024-08-28 17:25:48,551 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: stop_status
+2024-08-28 17:25:48,553 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-28 17:25:48,913 DEBUG   SenderThread:17005 [sender.py:send():391] send: telemetry
+2024-08-28 17:25:49,010 INFO    Thread-12 :17005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/conda-environment.yaml
+2024-08-28 17:25:49,010 INFO    Thread-12 :17005 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/requirements.txt
+2024-08-28 17:25:49,010 INFO    Thread-12 :17005 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/wandb-metadata.json
+2024-08-28 17:25:49,281 DEBUG   SenderThread:17005 [sender.py:send():391] send: exit
+2024-08-28 17:25:49,281 INFO    SenderThread:17005 [sender.py:send_exit():598] handling exit code: 1
+2024-08-28 17:25:49,281 INFO    SenderThread:17005 [sender.py:send_exit():600] handling runtime: 3
+2024-08-28 17:25:49,282 INFO    SenderThread:17005 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-28 17:25:49,282 INFO    SenderThread:17005 [sender.py:send_exit():606] send defer
+2024-08-28 17:25:49,282 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:49,282 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-28 17:25:49,282 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:49,282 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-28 17:25:49,283 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 1
+2024-08-28 17:25:49,283 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:49,283 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-28 17:25:49,283 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:49,283 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-28 17:25:49,283 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 2
+2024-08-28 17:25:49,283 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:49,283 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-28 17:25:49,283 INFO    HandlerThread:17005 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-28 17:25:49,283 DEBUG   SystemMonitor:17005 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-28 17:25:49,283 DEBUG   SystemMonitor:17005 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-28 17:25:49,283 DEBUG   SystemMonitor:17005 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-28 17:25:49,284 INFO    HandlerThread:17005 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-28 17:25:49,284 INFO    HandlerThread:17005 [interfaces.py:finish():200] Joined disk monitor
+2024-08-28 17:25:49,318 INFO    HandlerThread:17005 [interfaces.py:finish():200] Joined gpu monitor
+2024-08-28 17:25:49,318 INFO    HandlerThread:17005 [interfaces.py:finish():200] Joined memory monitor
+2024-08-28 17:25:49,318 INFO    HandlerThread:17005 [interfaces.py:finish():200] Joined network monitor
+2024-08-28 17:25:49,318 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:49,318 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-28 17:25:49,319 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 3
+2024-08-28 17:25:49,319 DEBUG   SenderThread:17005 [sender.py:send():391] send: stats
+2024-08-28 17:25:49,319 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:49,319 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-28 17:25:49,319 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:49,319 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-28 17:25:49,319 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 4
+2024-08-28 17:25:49,319 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:49,319 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-28 17:25:49,319 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:49,319 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-28 17:25:49,319 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 5
+2024-08-28 17:25:49,319 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:49,319 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-28 17:25:49,320 DEBUG   SenderThread:17005 [sender.py:send():391] send: summary
+2024-08-28 17:25:49,320 INFO    SenderThread:17005 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-28 17:25:49,320 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:49,320 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-28 17:25:49,320 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 6
+2024-08-28 17:25:49,320 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:49,320 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-28 17:25:49,320 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:49,320 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-28 17:25:49,323 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: status_report
+2024-08-28 17:25:49,585 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 7
+2024-08-28 17:25:49,586 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:49,586 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-28 17:25:49,587 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:49,587 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-28 17:25:49,803 INFO    wandb-upload_0:17005 [upload_job.py:push():130] Uploaded file /tmp/tmpfh_o_37ywandb/0bopyf6g-wandb-metadata.json
+2024-08-28 17:25:50,011 INFO    Thread-12 :17005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/config.yaml
+2024-08-28 17:25:50,011 INFO    Thread-12 :17005 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/output.log
+2024-08-28 17:25:50,012 INFO    Thread-12 :17005 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/wandb-summary.json
+2024-08-28 17:25:50,280 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-28 17:25:51,245 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 8
+2024-08-28 17:25:51,245 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: poll_exit
+2024-08-28 17:25:51,245 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:51,245 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-28 17:25:51,246 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:51,246 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-28 17:25:51,246 INFO    SenderThread:17005 [job_builder.py:build():443] Attempting to build job artifact
+2024-08-28 17:25:51,246 INFO    SenderThread:17005 [job_builder.py:_get_source_type():583] no source found
+2024-08-28 17:25:51,246 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 9
+2024-08-28 17:25:51,246 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:51,246 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-28 17:25:51,246 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:51,246 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-28 17:25:51,246 INFO    SenderThread:17005 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-28 17:25:51,280 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-28 17:25:52,012 INFO    Thread-12 :17005 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/output.log
+2024-08-28 17:25:52,013 INFO    SenderThread:17005 [dir_watcher.py:finish():388] scan: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files
+2024-08-28 17:25:52,014 INFO    SenderThread:17005 [dir_watcher.py:finish():402] scan save: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/requirements.txt requirements.txt
+2024-08-28 17:25:52,014 INFO    SenderThread:17005 [dir_watcher.py:finish():402] scan save: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/conda-environment.yaml conda-environment.yaml
+2024-08-28 17:25:52,020 INFO    SenderThread:17005 [dir_watcher.py:finish():402] scan save: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/config.yaml config.yaml
+2024-08-28 17:25:52,022 INFO    SenderThread:17005 [dir_watcher.py:finish():402] scan save: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/wandb-metadata.json wandb-metadata.json
+2024-08-28 17:25:52,023 INFO    SenderThread:17005 [dir_watcher.py:finish():402] scan save: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/output.log output.log
+2024-08-28 17:25:52,024 INFO    SenderThread:17005 [dir_watcher.py:finish():402] scan save: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/wandb-summary.json wandb-summary.json
+2024-08-28 17:25:52,030 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 10
+2024-08-28 17:25:52,030 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: poll_exit
+2024-08-28 17:25:52,030 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:52,032 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-28 17:25:52,032 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:52,032 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-28 17:25:52,033 INFO    SenderThread:17005 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-28 17:25:52,281 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-28 17:25:52,281 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: poll_exit
+2024-08-28 17:25:52,706 INFO    wandb-upload_1:17005 [upload_job.py:push():130] Uploaded file /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/conda-environment.yaml
+2024-08-28 17:25:53,245 INFO    wandb-upload_0:17005 [upload_job.py:push():130] Uploaded file /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/requirements.txt
+2024-08-28 17:25:53,282 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-28 17:25:53,284 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: poll_exit
+2024-08-28 17:25:53,423 INFO    wandb-upload_3:17005 [upload_job.py:push():130] Uploaded file /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/output.log
+2024-08-28 17:25:53,465 INFO    wandb-upload_2:17005 [upload_job.py:push():130] Uploaded file /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/config.yaml
+2024-08-28 17:25:53,505 INFO    wandb-upload_4:17005 [upload_job.py:push():130] Uploaded file /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/files/wandb-summary.json
+2024-08-28 17:25:53,705 INFO    Thread-11 :17005 [sender.py:transition_state():626] send defer: 11
+2024-08-28 17:25:53,706 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:53,706 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-28 17:25:53,708 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:53,708 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-08-28 17:25:53,708 INFO    SenderThread:17005 [file_pusher.py:join():175] waiting for file pusher
+2024-08-28 17:25:53,709 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 12
+2024-08-28 17:25:53,710 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:53,710 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-28 17:25:53,711 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:53,711 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-08-28 17:25:53,711 INFO    SenderThread:17005 [file_stream.py:finish():601] file stream finish called
+2024-08-28 17:25:53,937 INFO    SenderThread:17005 [file_stream.py:finish():605] file stream finish is done
+2024-08-28 17:25:53,937 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 13
+2024-08-28 17:25:53,937 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:53,938 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-28 17:25:53,939 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:53,939 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-08-28 17:25:53,939 INFO    SenderThread:17005 [sender.py:transition_state():626] send defer: 14
+2024-08-28 17:25:53,940 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: defer
+2024-08-28 17:25:53,940 INFO    HandlerThread:17005 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-28 17:25:53,941 DEBUG   SenderThread:17005 [sender.py:send():391] send: final
+2024-08-28 17:25:53,942 DEBUG   SenderThread:17005 [sender.py:send():391] send: footer
+2024-08-28 17:25:53,942 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: defer
+2024-08-28 17:25:53,942 INFO    SenderThread:17005 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-08-28 17:25:53,943 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-28 17:25:53,944 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: poll_exit
+2024-08-28 17:25:53,946 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: server_info
+2024-08-28 17:25:53,947 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: server_info
+2024-08-28 17:25:53,954 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-28 17:25:53,957 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-28 17:25:53,957 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-28 17:25:53,958 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-28 17:25:54,188 DEBUG   SenderThread:17005 [sender.py:send_request():418] send_request: poll_exit
+2024-08-28 17:25:54,189 INFO    MainThread:17005 [wandb_run.py:_footer_history_summary_info():4076] rendering history
+2024-08-28 17:25:54,189 INFO    MainThread:17005 [wandb_run.py:_footer_history_summary_info():4108] rendering summary
+2024-08-28 17:25:54,190 INFO    MainThread:17005 [wandb_run.py:_footer_sync_info():4035] logging synced files
+2024-08-28 17:25:54,191 DEBUG   HandlerThread:17005 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-28 17:25:54,191 INFO    HandlerThread:17005 [handler.py:finish():880] shutting down handler
+2024-08-28 17:25:54,956 INFO    WriterThread:17005 [datastore.py:close():296] close: /home/hiro/3d_tooth_seg/code/wandb/run-20240828_172544-11568318/run-11568318.wandb
+2024-08-28 17:25:55,189 INFO    SenderThread:17005 [sender.py:finish():1631] shutting down sender
+2024-08-28 17:25:55,189 INFO    SenderThread:17005 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-28 17:25:55,189 INFO    SenderThread:17005 [file_pusher.py:join():175] waiting for file pusher

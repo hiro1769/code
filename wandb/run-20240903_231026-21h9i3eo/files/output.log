@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 50, in <module>
+    runner(config, model)
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 106, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/dgcnn_model.py", line 24, in step
+    output = self.module(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/dgcnn.py", line 102, in forward
+    x = get_graph_feature(x, k=self.k, dim9=True)   # (batch_size, 9, num_points) -> (batch_size, 9*2, num_points, k)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/dgcnn.py", line 21, in get_graph_feature
+    idx = knn(x, k=k)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/dgcnn.py", line 7, in knn
+    pairwise_distance = -xx - inner - xx.transpose(2, 1)
+RuntimeError: CUDA out of memory. Tried to allocate 2.15 GiB (GPU 0; 7.79 GiB total capacity; 4.30 GiB already allocated; 1.58 GiB free; 4.32 GiB reserved in total by PyTorch)

@@ -1,0 +1,1 @@
+{"tooth_class_loss_1_train": 0.04377024993300438, "total_train": 0.04377024993300438, "_timestamp": 1724853662.8322992, "_runtime": 3722.7133202552795, "_step": 14400, "step_lr": 1e-05, "tooth_class_loss_1_val": 0.2981157020976146, "total_val": 0.2981157020976146, "_wandb": {"runtime": 3721}}

@@ -1,0 +1,29 @@
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_setup.py:_flush():76] Configure stats pid to 34652
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_setup.py:_flush():76] Loading settings from /home/hiro/.config/wandb/settings
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_setup.py:_flush():76] Loading settings from /home/hiro/3d_tooth_seg/code/wandb/settings
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'start_train.py', 'program_abspath': '/home/hiro/3d_tooth_seg/code/start_train.py', 'program': '/home/hiro/3d_tooth_seg/code/start_train.py'}
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_init.py:_log_setup():524] Logging user logs to /home/hiro/3d_tooth_seg/code/wandb/run-20240830_173535-f5orhidw/logs/debug.log
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_init.py:_log_setup():525] Logging internal logs to /home/hiro/3d_tooth_seg/code/wandb/run-20240830_173535-f5orhidw/logs/debug-internal.log
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_init.py:init():607] calling init triggers
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {'wandb': {'entity': 'hiro1', 'wandb_on': True, 'project': '单独的下颚', 'tags': 'tooth mesh segmentation', 'notes': '不做去除底座处理', 'name': '下颚—不去底座(pointpp_50ep_清洗)'}, 'generator': {'input_data_dir_path': '/home/hiro/3d_tooth_seg/data/data_path_1', 'train_data_split_txt_path': '/home/hiro/3d_tooth_seg/code/fold_path/base_name_train_fold.txt', 'val_data_split_txt_path': '/home/hiro/3d_tooth_seg/code/fold_path/base_name_val_fold.txt', 'aug_obj_str': "aug.Augmentator([aug.Scaling([0.85, 1.15]), aug.Rotation([-30,30], 'fixed'), aug.Translation([-0.2, 0.2])])", 'train_batch_size': 1, 'val_batch_size': 1}, 'checkpoint_path': 'ckpts/下颚—不去底座(pointpp_50ep_清洗)', 'tr_set': {'optimizer': {'lr': 0.001, 'NAME': 'adam', 'weight_decay': 0.0001}, 'scheduler': {'sched': 'cosine', 'warmup_epochs': 0, 'full_steps': 40, 'schedueler_step': 15000000, 'min_lr': 1e-05}}}
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_init.py:init():657] starting backend
+2024-08-30 17:35:35,924 INFO    MainThread:34652 [wandb_init.py:init():661] setting up manager
+2024-08-30 17:35:35,926 INFO    MainThread:34652 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-30 17:35:35,927 INFO    MainThread:34652 [wandb_init.py:init():669] backend started and connected
+2024-08-30 17:35:35,932 INFO    MainThread:34652 [wandb_init.py:init():764] updated telemetry
+2024-08-30 17:35:35,933 INFO    MainThread:34652 [wandb_init.py:init():797] communicating run to backend with 90.0 second timeout
+2024-08-30 17:35:36,775 INFO    MainThread:34652 [wandb_run.py:_on_init():2479] communicating current version
+2024-08-30 17:35:37,071 INFO    MainThread:34652 [wandb_run.py:_on_init():2488] got version response upgrade_message: "wandb version 0.17.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-08-30 17:35:37,072 INFO    MainThread:34652 [wandb_init.py:init():848] starting run threads in backend
+2024-08-30 17:35:40,907 INFO    MainThread:34652 [wandb_run.py:_console_start():2457] atexit reg
+2024-08-30 17:35:40,907 INFO    MainThread:34652 [wandb_run.py:_redirect():2303] redirect: wrap_raw
+2024-08-30 17:35:40,907 INFO    MainThread:34652 [wandb_run.py:_redirect():2368] Wrapping output streams.
+2024-08-30 17:35:40,907 INFO    MainThread:34652 [wandb_run.py:_redirect():2393] Redirects installed.
+2024-08-30 17:35:40,909 INFO    MainThread:34652 [wandb_init.py:init():891] run started, returning control to user process
+2024-08-30 18:02:56,947 WARNING MsgRouterThr:34652 [router.py:message_loop():77] message_loop has been closed

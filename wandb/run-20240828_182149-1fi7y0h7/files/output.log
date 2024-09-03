@@ -1,0 +1,284 @@
+/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py:100: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  offset = torch.range(1,xyz.shape[0])*xyz.shape[1]
+/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py:101: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  offset = torch.tensor(offset).cuda().type(torch.int)
+/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py:102: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  new_offset = torch.range(1,xyz.shape[0])*npoint
+/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py:107: UserWarning: torch.range is deprecated and will be removed in a future release because its behavior is inconsistent with Python's range builtin. Instead, use torch.arange, which produces values in [start, end).
+  results = results - (torch.range(0, xyz.shape[0]-1).cuda().type(torch.long) * xyz.shape[1]).reshape(-1,1)
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 32, in <module>
+    runner(config, model)
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 105, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/pointnet_pp_model.py", line 25, in step
+    output = self.module(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 88, in forward
+    l0_points, l3_points, l0_xyz, l3_xyz, offset_result, dist_result, cls_pred = self.first_sem_model(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 48, in forward
+    l2_xyz, l2_points = self.sa2(l1_xyz, l1_points)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 292, in forward
+    grouped_xyz = index_points(xyz, group_idx)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 63, in index_points
+    assert torch.max(idx) < N, "Index out of range"
+AssertionError: Index out of range
+points shape: torch.Size([1, 24000, 3])
+idx shape: torch.Size([1, 1024])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 24000, 3])
+idx shape: torch.Size([1, 1024, 32])
+max idx: 23999
+min idx: 0
+points shape: torch.Size([1, 24000, 6])
+idx shape: torch.Size([1, 1024, 32])
+max idx: 23999
+min idx: 0
+points shape: torch.Size([1, 24000, 3])
+idx shape: torch.Size([1, 1024, 64])
+max idx: 23994
+min idx: 0
+points shape: torch.Size([1, 24000, 6])
+idx shape: torch.Size([1, 1024, 64])
+max idx: 23994
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512, 32])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 1024, 256])
+idx shape: torch.Size([1, 512, 32])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512, 64])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 1024, 256])
+idx shape: torch.Size([1, 512, 64])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 512, 3])
+idx shape: torch.Size([1, 256])
+max idx: 255
+min idx: 0
+points shape: torch.Size([1, 512, 3])
+idx shape: torch.Size([1, 256, 32])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 512, 1024])
+idx shape: torch.Size([1, 256, 32])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 512, 3])
+idx shape: torch.Size([1, 256, 64])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 512, 1024])
+idx shape: torch.Size([1, 256, 64])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 256, 2048])
+idx shape: torch.Size([1, 512, 3])
+max idx: 255
+min idx: 0
+points shape: torch.Size([1, 512, 1024])
+idx shape: torch.Size([1, 1024, 3])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 1024, 512])
+idx shape: torch.Size([1, 24000, 3])
+max idx: 1023
+min idx: 0
+Processing batch 0 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.8147902488708496, 'total_train': 2.8147902488708496}
+points shape: torch.Size([1, 24000, 3])
+idx shape: torch.Size([1, 1024])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 24000, 3])
+idx shape: torch.Size([1, 1024, 32])
+max idx: 23997
+min idx: 0
+points shape: torch.Size([1, 24000, 6])
+idx shape: torch.Size([1, 1024, 32])
+max idx: 23997
+min idx: 0
+points shape: torch.Size([1, 24000, 3])
+idx shape: torch.Size([1, 1024, 64])
+max idx: 23998
+min idx: 0
+points shape: torch.Size([1, 24000, 6])
+idx shape: torch.Size([1, 1024, 64])
+max idx: 23998
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512, 32])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 1024, 256])
+idx shape: torch.Size([1, 512, 32])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512, 64])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 1024, 256])
+idx shape: torch.Size([1, 512, 64])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 512, 3])
+idx shape: torch.Size([1, 256])
+max idx: 255
+min idx: 0
+points shape: torch.Size([1, 512, 3])
+idx shape: torch.Size([1, 256, 32])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 512, 1024])
+idx shape: torch.Size([1, 256, 32])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 512, 3])
+idx shape: torch.Size([1, 256, 64])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 512, 1024])
+idx shape: torch.Size([1, 256, 64])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 256, 2048])
+idx shape: torch.Size([1, 512, 3])
+max idx: 255
+min idx: 0
+points shape: torch.Size([1, 512, 1024])
+idx shape: torch.Size([1, 1024, 3])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 1024, 512])
+idx shape: torch.Size([1, 24000, 3])
+max idx: 1023
+min idx: 0
+Processing batch 1 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.543621301651001, 'total_train': 2.543621301651001}
+points shape: torch.Size([1, 15230, 3])
+idx shape: torch.Size([1, 1024])
+max idx: 15221
+min idx: 0
+points shape: torch.Size([1, 15230, 3])
+idx shape: torch.Size([1, 1024, 32])
+max idx: 15229
+min idx: 0
+points shape: torch.Size([1, 15230, 6])
+idx shape: torch.Size([1, 1024, 32])
+max idx: 15229
+min idx: 0
+points shape: torch.Size([1, 15230, 3])
+idx shape: torch.Size([1, 1024, 64])
+max idx: 15229
+min idx: 0
+points shape: torch.Size([1, 15230, 6])
+idx shape: torch.Size([1, 1024, 64])
+max idx: 15229
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512, 32])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 1024, 256])
+idx shape: torch.Size([1, 512, 32])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512, 64])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 1024, 256])
+idx shape: torch.Size([1, 512, 64])
+max idx: 1023
+min idx: 0
+points shape: torch.Size([1, 512, 3])
+idx shape: torch.Size([1, 256])
+max idx: 255
+min idx: 0
+points shape: torch.Size([1, 512, 3])
+idx shape: torch.Size([1, 256, 32])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 512, 1024])
+idx shape: torch.Size([1, 256, 32])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 512, 3])
+idx shape: torch.Size([1, 256, 64])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 512, 1024])
+idx shape: torch.Size([1, 256, 64])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 256, 2048])
+idx shape: torch.Size([1, 512, 3])
+max idx: 255
+min idx: 0
+points shape: torch.Size([1, 512, 1024])
+idx shape: torch.Size([1, 1024, 3])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 1024, 512])
+idx shape: torch.Size([1, 15230, 3])
+max idx: 1023
+min idx: 0
+Processing batch 2 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.438319444656372, 'total_train': 2.438319444656372}
+points shape: torch.Size([1, 24000, 3])
+idx shape: torch.Size([1, 1024])
+max idx: 2123
+min idx: 0
+points shape: torch.Size([1, 24000, 3])
+idx shape: torch.Size([1, 1024, 32])
+max idx: 23999
+min idx: 0
+points shape: torch.Size([1, 24000, 6])
+idx shape: torch.Size([1, 1024, 32])
+max idx: 23999
+min idx: 0
+points shape: torch.Size([1, 24000, 3])
+idx shape: torch.Size([1, 1024, 64])
+max idx: 23999
+min idx: 0
+points shape: torch.Size([1, 24000, 6])
+idx shape: torch.Size([1, 1024, 64])
+max idx: 23999
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512])
+max idx: 511
+min idx: 0
+points shape: torch.Size([1, 1024, 3])
+idx shape: torch.Size([1, 512, 32])
+max idx: 1024
+min idx: 0

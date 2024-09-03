@@ -1,0 +1,61 @@
+Processing batch 0 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 3.035322666168213, 'total_train': 3.035322666168213}
+epoch: 0 {'tooth_class_loss_1_val': 2.8879456520080566, 'total_val': 2.8879456520080566}
+epoch: 0 {'tooth_class_loss_1_val': 2.872694253921509, 'total_val': 2.872694253921509}
+epoch: 0 {'tooth_class_loss_1_val': 2.8872954845428467, 'total_val': 2.8872954845428467}
+Processing batch 0 of epoch 1
+epoch: 1 {'tooth_class_loss_1_train': 2.7074670791625977, 'total_train': 2.7074670791625977}
+epoch: 1 {'tooth_class_loss_1_val': 2.8847274780273438, 'total_val': 2.8847274780273438}
+epoch: 1 {'tooth_class_loss_1_val': 2.8699066638946533, 'total_val': 2.8699066638946533}
+epoch: 1 {'tooth_class_loss_1_val': 2.884084939956665, 'total_val': 2.884084939956665}
+Processing batch 0 of epoch 2
+epoch: 2 {'tooth_class_loss_1_train': 2.605440378189087, 'total_train': 2.605440378189087}
+epoch: 2 {'tooth_class_loss_1_val': 2.879885196685791, 'total_val': 2.879885196685791}
+epoch: 2 {'tooth_class_loss_1_val': 2.865751266479492, 'total_val': 2.865751266479492}
+epoch: 2 {'tooth_class_loss_1_val': 2.8795034885406494, 'total_val': 2.8795034885406494}
+Processing batch 0 of epoch 3
+epoch: 3 {'tooth_class_loss_1_train': 2.4052186012268066, 'total_train': 2.4052186012268066}
+epoch: 3 {'tooth_class_loss_1_val': 2.8721890449523926, 'total_val': 2.8721890449523926}
+epoch: 3 {'tooth_class_loss_1_val': 2.8590221405029297, 'total_val': 2.8590221405029297}
+epoch: 3 {'tooth_class_loss_1_val': 2.87239670753479, 'total_val': 2.87239670753479}
+Processing batch 0 of epoch 4
+epoch: 4 {'tooth_class_loss_1_train': 2.376831531524658, 'total_train': 2.376831531524658}
+epoch: 4 {'tooth_class_loss_1_val': 2.859920024871826, 'total_val': 2.859920024871826}
+epoch: 4 {'tooth_class_loss_1_val': 2.8480277061462402, 'total_val': 2.8480277061462402}
+epoch: 4 {'tooth_class_loss_1_val': 2.861020803451538, 'total_val': 2.861020803451538}
+Processing batch 0 of epoch 5
+epoch: 5 {'tooth_class_loss_1_train': 2.2909324169158936, 'total_train': 2.2909324169158936}
+epoch: 5 {'tooth_class_loss_1_val': 2.8431529998779297, 'total_val': 2.8431529998779297}
+epoch: 5 {'tooth_class_loss_1_val': 2.8331069946289062, 'total_val': 2.8331069946289062}
+epoch: 5 {'tooth_class_loss_1_val': 2.8457388877868652, 'total_val': 2.8457388877868652}
+Processing batch 0 of epoch 6
+epoch: 6 {'tooth_class_loss_1_train': 2.1949706077575684, 'total_train': 2.1949706077575684}
+epoch: 6 {'tooth_class_loss_1_val': 2.8266255855560303, 'total_val': 2.8266255855560303}
+epoch: 6 {'tooth_class_loss_1_val': 2.8187272548675537, 'total_val': 2.8187272548675537}
+epoch: 6 {'tooth_class_loss_1_val': 2.8307323455810547, 'total_val': 2.8307323455810547}
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 32, in <module>
+    runner(config, model)
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 105, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/pointnet_pp_model.py", line 25, in step
+    output = self.module(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 88, in forward
+    l0_points, l3_points, l0_xyz, l3_xyz, offset_result, dist_result, cls_pred = self.first_sem_model(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 48, in forward
+    l2_xyz, l2_points = self.sa2(l1_xyz, l1_points)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 282, in forward
+    grouped_points = index_points(points, group_idx)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 59, in index_points
+    batch_indices = torch.arange(B, dtype=torch.long).to(device).view(view_shape).repeat(repeat_shape)
+RuntimeError: CUDA error: device-side assert triggered

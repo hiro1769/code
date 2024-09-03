@@ -1,0 +1,81 @@
+2024-09-01 17:58:19,905 INFO    StreamThr :9510 [internal.py:wandb_internal():85] W&B internal server running at pid: 9510, started at: 2024-09-01 17:58:19.904758
+2024-09-01 17:58:19,906 DEBUG   HandlerThread:9510 [handler.py:handle_request():158] handle_request: status
+2024-09-01 17:58:19,911 INFO    WriterThread:9510 [datastore.py:open_for_write():87] open: /home/hiro/3d_tooth_seg/code/wandb/run-20240901_175819-39tlpbpc/run-39tlpbpc.wandb
+2024-09-01 17:58:19,911 DEBUG   SenderThread:9510 [sender.py:send():391] send: header
+2024-09-01 17:58:19,912 DEBUG   SenderThread:9510 [sender.py:send():391] send: run
+2024-09-01 17:58:24,913 DEBUG   HandlerThread:9510 [handler.py:handle_request():158] handle_request: keepalive
+2024-09-01 17:58:27,142 DEBUG   HandlerThread:9510 [handler.py:handle_request():158] handle_request: shutdown
+2024-09-01 17:58:27,142 INFO    HandlerThread:9510 [handler.py:finish():880] shutting down handler
+2024-09-01 17:58:27,913 INFO    WriterThread:9510 [datastore.py:close():296] close: /home/hiro/3d_tooth_seg/code/wandb/run-20240901_175819-39tlpbpc/run-39tlpbpc.wandb
+2024-09-01 17:59:24,268 INFO    SenderThread:9510 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/urllib3/connection.py", line 464, in getresponse
+    httplib_response = super().getresponse()
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/ssl.py", line 1132, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/urllib3/connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/urllib3/connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=20)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/wandb/sdk/internal/internal_api.py", line 345, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/wandb/sdk/lib/gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/requests/adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=20)
+2024-09-01 18:00:37,595 INFO    SenderThread:9510 [dir_watcher.py:__init__():211] watching files in: /home/hiro/3d_tooth_seg/code/wandb/run-20240901_175819-39tlpbpc/files
+2024-09-01 18:00:37,595 INFO    SenderThread:9510 [sender.py:_start_run_threads():1200] run started: 39tlpbpc with start time 1725184699.905131
+2024-09-01 18:00:37,595 INFO    SenderThread:9510 [sender.py:finish():1631] shutting down sender
+2024-09-01 18:00:37,595 INFO    SenderThread:9510 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-01 18:00:38,596 INFO    SenderThread:9510 [dir_watcher.py:finish():388] scan: /home/hiro/3d_tooth_seg/code/wandb/run-20240901_175819-39tlpbpc/files
+2024-09-01 18:00:38,596 INFO    SenderThread:9510 [dir_watcher.py:finish():402] scan save: /home/hiro/3d_tooth_seg/code/wandb/run-20240901_175819-39tlpbpc/files/config.yaml config.yaml
+2024-09-01 18:00:38,597 INFO    SenderThread:9510 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-01 18:00:38,597 INFO    SenderThread:9510 [file_pusher.py:join():175] waiting for file pusher
+2024-09-01 18:00:39,504 INFO    wandb-upload_0:9510 [upload_job.py:push():130] Uploaded file /home/hiro/3d_tooth_seg/code/wandb/run-20240901_175819-39tlpbpc/files/config.yaml
+2024-09-01 18:00:40,099 INFO    SenderThread:9510 [file_stream.py:finish():601] file stream finish called
+2024-09-01 18:00:40,417 INFO    SenderThread:9510 [file_stream.py:finish():605] file stream finish is done

@@ -1,0 +1,2 @@
+epoch: 0 {'ce_loss_train': 2.8393121719360352, 'centroid_loss_train': 0.17406505346298218, 'total_train': 3.0133772253990174}
+Backend TkAgg is interactive backend. Turning interactive mode on.

@@ -1,0 +1,10 @@
+
+Processing batch 0 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.8395700454711914, 'total_train': 2.8395700454711914}
+Processing batch 1 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.5242512226104736, 'total_train': 2.5242512226104736}
+Processing batch 2 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.4319405555725098, 'total_train': 2.4319405555725098}
+Processing batch 3 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.3301401138305664, 'total_train': 2.3301401138305664}
+Processing batch 4 of epoch 0

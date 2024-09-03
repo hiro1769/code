@@ -1,0 +1,2302 @@
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23995, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1017, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 0 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.9492909908294678, 'total_train': 2.9492909908294678}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 1 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.735069990158081, 'total_train': 2.735069990158081}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23967, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 2 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.5823404788970947, 'total_train': 2.5823404788970947}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 3 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.3251264095306396, 'total_train': 2.3251264095306396}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 4 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.337451219558716, 'total_train': 2.337451219558716}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 5 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.328843355178833, 'total_train': 2.328843355178833}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 6 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.3135106563568115, 'total_train': 2.3135106563568115}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 7 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.2070131301879883, 'total_train': 2.2070131301879883}
+xyz shape: torch.Size([1, 15230, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 15229, min group_idx: 0
+N: 15230
+xyz shape: torch.Size([1, 15230, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 15229, min group_idx: 0
+N: 15230
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 8 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.3240044116973877, 'total_train': 2.3240044116973877}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23993, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 9 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.211106538772583, 'total_train': 2.211106538772583}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 10 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.2345404624938965, 'total_train': 2.2345404624938965}
+xyz shape: torch.Size([1, 18175, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 18174, min group_idx: 0
+N: 18175
+xyz shape: torch.Size([1, 18175, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 18174, min group_idx: 0
+N: 18175
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 11 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.2262179851531982, 'total_train': 2.2262179851531982}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1022, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 12 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1670985221862793, 'total_train': 2.1670985221862793}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23995, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 13 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.4251208305358887, 'total_train': 2.4251208305358887}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 14 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.220996141433716, 'total_train': 2.220996141433716}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23991, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23980, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 15 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.261836528778076, 'total_train': 2.261836528778076}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1007, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 16 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.178581476211548, 'total_train': 2.178581476211548}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 17 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1455628871917725, 'total_train': 2.1455628871917725}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1017, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 18 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.3388612270355225, 'total_train': 2.3388612270355225}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23994, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 19 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1272690296173096, 'total_train': 2.1272690296173096}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23978, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 20 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1851634979248047, 'total_train': 2.1851634979248047}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23996, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 21 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1266210079193115, 'total_train': 2.1266210079193115}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 22 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.2591283321380615, 'total_train': 2.2591283321380615}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1022, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 23 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1268603801727295, 'total_train': 2.1268603801727295}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 24 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1678411960601807, 'total_train': 2.1678411960601807}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 25 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1823952198028564, 'total_train': 2.1823952198028564}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 26 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.0729119777679443, 'total_train': 2.0729119777679443}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 27 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.043912410736084, 'total_train': 2.043912410736084}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23996, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1007, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 28 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.113426685333252, 'total_train': 2.113426685333252}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23990, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 29 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.0482637882232666, 'total_train': 2.0482637882232666}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 999, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 30 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1422455310821533, 'total_train': 2.1422455310821533}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1016, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 31 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.078080177307129, 'total_train': 2.078080177307129}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 32 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9864845275878906, 'total_train': 1.9864845275878906}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23992, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 33 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9589152336120605, 'total_train': 1.9589152336120605}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23992, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 34 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9839571714401245, 'total_train': 1.9839571714401245}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 35 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.0094735622406006, 'total_train': 2.0094735622406006}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23993, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1015, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 36 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9340482950210571, 'total_train': 1.9340482950210571}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 37 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.217742919921875, 'total_train': 2.217742919921875}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 38 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.139336347579956, 'total_train': 2.139336347579956}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23996, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 39 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8523242473602295, 'total_train': 1.8523242473602295}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 40 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.0836148262023926, 'total_train': 2.0836148262023926}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 41 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8733690977096558, 'total_train': 1.8733690977096558}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 42 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8512928485870361, 'total_train': 1.8512928485870361}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 43 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8036898374557495, 'total_train': 1.8036898374557495}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23996, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 44 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8013466596603394, 'total_train': 1.8013466596603394}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 45 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8025585412979126, 'total_train': 1.8025585412979126}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 46 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.930662751197815, 'total_train': 1.930662751197815}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1021, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 47 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8534667491912842, 'total_train': 1.8534667491912842}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23984, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23987, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 48 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.04952073097229, 'total_train': 2.04952073097229}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 49 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9020519256591797, 'total_train': 1.9020519256591797}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 50 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8312314748764038, 'total_train': 1.8312314748764038}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 51 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8426038026809692, 'total_train': 1.8426038026809692}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23996, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 52 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.7720577716827393, 'total_train': 1.7720577716827393}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23993, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 53 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.766457200050354, 'total_train': 1.766457200050354}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 54 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8714890480041504, 'total_train': 1.8714890480041504}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 55 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9135502576828003, 'total_train': 1.9135502576828003}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 56 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.762896180152893, 'total_train': 1.762896180152893}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 57 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.7942426204681396, 'total_train': 1.7942426204681396}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23994, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 58 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.816212773323059, 'total_train': 1.816212773323059}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1022, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 59 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8647103309631348, 'total_train': 1.8647103309631348}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 60 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.629331350326538, 'total_train': 1.629331350326538}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 61 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.7715442180633545, 'total_train': 1.7715442180633545}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 801, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 62 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6506160497665405, 'total_train': 1.6506160497665405}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 63 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.616075873374939, 'total_train': 1.616075873374939}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23994, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 64 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6022127866744995, 'total_train': 1.6022127866744995}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23996, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 65 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6061476469039917, 'total_train': 1.6061476469039917}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23991, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 66 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8179526329040527, 'total_train': 1.8179526329040527}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23994, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1022, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 67 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.666459321975708, 'total_train': 1.666459321975708}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23994, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 68 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.621072769165039, 'total_train': 1.621072769165039}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 69 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6342573165893555, 'total_train': 1.6342573165893555}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 994, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 70 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6768091917037964, 'total_train': 1.6768091917037964}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23993, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 71 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.70119047164917, 'total_train': 1.70119047164917}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1021, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 72 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.566969394683838, 'total_train': 1.566969394683838}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 73 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.652360200881958, 'total_train': 1.652360200881958}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 74 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6238529682159424, 'total_train': 1.6238529682159424}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 75 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6557223796844482, 'total_train': 1.6557223796844482}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 76 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5618313550949097, 'total_train': 1.5618313550949097}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 77 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4762934446334839, 'total_train': 1.4762934446334839}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23983, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 78 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.51610267162323, 'total_train': 1.51610267162323}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23996, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 79 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5035524368286133, 'total_train': 1.5035524368286133}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23975, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 80 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.593174934387207, 'total_train': 1.593174934387207}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 81 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6197429895401, 'total_train': 1.6197429895401}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23998, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23981, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 82 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4519526958465576, 'total_train': 1.4519526958465576}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 83 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6395208835601807, 'total_train': 1.6395208835601807}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23996, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 84 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5742177963256836, 'total_train': 1.5742177963256836}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23995, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23993, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 85 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4494980573654175, 'total_train': 1.4494980573654175}
+xyz shape: torch.Size([1, 21308, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 21302, min group_idx: 0
+N: 21308
+xyz shape: torch.Size([1, 21308, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 21307, min group_idx: 0
+N: 21308
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 86 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5929049253463745, 'total_train': 1.5929049253463745}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23997, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 32, in <module>
+    runner(config, model)
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 105, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/pointnet_pp_model.py", line 40, in step
+    loss_sum.backward()
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt

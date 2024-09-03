@@ -1,0 +1,62 @@
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23996, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 64])
+max group_idx: 1023, min group_idx: 0
+N: 1024
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 32])
+max group_idx: 511, min group_idx: 0
+N: 512
+xyz shape: torch.Size([1, 512, 3])
+group_idx shape: torch.Size([1, 256, 64])
+max group_idx: 511, min group_idx: 0
+N: 512
+Processing batch 0 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.903315782546997, 'total_train': 2.903315782546997}
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 32])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 24000, 3])
+group_idx shape: torch.Size([1, 1024, 64])
+max group_idx: 23999, min group_idx: 0
+N: 24000
+xyz shape: torch.Size([1, 1024, 3])
+group_idx shape: torch.Size([1, 512, 32])
+max group_idx: 1024, min group_idx: 0
+N: 1024
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 32, in <module>
+    runner(config, model)
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 105, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/pointnet_pp_model.py", line 25, in step
+    output = self.module(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 88, in forward
+    l0_points, l3_points, l0_xyz, l3_xyz, offset_result, dist_result, cls_pred = self.first_sem_model(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 48, in forward
+    l2_xyz, l2_points = self.sa2(l1_xyz, l1_points)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 287, in forward
+    assert torch.max(group_idx) < N, "Index out of range"
+AssertionError: Index out of range

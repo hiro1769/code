@@ -1,0 +1,1058 @@
+Processing batch 0 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.9312665462493896, 'total_train': 2.9312665462493896}
+Processing batch 1 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.5902414321899414, 'total_train': 2.5902414321899414}
+Processing batch 2 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.550218105316162, 'total_train': 2.550218105316162}
+Processing batch 3 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.4152634143829346, 'total_train': 2.4152634143829346}
+Processing batch 4 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.475043773651123, 'total_train': 2.475043773651123}
+Processing batch 5 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.364469528198242, 'total_train': 2.364469528198242}
+Processing batch 6 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.72310471534729, 'total_train': 2.72310471534729}
+Processing batch 7 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.452099561691284, 'total_train': 2.452099561691284}
+Processing batch 8 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.347609281539917, 'total_train': 2.347609281539917}
+Processing batch 9 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.2945456504821777, 'total_train': 2.2945456504821777}
+Processing batch 10 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.2957794666290283, 'total_train': 2.2957794666290283}
+Processing batch 11 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.21414852142334, 'total_train': 2.21414852142334}
+Processing batch 12 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.2557289600372314, 'total_train': 2.2557289600372314}
+Processing batch 13 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.2909510135650635, 'total_train': 2.2909510135650635}
+Processing batch 14 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.3244662284851074, 'total_train': 2.3244662284851074}
+Processing batch 15 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.141972064971924, 'total_train': 2.141972064971924}
+Processing batch 16 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1912288665771484, 'total_train': 2.1912288665771484}
+Processing batch 17 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.141265869140625, 'total_train': 2.141265869140625}
+Processing batch 18 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.238386392593384, 'total_train': 2.238386392593384}
+Processing batch 19 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.1081864833831787, 'total_train': 2.1081864833831787}
+Processing batch 20 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.099989414215088, 'total_train': 2.099989414215088}
+Processing batch 21 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.0904815196990967, 'total_train': 2.0904815196990967}
+Processing batch 22 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.085930347442627, 'total_train': 2.085930347442627}
+Processing batch 23 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.0704922676086426, 'total_train': 2.0704922676086426}
+Processing batch 24 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.080986261367798, 'total_train': 2.080986261367798}
+Processing batch 25 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.0385379791259766, 'total_train': 2.0385379791259766}
+Processing batch 26 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.042263984680176, 'total_train': 2.042263984680176}
+Processing batch 27 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.0903139114379883, 'total_train': 2.0903139114379883}
+Processing batch 28 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9791536331176758, 'total_train': 1.9791536331176758}
+Processing batch 29 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9975924491882324, 'total_train': 1.9975924491882324}
+Processing batch 30 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.045806407928467, 'total_train': 2.045806407928467}
+Processing batch 31 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9808027744293213, 'total_train': 1.9808027744293213}
+Processing batch 32 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9281911849975586, 'total_train': 1.9281911849975586}
+Processing batch 33 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9988012313842773, 'total_train': 1.9988012313842773}
+Processing batch 34 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8857007026672363, 'total_train': 1.8857007026672363}
+Processing batch 35 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.930043339729309, 'total_train': 1.930043339729309}
+Processing batch 36 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9527671337127686, 'total_train': 1.9527671337127686}
+Processing batch 37 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9146702289581299, 'total_train': 1.9146702289581299}
+Processing batch 38 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8982752561569214, 'total_train': 1.8982752561569214}
+Processing batch 39 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8478937149047852, 'total_train': 1.8478937149047852}
+Processing batch 40 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8711609840393066, 'total_train': 1.8711609840393066}
+Processing batch 41 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9269578456878662, 'total_train': 1.9269578456878662}
+Processing batch 42 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9238455295562744, 'total_train': 1.9238455295562744}
+Processing batch 43 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.894014596939087, 'total_train': 1.894014596939087}
+Processing batch 44 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8928711414337158, 'total_train': 1.8928711414337158}
+Processing batch 45 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9326719045639038, 'total_train': 1.9326719045639038}
+Processing batch 46 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.799023151397705, 'total_train': 1.799023151397705}
+Processing batch 47 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8233857154846191, 'total_train': 1.8233857154846191}
+Processing batch 48 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.7909772396087646, 'total_train': 1.7909772396087646}
+Processing batch 49 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.0330865383148193, 'total_train': 2.0330865383148193}
+Processing batch 50 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.822087287902832, 'total_train': 1.822087287902832}
+Processing batch 51 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9225387573242188, 'total_train': 1.9225387573242188}
+Processing batch 52 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9554085731506348, 'total_train': 1.9554085731506348}
+Processing batch 53 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8382002115249634, 'total_train': 1.8382002115249634}
+Processing batch 54 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.7525545358657837, 'total_train': 1.7525545358657837}
+Processing batch 55 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9785548448562622, 'total_train': 1.9785548448562622}
+Processing batch 56 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.9266115427017212, 'total_train': 1.9266115427017212}
+Processing batch 57 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.7503141164779663, 'total_train': 1.7503141164779663}
+Processing batch 58 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.738713264465332, 'total_train': 1.738713264465332}
+Processing batch 59 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8064451217651367, 'total_train': 1.8064451217651367}
+Processing batch 60 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.7204755544662476, 'total_train': 1.7204755544662476}
+Processing batch 61 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.7604236602783203, 'total_train': 1.7604236602783203}
+Processing batch 62 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.67754328250885, 'total_train': 1.67754328250885}
+Processing batch 63 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.8034106492996216, 'total_train': 1.8034106492996216}
+Processing batch 64 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.7300646305084229, 'total_train': 1.7300646305084229}
+Processing batch 65 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5996366739273071, 'total_train': 1.5996366739273071}
+Processing batch 66 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5848428010940552, 'total_train': 1.5848428010940552}
+Processing batch 67 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6410810947418213, 'total_train': 1.6410810947418213}
+Processing batch 68 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6786803007125854, 'total_train': 1.6786803007125854}
+Processing batch 69 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.636827826499939, 'total_train': 1.636827826499939}
+Processing batch 70 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5600515604019165, 'total_train': 1.5600515604019165}
+epoch: 0 {'tooth_class_loss_1_train': 1.6196844577789307, 'total_train': 1.6196844577789307}
+Processing batch 72 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5795278549194336, 'total_train': 1.5795278549194336}
+Processing batch 73 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6892852783203125, 'total_train': 1.6892852783203125}
+Processing batch 74 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5090991258621216, 'total_train': 1.5090991258621216}
+Processing batch 75 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5542494058609009, 'total_train': 1.5542494058609009}
+Processing batch 76 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5824848413467407, 'total_train': 1.5824848413467407}
+Processing batch 77 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.55730402469635, 'total_train': 1.55730402469635}
+Processing batch 78 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6126915216445923, 'total_train': 1.6126915216445923}
+Processing batch 79 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4548193216323853, 'total_train': 1.4548193216323853}
+Processing batch 80 of epoch 0
+Processing batch 81 of epoch 0train': 1.6196844577789307, 'total_train': 1.6196844577789307}
+epoch: 0 {'tooth_class_loss_1_train': 1.5976817607879639, 'total_train': 1.5976817607879639}
+Processing batch 82 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5921368598937988, 'total_train': 1.5921368598937988}
+Processing batch 83 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4730677604675293, 'total_train': 1.4730677604675293}
+Processing batch 84 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.6786664724349976, 'total_train': 1.6786664724349976}
+Processing batch 85 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4494293928146362, 'total_train': 1.4494293928146362}
+Processing batch 86 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4553508758544922, 'total_train': 1.4553508758544922}
+Processing batch 87 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4523396492004395, 'total_train': 1.4523396492004395}
+Processing batch 88 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5189703702926636, 'total_train': 1.5189703702926636}
+Processing batch 89 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4162636995315552, 'total_train': 1.4162636995315552}
+Processing batch 91 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.503550410270691, 'total_train': 1.503550410270691}
+Processing batch 92 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5231057405471802, 'total_train': 1.5231057405471802}
+Processing batch 93 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.433721661567688, 'total_train': 1.433721661567688}
+Processing batch 94 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4436026811599731, 'total_train': 1.4436026811599731}
+Processing batch 95 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4472273588180542, 'total_train': 1.4472273588180542}
+Processing batch 96 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4103561639785767, 'total_train': 1.4103561639785767}
+Processing batch 97 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4558275938034058, 'total_train': 1.4558275938034058}
+Processing batch 98 of epoch 0
+Processing batch 100 of epoch 0rain': 1.4162636995315552, 'total_train': 1.4162636995315552}
+epoch: 0 {'tooth_class_loss_1_train': 1.2693272829055786, 'total_train': 1.2693272829055786}
+Processing batch 101 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4533053636550903, 'total_train': 1.4533053636550903}
+Processing batch 102 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.2936276197433472, 'total_train': 1.2936276197433472}
+Processing batch 103 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.3388479948043823, 'total_train': 1.3388479948043823}
+Processing batch 104 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.5266929864883423, 'total_train': 1.5266929864883423}
+Processing batch 105 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.2587332725524902, 'total_train': 1.2587332725524902}
+Processing batch 106 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4155611991882324, 'total_train': 1.4155611991882324}
+epoch: 0 {'tooth_class_loss_1_train': 1.4123704433441162, 'total_train': 1.4123704433441162}
+Processing batch 110 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.2023894786834717, 'total_train': 1.2023894786834717}
+Processing batch 111 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.3201333284378052, 'total_train': 1.3201333284378052}
+Processing batch 112 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.396084189414978, 'total_train': 1.396084189414978}
+Processing batch 113 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4497807025909424, 'total_train': 1.4497807025909424}
+Processing batch 114 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.405974268913269, 'total_train': 1.405974268913269}
+Processing batch 115 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.270073413848877, 'total_train': 1.270073413848877}
+Processing batch 119 of epoch 0rain': 1.4123704433441162, 'total_train': 1.4123704433441162}
+epoch: 0 {'tooth_class_loss_1_train': 1.1945306062698364, 'total_train': 1.1945306062698364}
+Processing batch 120 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.288649320602417, 'total_train': 1.288649320602417}
+Processing batch 121 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4670627117156982, 'total_train': 1.4670627117156982}
+Processing batch 122 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.1750465631484985, 'total_train': 1.1750465631484985}
+Processing batch 123 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4225674867630005, 'total_train': 1.4225674867630005}
+epoch: 0 {'tooth_class_loss_1_train': 1.2750824689865112, 'total_train': 1.2750824689865112}
+Processing batch 129 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.3010976314544678, 'total_train': 1.3010976314544678}
+Processing batch 130 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.3441081047058105, 'total_train': 1.3441081047058105}
+Processing batch 131 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.1648533344268799, 'total_train': 1.1648533344268799}
+Processing batch 138 of epoch 0rain': 1.2750824689865112, 'total_train': 1.2750824689865112}
+epoch: 0 {'tooth_class_loss_1_train': 1.2330782413482666, 'total_train': 1.2330782413482666}
+Processing batch 139 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.1490447521209717, 'total_train': 1.1490447521209717}
+Processing batch 140 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.239448070526123, 'total_train': 1.239448070526123}
+Processing batch 141 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.194350004196167, 'total_train': 1.194350004196167}
+epoch: 0 {'tooth_class_loss_1_train': 0.9780965447425842, 'total_train': 0.9780965447425842}
+Processing batch 148 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.1333997249603271, 'total_train': 1.1333997249603271}
+Processing batch 149 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.0559709072113037, 'total_train': 1.0559709072113037}
+Processing batch 150 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.172933578491211, 'total_train': 1.172933578491211}
+Processing batch 157 of epoch 0rain': 0.9780965447425842, 'total_train': 0.9780965447425842}
+epoch: 0 {'tooth_class_loss_1_train': 1.0324933528900146, 'total_train': 1.0324933528900146}
+Processing batch 158 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.139730453491211, 'total_train': 1.139730453491211}
+Processing batch 159 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.0059762001037598, 'total_train': 1.0059762001037598}
+Processing batch 160 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.0324103832244873, 'total_train': 1.0324103832244873}
+epoch: 0 {'tooth_class_loss_1_train': 1.2031092643737793, 'total_train': 1.2031092643737793}
+Processing batch 167 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.1186500787734985, 'total_train': 1.1186500787734985}
+Processing batch 168 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.2846271991729736, 'total_train': 1.2846271991729736}
+Processing batch 169 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 0.9657450914382935, 'total_train': 0.9657450914382935}
+Processing batch 176 of epoch 0rain': 1.2031092643737793, 'total_train': 1.2031092643737793}
+epoch: 0 {'tooth_class_loss_1_train': 0.9527450203895569, 'total_train': 0.9527450203895569}
+Processing batch 177 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.143600583076477, 'total_train': 1.143600583076477}
+Processing batch 178 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.0847512483596802, 'total_train': 1.0847512483596802}
+Processing batch 179 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.0714256763458252, 'total_train': 1.0714256763458252}
+Processing batch 186 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.1213319301605225, 'total_train': 1.1213319301605225}
+Processing batch 187 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.0675604343414307, 'total_train': 1.0675604343414307}
+Processing batch 188 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.4652607440948486, 'total_train': 1.4652607440948486}
+Processing batch 195 of epoch 0rain': 1.0714256763458252, 'total_train': 1.0714256763458252}
+epoch: 0 {'tooth_class_loss_1_train': 1.0197724103927612, 'total_train': 1.0197724103927612}
+Processing batch 196 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 0.9051957726478577, 'total_train': 0.9051957726478577}
+Processing batch 197 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.2320821285247803, 'total_train': 1.2320821285247803}
+epoch: 0 {'tooth_class_loss_1_train': 0.8613216876983643, 'total_train': 0.8613216876983643}
+Processing batch 205 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 0.8451593518257141, 'total_train': 0.8451593518257141}
+Processing batch 206 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 0.9199662804603577, 'total_train': 0.9199662804603577}
+Processing batch 214 of epoch 0rain': 0.8613216876983643, 'total_train': 0.8613216876983643}
+epoch: 0 {'tooth_class_loss_1_train': 1.0094623565673828, 'total_train': 1.0094623565673828}
+Processing batch 215 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 1.1755930185317993, 'total_train': 1.1755930185317993}
+Processing batch 216 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 0.8734498023986816, 'total_train': 0.8734498023986816}
+epoch: 0 {'tooth_class_loss_1_train': 0.8836988806724548, 'total_train': 0.8836988806724548}
+Processing batch 224 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 0.7799559831619263, 'total_train': 0.7799559831619263}
+Processing batch 225 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 0.9717079997062683, 'total_train': 0.9717079997062683}
+Processing batch 233 of epoch 0rain': 0.8836988806724548, 'total_train': 0.8836988806724548}
+epoch: 0 {'tooth_class_loss_1_train': 0.8567943572998047, 'total_train': 0.8567943572998047}
+Processing batch 234 of epoch 0
+epoch: 0 {'tooth_class_loss_1_val': 0.8768569231033325, 'total_val': 0.8768569231033325}548}
+epoch: 0 {'tooth_class_loss_1_val': 0.8768569231033325, 'total_val': 0.8768569231033325}548}
+epoch: 0 {'tooth_class_loss_1_val': 0.887241780757904, 'total_val': 0.887241780757904}5}548}
+epoch: 1 {'tooth_class_loss_1_train': 0.7742354273796082, 'total_train': 0.7742354273796082}
+Processing batch 16 of epoch 1train': 0.7742354273796082, 'total_train': 0.7742354273796082}
+epoch: 1 {'tooth_class_loss_1_train': 0.9870145916938782, 'total_train': 0.9870145916938782}
+Processing batch 35 of epoch 1train': 0.9870145916938782, 'total_train': 0.9870145916938782}
+epoch: 1 {'tooth_class_loss_1_train': 0.7616041898727417, 'total_train': 0.7616041898727417}
+Processing batch 54 of epoch 1train': 0.7616041898727417, 'total_train': 0.7616041898727417}
+epoch: 1 {'tooth_class_loss_1_train': 0.9788870215415955, 'total_train': 0.9788870215415955}
+Processing batch 73 of epoch 1train': 0.9788870215415955, 'total_train': 0.9788870215415955}
+Processing batch 73 of epoch 1train': 0.9788870215415955, 'total_train': 0.9788870215415955}
+Processing batch 92 of epoch 1train': 0.815639078617096, 'total_train': 0.815639078617096}5}
+epoch: 1 {'tooth_class_loss_1_train': 0.7081518769264221, 'total_train': 0.7081518769264221}
+Processing batch 111 of epoch 1rain': 0.7081518769264221, 'total_train': 0.7081518769264221}
+epoch: 1 {'tooth_class_loss_1_train': 0.8020048141479492, 'total_train': 0.8020048141479492}
+Processing batch 130 of epoch 1rain': 0.8020048141479492, 'total_train': 0.8020048141479492}
+epoch: 1 {'tooth_class_loss_1_train': 0.6917597055435181, 'total_train': 0.6917597055435181}
+Processing batch 149 of epoch 1rain': 0.6917597055435181, 'total_train': 0.6917597055435181}
+epoch: 1 {'tooth_class_loss_1_train': 0.6615368723869324, 'total_train': 0.6615368723869324}
+Processing batch 168 of epoch 1rain': 0.6615368723869324, 'total_train': 0.6615368723869324}
+epoch: 1 {'tooth_class_loss_1_train': 0.6034225225448608, 'total_train': 0.6034225225448608}
+Processing batch 187 of epoch 1rain': 0.6034225225448608, 'total_train': 0.6034225225448608}
+epoch: 1 {'tooth_class_loss_1_train': 0.5574186444282532, 'total_train': 0.5574186444282532}
+Processing batch 206 of epoch 1rain': 0.5574186444282532, 'total_train': 0.5574186444282532}
+epoch: 1 {'tooth_class_loss_1_train': 0.7913557887077332, 'total_train': 0.7913557887077332}
+Processing batch 225 of epoch 1rain': 0.7913557887077332, 'total_train': 0.7913557887077332}
+epoch: 1 {'tooth_class_loss_1_train': 0.4708082675933838, 'total_train': 0.4708082675933838}
+epoch: 1 {'tooth_class_loss_1_train': 0.4708082675933838, 'total_train': 0.4708082675933838}
+epoch: 1 {'tooth_class_loss_1_val': 0.5984423160552979, 'total_val': 0.5984423160552979}838}
+epoch: 1 {'tooth_class_loss_1_val': 0.6992915868759155, 'total_val': 0.6992915868759155}838}
+Processing batch 8 of epoch 2_val': 0.6992915868759155, 'total_val': 0.6992915868759155}838}
+epoch: 2 {'tooth_class_loss_1_train': 0.5632670521736145, 'total_train': 0.5632670521736145}
+Processing batch 27 of epoch 2train': 0.5632670521736145, 'total_train': 0.5632670521736145}
+epoch: 2 {'tooth_class_loss_1_train': 0.48843374848365784, 'total_train': 0.48843374848365784}
+Processing batch 46 of epoch 2train': 0.48843374848365784, 'total_train': 0.48843374848365784}
+epoch: 2 {'tooth_class_loss_1_train': 0.6675990223884583, 'total_train': 0.6675990223884583}4}
+Processing batch 65 of epoch 2train': 0.6675990223884583, 'total_train': 0.6675990223884583}4}
+epoch: 2 {'tooth_class_loss_1_train': 0.3997306823730469, 'total_train': 0.3997306823730469}4}
+Processing batch 84 of epoch 2train': 0.3997306823730469, 'total_train': 0.3997306823730469}4}
+epoch: 2 {'tooth_class_loss_1_train': 0.6139415502548218, 'total_train': 0.6139415502548218}4}
+Processing batch 103 of epoch 2rain': 0.6139415502548218, 'total_train': 0.6139415502548218}4}
+epoch: 2 {'tooth_class_loss_1_train': 0.49821728467941284, 'total_train': 0.49821728467941284}
+Processing batch 122 of epoch 2rain': 0.49821728467941284, 'total_train': 0.49821728467941284}
+epoch: 2 {'tooth_class_loss_1_train': 0.35821670293807983, 'total_train': 0.35821670293807983}
+Processing batch 141 of epoch 2rain': 0.35821670293807983, 'total_train': 0.35821670293807983}
+epoch: 2 {'tooth_class_loss_1_train': 0.6156086325645447, 'total_train': 0.6156086325645447}3}
+Processing batch 160 of epoch 2rain': 0.6156086325645447, 'total_train': 0.6156086325645447}3}
+epoch: 2 {'tooth_class_loss_1_train': 0.4849921762943268, 'total_train': 0.4849921762943268}3}
+Processing batch 179 of epoch 2rain': 0.4849921762943268, 'total_train': 0.4849921762943268}3}
+epoch: 2 {'tooth_class_loss_1_train': 1.0320521593093872, 'total_train': 1.0320521593093872}3}
+Processing batch 198 of epoch 2rain': 1.0320521593093872, 'total_train': 1.0320521593093872}3}
+epoch: 2 {'tooth_class_loss_1_train': 0.35833069682121277, 'total_train': 0.35833069682121277}
+epoch: 2 {'tooth_class_loss_1_train': 0.35833069682121277, 'total_train': 0.35833069682121277}
+epoch: 2 {'tooth_class_loss_1_train': 0.6798709034919739, 'total_train': 0.6798709034919739}7}
+epoch: 2 {'tooth_class_loss_1_train': 0.6798709034919739, 'total_train': 0.6798709034919739}7}
+Processing batch 236 of epoch 2rain': 0.6798709034919739, 'total_train': 0.6798709034919739}7}
+epoch: 2 {'tooth_class_loss_1_val': 1.066786289215088, 'total_val': 1.066786289215088}19739}7}
+Processing batch 0 of epoch 3_val': 1.066786289215088, 'total_val': 1.066786289215088}19739}7}
+epoch: 3 {'tooth_class_loss_1_train': 0.33188650012016296, 'total_train': 0.33188650012016296}
+Processing batch 19 of epoch 3train': 0.33188650012016296, 'total_train': 0.33188650012016296}
+epoch: 3 {'tooth_class_loss_1_train': 0.27425655722618103, 'total_train': 0.27425655722618103}
+Processing batch 38 of epoch 3train': 0.27425655722618103, 'total_train': 0.27425655722618103}
+epoch: 3 {'tooth_class_loss_1_train': 0.5591853857040405, 'total_train': 0.5591853857040405}3}
+Processing batch 57 of epoch 3train': 0.5591853857040405, 'total_train': 0.5591853857040405}3}
+epoch: 3 {'tooth_class_loss_1_train': 0.40036457777023315, 'total_train': 0.40036457777023315}
+Processing batch 76 of epoch 3train': 0.40036457777023315, 'total_train': 0.40036457777023315}
+epoch: 3 {'tooth_class_loss_1_train': 0.2793978154659271, 'total_train': 0.2793978154659271}5}
+Processing batch 95 of epoch 3train': 0.2793978154659271, 'total_train': 0.2793978154659271}5}
+epoch: 3 {'tooth_class_loss_1_train': 0.6789796352386475, 'total_train': 0.6789796352386475}5}
+Processing batch 114 of epoch 3rain': 0.6789796352386475, 'total_train': 0.6789796352386475}5}
+Processing batch 114 of epoch 3rain': 0.6789796352386475, 'total_train': 0.6789796352386475}5}
+Processing batch 133 of epoch 3rain': 0.45638811588287354, 'total_train': 0.45638811588287354}
+epoch: 3 {'tooth_class_loss_1_train': 0.32932668924331665, 'total_train': 0.32932668924331665}
+Processing batch 152 of epoch 3rain': 0.32932668924331665, 'total_train': 0.32932668924331665}
+epoch: 3 {'tooth_class_loss_1_train': 0.6845546960830688, 'total_train': 0.6845546960830688}5}
+Processing batch 171 of epoch 3rain': 0.6845546960830688, 'total_train': 0.6845546960830688}5}
+epoch: 3 {'tooth_class_loss_1_train': 0.32229265570640564, 'total_train': 0.32229265570640564}
+epoch: 3 {'tooth_class_loss_1_train': 0.32229265570640564, 'total_train': 0.32229265570640564}
+epoch: 3 {'tooth_class_loss_1_train': 0.2618814706802368, 'total_train': 0.2618814706802368}4}
+epoch: 3 {'tooth_class_loss_1_train': 0.2618814706802368, 'total_train': 0.2618814706802368}4}
+Processing batch 209 of epoch 3rain': 0.2618814706802368, 'total_train': 0.2618814706802368}4}
+epoch: 3 {'tooth_class_loss_1_train': 0.4345700740814209, 'total_train': 0.4345700740814209}4}
+Processing batch 228 of epoch 3rain': 0.4345700740814209, 'total_train': 0.4345700740814209}4}
+epoch: 3 {'tooth_class_loss_1_train': 0.29847249388694763, 'total_train': 0.29847249388694763}
+epoch: 3 {'tooth_class_loss_1_val': 0.5382148623466492, 'total_val': 0.5382148623466492}94763}
+epoch: 3 {'tooth_class_loss_1_val': 0.5382148623466492, 'total_val': 0.5382148623466492}94763}
+Processing batch 9 of epoch 4_val': 0.4052788019180298, 'total_val': 0.4052788019180298}94763}
+epoch: 4 {'tooth_class_loss_1_train': 0.3785931468009949, 'total_train': 0.3785931468009949}3}
+Processing batch 28 of epoch 4train': 0.3785931468009949, 'total_train': 0.3785931468009949}3}
+epoch: 4 {'tooth_class_loss_1_train': 0.2613793611526489, 'total_train': 0.2613793611526489}3}
+Processing batch 47 of epoch 4train': 0.2613793611526489, 'total_train': 0.2613793611526489}3}
+epoch: 4 {'tooth_class_loss_1_train': 0.7443493008613586, 'total_train': 0.7443493008613586}3}
+Processing batch 66 of epoch 4train': 0.7443493008613586, 'total_train': 0.7443493008613586}3}
+epoch: 4 {'tooth_class_loss_1_train': 0.3200252652168274, 'total_train': 0.3200252652168274}3}
+Processing batch 85 of epoch 4train': 0.3200252652168274, 'total_train': 0.3200252652168274}3}
+epoch: 4 {'tooth_class_loss_1_train': 0.2580527067184448, 'total_train': 0.2580527067184448}3}
+Processing batch 104 of epoch 4rain': 0.2580527067184448, 'total_train': 0.2580527067184448}3}
+epoch: 4 {'tooth_class_loss_1_train': 0.5406492352485657, 'total_train': 0.5406492352485657}3}
+Processing batch 123 of epoch 4rain': 0.5406492352485657, 'total_train': 0.5406492352485657}3}
+epoch: 4 {'tooth_class_loss_1_train': 0.25964245200157166, 'total_train': 0.25964245200157166}
+Processing batch 142 of epoch 4rain': 0.25964245200157166, 'total_train': 0.25964245200157166}
+epoch: 4 {'tooth_class_loss_1_train': 0.4025363028049469, 'total_train': 0.4025363028049469}6}
+Processing batch 161 of epoch 4rain': 0.4025363028049469, 'total_train': 0.4025363028049469}6}
+epoch: 4 {'tooth_class_loss_1_train': 0.355428010225296, 'total_train': 0.355428010225296}9}6}
+Processing batch 180 of epoch 4rain': 0.355428010225296, 'total_train': 0.355428010225296}9}6}
+epoch: 4 {'tooth_class_loss_1_train': 0.45665833353996277, 'total_train': 0.45665833353996277}
+epoch: 4 {'tooth_class_loss_1_train': 0.45665833353996277, 'total_train': 0.45665833353996277}
+Processing batch 199 of epoch 4rain': 0.45665833353996277, 'total_train': 0.45665833353996277}
+epoch: 4 {'tooth_class_loss_1_train': 0.36517220735549927, 'total_train': 0.36517220735549927}
+Processing batch 218 of epoch 4rain': 0.36517220735549927, 'total_train': 0.36517220735549927}
+epoch: 4 {'tooth_class_loss_1_train': 0.27372100949287415, 'total_train': 0.27372100949287415}
+Processing batch 237 of epoch 4rain': 0.27372100949287415, 'total_train': 0.27372100949287415}
+epoch: 4 {'tooth_class_loss_1_val': 0.44848814606666565, 'total_val': 0.44848814606666565}415}
+epoch: 4 {'tooth_class_loss_1_val': 0.281147837638855, 'total_val': 0.281147837638855}565}415}
+Processing batch 4 of epoch 5_val': 0.281147837638855, 'total_val': 0.281147837638855}565}415}
+epoch: 5 {'tooth_class_loss_1_train': 0.3948511481285095, 'total_train': 0.3948511481285095}5}
+Processing batch 23 of epoch 5train': 0.3948511481285095, 'total_train': 0.3948511481285095}5}
+Processing batch 32 of epoch 5train': 0.3948511481285095, 'total_train': 0.3948511481285095}5}
+epoch: 5 {'tooth_class_loss_1_train': 0.5735476016998291, 'total_train': 0.5735476016998291}5}
+Processing batch 51 of epoch 5train': 0.5735476016998291, 'total_train': 0.5735476016998291}5}
+epoch: 5 {'tooth_class_loss_1_train': 0.34500235319137573, 'total_train': 0.34500235319137573}
+Processing batch 70 of epoch 5train': 0.34500235319137573, 'total_train': 0.34500235319137573}
+Processing batch 79 of epoch 5train': 0.34500235319137573, 'total_train': 0.34500235319137573}
+epoch: 5 {'tooth_class_loss_1_train': 0.31547003984451294, 'total_train': 0.31547003984451294}
+Processing batch 98 of epoch 5train': 0.31547003984451294, 'total_train': 0.31547003984451294}
+epoch: 5 {'tooth_class_loss_1_train': 0.24945932626724243, 'total_train': 0.24945932626724243}
+Processing batch 117 of epoch 5rain': 0.24945932626724243, 'total_train': 0.24945932626724243}
+Processing batch 126 of epoch 5rain': 0.24945932626724243, 'total_train': 0.24945932626724243}
+epoch: 5 {'tooth_class_loss_1_train': 0.28174665570259094, 'total_train': 0.28174665570259094}
+Processing batch 145 of epoch 5rain': 0.28174665570259094, 'total_train': 0.28174665570259094}
+Processing batch 154 of epoch 5rain': 0.28174665570259094, 'total_train': 0.28174665570259094}
+epoch: 5 {'tooth_class_loss_1_train': 0.96810382604599, 'total_train': 0.96810382604599}59094}
+Processing batch 173 of epoch 5rain': 0.96810382604599, 'total_train': 0.96810382604599}59094}
+Processing batch 182 of epoch 5rain': 0.96810382604599, 'total_train': 0.96810382604599}59094}
+epoch: 5 {'tooth_class_loss_1_train': 0.36069539189338684, 'total_train': 0.36069539189338684}
+Processing batch 201 of epoch 5rain': 0.36069539189338684, 'total_train': 0.36069539189338684}
+Processing batch 210 of epoch 5rain': 0.36069539189338684, 'total_train': 0.36069539189338684}
+Processing batch 219 of epoch 5rain': 0.36069539189338684, 'total_train': 0.36069539189338684}
+Processing batch 228 of epoch 5rain': 0.36069539189338684, 'total_train': 0.36069539189338684}
+epoch: 5 {'tooth_class_loss_1_train': 0.2669486403465271, 'total_train': 0.2669486403465271}4}
+epoch: 5 {'tooth_class_loss_1_val': 0.6397735476493835, 'total_val': 0.6397735476493835}271}4}
+epoch: 5 {'tooth_class_loss_1_val': 0.55942302942276, 'total_val': 0.55942302942276}835}271}4}
+Processing batch 6 of epoch 6_val': 0.55942302942276, 'total_val': 0.55942302942276}835}271}4}
+Processing batch 15 of epoch 6val': 0.55942302942276, 'total_val': 0.55942302942276}835}271}4}
+Processing batch 24 of epoch 6val': 0.55942302942276, 'total_val': 0.55942302942276}835}271}4}
+epoch: 6 {'tooth_class_loss_1_train': 0.253976047039032, 'total_train': 0.253976047039032}1}4}
+Processing batch 43 of epoch 6train': 0.253976047039032, 'total_train': 0.253976047039032}1}4}
+Processing batch 52 of epoch 6train': 0.253976047039032, 'total_train': 0.253976047039032}1}4}
+epoch: 6 {'tooth_class_loss_1_train': 0.25014370679855347, 'total_train': 0.25014370679855347}
+Processing batch 71 of epoch 6train': 0.25014370679855347, 'total_train': 0.25014370679855347}
+epoch: 6 {'tooth_class_loss_1_train': 0.2320580780506134, 'total_train': 0.2320580780506134}7}
+Processing batch 90 of epoch 6train': 0.2320580780506134, 'total_train': 0.2320580780506134}7}
+Processing batch 99 of epoch 6train': 0.2320580780506134, 'total_train': 0.2320580780506134}7}
+epoch: 6 {'tooth_class_loss_1_train': 0.2913230061531067, 'total_train': 0.2913230061531067}7}
+Processing batch 118 of epoch 6rain': 0.2913230061531067, 'total_train': 0.2913230061531067}7}
+epoch: 6 {'tooth_class_loss_1_train': 0.28997087478637695, 'total_train': 0.28997087478637695}
+Processing batch 137 of epoch 6rain': 0.28997087478637695, 'total_train': 0.28997087478637695}
+Processing batch 146 of epoch 6rain': 0.28997087478637695, 'total_train': 0.28997087478637695}
+epoch: 6 {'tooth_class_loss_1_train': 0.6745050549507141, 'total_train': 0.6745050549507141}5}
+Processing batch 165 of epoch 6rain': 0.6745050549507141, 'total_train': 0.6745050549507141}5}
+Processing batch 174 of epoch 6rain': 0.6745050549507141, 'total_train': 0.6745050549507141}5}
+epoch: 6 {'tooth_class_loss_1_train': 0.20206233859062195, 'total_train': 0.20206233859062195}
+Processing batch 193 of epoch 6rain': 0.20206233859062195, 'total_train': 0.20206233859062195}
+Processing batch 202 of epoch 6rain': 0.20206233859062195, 'total_train': 0.20206233859062195}
+epoch: 6 {'tooth_class_loss_1_train': 0.293805867433548, 'total_train': 0.293805867433548}195}
+Processing batch 221 of epoch 6rain': 0.293805867433548, 'total_train': 0.293805867433548}195}
+Processing batch 230 of epoch 6rain': 0.293805867433548, 'total_train': 0.293805867433548}195}
+Processing batch 239 of epoch 6rain': 0.293805867433548, 'total_train': 0.293805867433548}195}
+epoch: 6 {'tooth_class_loss_1_val': 0.5398794412612915, 'total_val': 0.5398794412612915}8}195}
+epoch: 6 {'tooth_class_loss_1_val': 0.31840038299560547, 'total_val': 0.31840038299560547}195}
+Processing batch 4 of epoch 7_val': 0.31840038299560547, 'total_val': 0.31840038299560547}195}
+epoch: 7 {'tooth_class_loss_1_train': 0.3225487172603607, 'total_train': 0.3225487172603607}5}
+Processing batch 23 of epoch 7train': 0.3225487172603607, 'total_train': 0.3225487172603607}5}
+epoch: 7 {'tooth_class_loss_1_train': 0.2668943405151367, 'total_train': 0.2668943405151367}5}
+Processing batch 42 of epoch 7train': 0.2668943405151367, 'total_train': 0.2668943405151367}5}
+Processing batch 51 of epoch 7train': 0.2668943405151367, 'total_train': 0.2668943405151367}5}
+epoch: 7 {'tooth_class_loss_1_train': 0.31582844257354736, 'total_train': 0.31582844257354736}
+Processing batch 70 of epoch 7train': 0.31582844257354736, 'total_train': 0.31582844257354736}
+epoch: 7 {'tooth_class_loss_1_train': 0.1924874633550644, 'total_train': 0.1924874633550644}6}
+Processing batch 89 of epoch 7train': 0.1924874633550644, 'total_train': 0.1924874633550644}6}
+Processing batch 98 of epoch 7train': 0.1924874633550644, 'total_train': 0.1924874633550644}6}
+epoch: 7 {'tooth_class_loss_1_train': 0.2532041072845459, 'total_train': 0.2532041072845459}6}
+Processing batch 117 of epoch 7rain': 0.2532041072845459, 'total_train': 0.2532041072845459}6}
+epoch: 7 {'tooth_class_loss_1_train': 0.3465317487716675, 'total_train': 0.3465317487716675}6}
+Processing batch 136 of epoch 7rain': 0.3465317487716675, 'total_train': 0.3465317487716675}6}
+Processing batch 145 of epoch 7rain': 0.3465317487716675, 'total_train': 0.3465317487716675}6}
+epoch: 7 {'tooth_class_loss_1_train': 0.8442400693893433, 'total_train': 0.8442400693893433}6}
+Processing batch 164 of epoch 7rain': 0.8442400693893433, 'total_train': 0.8442400693893433}6}
+Processing batch 173 of epoch 7rain': 0.8442400693893433, 'total_train': 0.8442400693893433}6}
+Processing batch 182 of epoch 7rain': 0.8442400693893433, 'total_train': 0.8442400693893433}6}
+Processing batch 190 of epoch 7rain': 0.8442400693893433, 'total_train': 0.8442400693893433}6}
+epoch: 7 {'tooth_class_loss_1_train': 0.13503523170948029, 'total_train': 0.13503523170948029}
+Processing batch 209 of epoch 7rain': 0.13503523170948029, 'total_train': 0.13503523170948029}
+Processing batch 218 of epoch 7rain': 0.13503523170948029, 'total_train': 0.13503523170948029}
+epoch: 7 {'tooth_class_loss_1_train': 0.25755056738853455, 'total_train': 0.25755056738853455}
+Processing batch 237 of epoch 7rain': 0.25755056738853455, 'total_train': 0.25755056738853455}
+epoch: 7 {'tooth_class_loss_1_val': 0.7174009084701538, 'total_val': 0.7174009084701538}53455}
+epoch: 7 {'tooth_class_loss_1_val': 0.4465588927268982, 'total_val': 0.4465588927268982}53455}
+Processing batch 4 of epoch 8_val': 0.4465588927268982, 'total_val': 0.4465588927268982}53455}
+Processing batch 13 of epoch 8val': 0.4465588927268982, 'total_val': 0.4465588927268982}53455}
+Processing batch 22 of epoch 8val': 0.4465588927268982, 'total_val': 0.4465588927268982}53455}
+epoch: 8 {'tooth_class_loss_1_train': 0.23997671902179718, 'total_train': 0.23997671902179718}
+Processing batch 41 of epoch 8train': 0.23997671902179718, 'total_train': 0.23997671902179718}
+Processing batch 50 of epoch 8train': 0.23997671902179718, 'total_train': 0.23997671902179718}
+epoch: 8 {'tooth_class_loss_1_train': 0.329355925321579, 'total_train': 0.329355925321579}718}
+Processing batch 68 of epoch 8train': 0.329355925321579, 'total_train': 0.329355925321579}718}
+Processing batch 76 of epoch 8train': 0.329355925321579, 'total_train': 0.329355925321579}718}
+Processing batch 85 of epoch 8train': 0.329355925321579, 'total_train': 0.329355925321579}718}
+epoch: 8 {'tooth_class_loss_1_train': 0.15358659625053406, 'total_train': 0.15358659625053406}
+Processing batch 104 of epoch 8rain': 0.15358659625053406, 'total_train': 0.15358659625053406}
+epoch: 8 {'tooth_class_loss_1_train': 0.2975234389305115, 'total_train': 0.2975234389305115}6}
+Processing batch 123 of epoch 8rain': 0.2975234389305115, 'total_train': 0.2975234389305115}6}
+Processing batch 131 of epoch 8rain': 0.2975234389305115, 'total_train': 0.2975234389305115}6}
+Processing batch 140 of epoch 8rain': 0.2975234389305115, 'total_train': 0.2975234389305115}6}
+Processing batch 149 of epoch 8rain': 0.2975234389305115, 'total_train': 0.2975234389305115}6}
+Processing batch 158 of epoch 8rain': 0.2975234389305115, 'total_train': 0.2975234389305115}6}
+epoch: 8 {'tooth_class_loss_1_train': 0.2358904480934143, 'total_train': 0.2358904480934143}6}
+Processing batch 177 of epoch 8rain': 0.2358904480934143, 'total_train': 0.2358904480934143}6}
+epoch: 8 {'tooth_class_loss_1_train': 0.29465797543525696, 'total_train': 0.29465797543525696}
+Processing batch 196 of epoch 8rain': 0.29465797543525696, 'total_train': 0.29465797543525696}
+Processing batch 205 of epoch 8rain': 0.29465797543525696, 'total_train': 0.29465797543525696}
+epoch: 8 {'tooth_class_loss_1_train': 0.20614519715309143, 'total_train': 0.20614519715309143}
+Processing batch 224 of epoch 8rain': 0.20614519715309143, 'total_train': 0.20614519715309143}
+epoch: 8 {'tooth_class_loss_1_train': 0.331933856010437, 'total_train': 0.331933856010437}143}
+epoch: 8 {'tooth_class_loss_1_val': 0.5486051440238953, 'total_val': 0.5486051440238953}7}143}
+epoch: 8 {'tooth_class_loss_1_val': 0.3482997715473175, 'total_val': 0.3482997715473175}7}143}
+epoch: 9 {'tooth_class_loss_1_train': 0.2198028713464737, 'total_train': 0.2198028713464737}3}
+Processing batch 9 of epoch 9_train': 0.2198028713464737, 'total_train': 0.2198028713464737}3}
+Processing batch 18 of epoch 9train': 0.2198028713464737, 'total_train': 0.2198028713464737}3}
+Processing batch 27 of epoch 9train': 0.2198028713464737, 'total_train': 0.2198028713464737}3}
+epoch: 9 {'tooth_class_loss_1_train': 0.28174325823783875, 'total_train': 0.28174325823783875}
+Processing batch 46 of epoch 9train': 0.28174325823783875, 'total_train': 0.28174325823783875}
+epoch: 9 {'tooth_class_loss_1_train': 0.23059594631195068, 'total_train': 0.23059594631195068}
+Processing batch 65 of epoch 9train': 0.23059594631195068, 'total_train': 0.23059594631195068}
+Processing batch 74 of epoch 9train': 0.23059594631195068, 'total_train': 0.23059594631195068}
+epoch: 9 {'tooth_class_loss_1_train': 0.192623108625412, 'total_train': 0.192623108625412}068}
+Processing batch 93 of epoch 9train': 0.192623108625412, 'total_train': 0.192623108625412}068}
+epoch: 9 {'tooth_class_loss_1_train': 0.13335584104061127, 'total_train': 0.13335584104061127}
+Processing batch 112 of epoch 9rain': 0.13335584104061127, 'total_train': 0.13335584104061127}
+epoch: 9 {'tooth_class_loss_1_train': 0.4220620393753052, 'total_train': 0.4220620393753052}7}
+Processing batch 131 of epoch 9rain': 0.4220620393753052, 'total_train': 0.4220620393753052}7}
+Processing batch 140 of epoch 9rain': 0.4220620393753052, 'total_train': 0.4220620393753052}7}
+epoch: 9 {'tooth_class_loss_1_train': 0.13985681533813477, 'total_train': 0.13985681533813477}
+Processing batch 159 of epoch 9rain': 0.13985681533813477, 'total_train': 0.13985681533813477}
+epoch: 9 {'tooth_class_loss_1_train': 0.2501392066478729, 'total_train': 0.2501392066478729}7}
+Processing batch 178 of epoch 9rain': 0.2501392066478729, 'total_train': 0.2501392066478729}7}
+Processing batch 187 of epoch 9rain': 0.2501392066478729, 'total_train': 0.2501392066478729}7}
+epoch: 9 {'tooth_class_loss_1_train': 0.3133699595928192, 'total_train': 0.3133699595928192}7}
+Processing batch 206 of epoch 9rain': 0.3133699595928192, 'total_train': 0.3133699595928192}7}
+epoch: 9 {'tooth_class_loss_1_train': 0.3182872533798218, 'total_train': 0.3182872533798218}7}
+Processing batch 225 of epoch 9rain': 0.3182872533798218, 'total_train': 0.3182872533798218}7}
+Processing batch 234 of epoch 9rain': 0.3182872533798218, 'total_train': 0.3182872533798218}7}
+epoch: 9 {'tooth_class_loss_1_val': 0.39473971724510193, 'total_val': 0.39473971724510193}8}7}
+epoch: 9 {'tooth_class_loss_1_val': 0.5108749866485596, 'total_val': 0.5108749866485596}3}8}7}
+Processing batch 2 of epoch 10val': 0.5108749866485596, 'total_val': 0.5108749866485596}3}8}7}
+Processing batch 11 of epoch 10al': 0.5108749866485596, 'total_val': 0.5108749866485596}3}8}7}
+Processing batch 20 of epoch 10al': 0.5108749866485596, 'total_val': 0.5108749866485596}3}8}7}
+Processing batch 28 of epoch 10al': 0.5108749866485596, 'total_val': 0.5108749866485596}3}8}7}
+epoch: 10 {'tooth_class_loss_1_train': 0.14533346891403198, 'total_train': 0.14533346891403198}
+Processing batch 47 of epoch 10train': 0.14533346891403198, 'total_train': 0.14533346891403198}
+Processing batch 56 of epoch 10train': 0.14533346891403198, 'total_train': 0.14533346891403198}
+epoch: 10 {'tooth_class_loss_1_train': 0.19402509927749634, 'total_train': 0.19402509927749634}
+Processing batch 75 of epoch 10train': 0.19402509927749634, 'total_train': 0.19402509927749634}
+epoch: 10 {'tooth_class_loss_1_train': 0.5770814418792725, 'total_train': 0.5770814418792725}4}
+Processing batch 94 of epoch 10train': 0.5770814418792725, 'total_train': 0.5770814418792725}4}
+Processing batch 103 of epoch 10rain': 0.5770814418792725, 'total_train': 0.5770814418792725}4}
+epoch: 10 {'tooth_class_loss_1_train': 0.2932552695274353, 'total_train': 0.2932552695274353}4}
+Processing batch 122 of epoch 10rain': 0.2932552695274353, 'total_train': 0.2932552695274353}4}
+epoch: 10 {'tooth_class_loss_1_train': 0.19455185532569885, 'total_train': 0.19455185532569885}
+Processing batch 141 of epoch 10rain': 0.19455185532569885, 'total_train': 0.19455185532569885}
+Processing batch 150 of epoch 10rain': 0.19455185532569885, 'total_train': 0.19455185532569885}
+epoch: 10 {'tooth_class_loss_1_train': 0.12840218842029572, 'total_train': 0.12840218842029572}
+Processing batch 169 of epoch 10rain': 0.12840218842029572, 'total_train': 0.12840218842029572}
+epoch: 10 {'tooth_class_loss_1_train': 0.3898185193538666, 'total_train': 0.3898185193538666}2}
+Processing batch 188 of epoch 10rain': 0.3898185193538666, 'total_train': 0.3898185193538666}2}
+Processing batch 197 of epoch 10rain': 0.3898185193538666, 'total_train': 0.3898185193538666}2}
+epoch: 10 {'tooth_class_loss_1_train': 0.23833037912845612, 'total_train': 0.23833037912845612}
+Processing batch 216 of epoch 10rain': 0.23833037912845612, 'total_train': 0.23833037912845612}
+epoch: 10 {'tooth_class_loss_1_train': 0.13977956771850586, 'total_train': 0.13977956771850586}
+Processing batch 235 of epoch 10rain': 0.13977956771850586, 'total_train': 0.13977956771850586}
+epoch: 10 {'tooth_class_loss_1_val': 0.2834036350250244, 'total_val': 0.2834036350250244}50586}
+epoch: 10 {'tooth_class_loss_1_val': 0.21076393127441406, 'total_val': 0.21076393127441406}586}
+Processing batch 2 of epoch 11_val': 0.21076393127441406, 'total_val': 0.21076393127441406}586}
+Processing batch 11 of epoch 11val': 0.21076393127441406, 'total_val': 0.21076393127441406}586}
+epoch: 11 {'tooth_class_loss_1_train': 0.1202869862318039, 'total_train': 0.1202869862318039}6}
+Processing batch 30 of epoch 11train': 0.1202869862318039, 'total_train': 0.1202869862318039}6}
+Processing batch 39 of epoch 11train': 0.1202869862318039, 'total_train': 0.1202869862318039}6}
+Processing batch 48 of epoch 11train': 0.1202869862318039, 'total_train': 0.1202869862318039}6}
+Processing batch 57 of epoch 11train': 0.1202869862318039, 'total_train': 0.1202869862318039}6}
+Processing batch 66 of epoch 11train': 0.1202869862318039, 'total_train': 0.1202869862318039}6}
+epoch: 11 {'tooth_class_loss_1_train': 0.1781211793422699, 'total_train': 0.1781211793422699}6}
+Processing batch 85 of epoch 11train': 0.1781211793422699, 'total_train': 0.1781211793422699}6}
+epoch: 11 {'tooth_class_loss_1_train': 0.1654650717973709, 'total_train': 0.1654650717973709}6}
+Processing batch 104 of epoch 11rain': 0.1654650717973709, 'total_train': 0.1654650717973709}6}
+Processing batch 113 of epoch 11rain': 0.1654650717973709, 'total_train': 0.1654650717973709}6}
+Processing batch 122 of epoch 11rain': 0.1654650717973709, 'total_train': 0.1654650717973709}6}
+epoch: 11 {'tooth_class_loss_1_train': 0.16826023161411285, 'total_train': 0.16826023161411285}
+Processing batch 141 of epoch 11rain': 0.16826023161411285, 'total_train': 0.16826023161411285}
+epoch: 11 {'tooth_class_loss_1_train': 0.30204513669013977, 'total_train': 0.30204513669013977}
+Processing batch 160 of epoch 11rain': 0.30204513669013977, 'total_train': 0.30204513669013977}
+epoch: 11 {'tooth_class_loss_1_train': 0.13881376385688782, 'total_train': 0.13881376385688782}
+Processing batch 179 of epoch 11rain': 0.13881376385688782, 'total_train': 0.13881376385688782}
+epoch: 11 {'tooth_class_loss_1_train': 0.4618881046772003, 'total_train': 0.4618881046772003}2}
+Processing batch 198 of epoch 11rain': 0.4618881046772003, 'total_train': 0.4618881046772003}2}
+Processing batch 207 of epoch 11rain': 0.4618881046772003, 'total_train': 0.4618881046772003}2}
+Processing batch 216 of epoch 11rain': 0.4618881046772003, 'total_train': 0.4618881046772003}2}
+epoch: 11 {'tooth_class_loss_1_train': 0.16985099017620087, 'total_train': 0.16985099017620087}
+Processing batch 235 of epoch 11rain': 0.16985099017620087, 'total_train': 0.16985099017620087}
+epoch: 11 {'tooth_class_loss_1_val': 0.4469153583049774, 'total_val': 0.4469153583049774}20087}
+epoch: 11 {'tooth_class_loss_1_val': 0.5412203073501587, 'total_val': 0.5412203073501587}20087}
+Processing batch 2 of epoch 12_val': 0.5412203073501587, 'total_val': 0.5412203073501587}20087}
+epoch: 12 {'tooth_class_loss_1_train': 0.19494740664958954, 'total_train': 0.19494740664958954}
+Processing batch 20 of epoch 12train': 0.19494740664958954, 'total_train': 0.19494740664958954}
+Processing batch 29 of epoch 12train': 0.19494740664958954, 'total_train': 0.19494740664958954}
+Processing batch 38 of epoch 12train': 0.19494740664958954, 'total_train': 0.19494740664958954}
+Processing batch 46 of epoch 12train': 0.19494740664958954, 'total_train': 0.19494740664958954}
+epoch: 12 {'tooth_class_loss_1_train': 0.21949824690818787, 'total_train': 0.21949824690818787}
+Processing batch 65 of epoch 12train': 0.21949824690818787, 'total_train': 0.21949824690818787}
+epoch: 12 {'tooth_class_loss_1_train': 0.09707474708557129, 'total_train': 0.09707474708557129}
+Processing batch 84 of epoch 12train': 0.09707474708557129, 'total_train': 0.09707474708557129}
+Processing batch 93 of epoch 12train': 0.09707474708557129, 'total_train': 0.09707474708557129}
+Processing batch 102 of epoch 12rain': 0.09707474708557129, 'total_train': 0.09707474708557129}
+epoch: 12 {'tooth_class_loss_1_train': 0.13007685542106628, 'total_train': 0.13007685542106628}
+Processing batch 120 of epoch 12rain': 0.13007685542106628, 'total_train': 0.13007685542106628}
+Processing batch 129 of epoch 12rain': 0.13007685542106628, 'total_train': 0.13007685542106628}
+Processing batch 138 of epoch 12rain': 0.13007685542106628, 'total_train': 0.13007685542106628}
+epoch: 12 {'tooth_class_loss_1_train': 0.18710815906524658, 'total_train': 0.18710815906524658}
+Processing batch 157 of epoch 12rain': 0.18710815906524658, 'total_train': 0.18710815906524658}
+epoch: 12 {'tooth_class_loss_1_train': 0.13393372297286987, 'total_train': 0.13393372297286987}
+Processing batch 176 of epoch 12rain': 0.13393372297286987, 'total_train': 0.13393372297286987}
+epoch: 12 {'tooth_class_loss_1_train': 0.11975308507680893, 'total_train': 0.11975308507680893}
+Processing batch 195 of epoch 12rain': 0.11975308507680893, 'total_train': 0.11975308507680893}
+epoch: 12 {'tooth_class_loss_1_train': 0.1406259834766388, 'total_train': 0.1406259834766388}3}
+Processing batch 214 of epoch 12rain': 0.1406259834766388, 'total_train': 0.1406259834766388}3}
+epoch: 12 {'tooth_class_loss_1_train': 0.2910495102405548, 'total_train': 0.2910495102405548}3}
+Processing batch 233 of epoch 12rain': 0.2910495102405548, 'total_train': 0.2910495102405548}3}
+epoch: 12 {'tooth_class_loss_1_val': 0.3589027523994446, 'total_val': 0.3589027523994446}548}3}
+epoch: 12 {'tooth_class_loss_1_val': 0.4283216595649719, 'total_val': 0.4283216595649719}548}3}
+epoch: 13 {'tooth_class_loss_1_train': 0.2908972203731537, 'total_train': 0.2908972203731537}3}
+Processing batch 10 of epoch 13train': 0.2908972203731537, 'total_train': 0.2908972203731537}3}
+epoch: 13 {'tooth_class_loss_1_train': 0.1253495216369629, 'total_train': 0.1253495216369629}3}
+Processing batch 29 of epoch 13train': 0.1253495216369629, 'total_train': 0.1253495216369629}3}
+Processing batch 38 of epoch 13train': 0.1253495216369629, 'total_train': 0.1253495216369629}3}
+Processing batch 47 of epoch 13train': 0.1253495216369629, 'total_train': 0.1253495216369629}3}
+Processing batch 56 of epoch 13train': 0.1253495216369629, 'total_train': 0.1253495216369629}3}
+Processing batch 65 of epoch 13train': 0.1253495216369629, 'total_train': 0.1253495216369629}3}
+Processing batch 74 of epoch 13train': 0.1253495216369629, 'total_train': 0.1253495216369629}3}
+Processing batch 83 of epoch 13train': 0.1253495216369629, 'total_train': 0.1253495216369629}3}
+Processing batch 92 of epoch 13train': 0.1253495216369629, 'total_train': 0.1253495216369629}3}
+epoch: 13 {'tooth_class_loss_1_train': 0.10543719679117203, 'total_train': 0.10543719679117203}
+Processing batch 111 of epoch 13rain': 0.10543719679117203, 'total_train': 0.10543719679117203}
+Processing batch 120 of epoch 13rain': 0.10543719679117203, 'total_train': 0.10543719679117203}
+Processing batch 129 of epoch 13rain': 0.10543719679117203, 'total_train': 0.10543719679117203}
+epoch: 13 {'tooth_class_loss_1_train': 0.3029763102531433, 'total_train': 0.3029763102531433}3}
+Processing batch 148 of epoch 13rain': 0.3029763102531433, 'total_train': 0.3029763102531433}3}
+Processing batch 157 of epoch 13rain': 0.3029763102531433, 'total_train': 0.3029763102531433}3}
+epoch: 13 {'tooth_class_loss_1_train': 0.11909216642379761, 'total_train': 0.11909216642379761}
+Processing batch 176 of epoch 13rain': 0.11909216642379761, 'total_train': 0.11909216642379761}
+Processing batch 185 of epoch 13rain': 0.11909216642379761, 'total_train': 0.11909216642379761}
+Processing batch 194 of epoch 13rain': 0.11909216642379761, 'total_train': 0.11909216642379761}
+Processing batch 203 of epoch 13rain': 0.11909216642379761, 'total_train': 0.11909216642379761}
+Processing batch 211 of epoch 13rain': 0.11909216642379761, 'total_train': 0.11909216642379761}
+epoch: 13 {'tooth_class_loss_1_train': 0.19727882742881775, 'total_train': 0.19727882742881775}
+Processing batch 230 of epoch 13rain': 0.19727882742881775, 'total_train': 0.19727882742881775}
+Processing batch 239 of epoch 13rain': 0.19727882742881775, 'total_train': 0.19727882742881775}
+epoch: 13 {'tooth_class_loss_1_val': 0.3331177830696106, 'total_val': 0.3331177830696106}81775}
+epoch: 13 {'tooth_class_loss_1_val': 0.7124694585800171, 'total_val': 0.7124694585800171}81775}
+Processing batch 6 of epoch 14_val': 0.7124694585800171, 'total_val': 0.7124694585800171}81775}
+Processing batch 15 of epoch 14val': 0.7124694585800171, 'total_val': 0.7124694585800171}81775}
+epoch: 14 {'tooth_class_loss_1_train': 0.1072029247879982, 'total_train': 0.1072029247879982}5}
+Processing batch 34 of epoch 14train': 0.1072029247879982, 'total_train': 0.1072029247879982}5}
+Processing batch 43 of epoch 14train': 0.1072029247879982, 'total_train': 0.1072029247879982}5}
+Processing batch 52 of epoch 14train': 0.1072029247879982, 'total_train': 0.1072029247879982}5}
+Processing batch 61 of epoch 14train': 0.1072029247879982, 'total_train': 0.1072029247879982}5}
+epoch: 14 {'tooth_class_loss_1_train': 0.11091011762619019, 'total_train': 0.11091011762619019}
+Processing batch 80 of epoch 14train': 0.11091011762619019, 'total_train': 0.11091011762619019}
+Processing batch 89 of epoch 14train': 0.11091011762619019, 'total_train': 0.11091011762619019}
+Processing batch 98 of epoch 14train': 0.11091011762619019, 'total_train': 0.11091011762619019}
+epoch: 14 {'tooth_class_loss_1_train': 0.14880283176898956, 'total_train': 0.14880283176898956}
+Processing batch 117 of epoch 14rain': 0.14880283176898956, 'total_train': 0.14880283176898956}
+Processing batch 126 of epoch 14rain': 0.14880283176898956, 'total_train': 0.14880283176898956}
+epoch: 14 {'tooth_class_loss_1_train': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 145 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 154 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 163 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 171 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 180 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 189 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 198 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 207 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 216 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 225 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+Processing batch 234 of epoch 14rain': 0.10552854090929031, 'total_train': 0.10552854090929031}
+epoch: 14 {'tooth_class_loss_1_val': 0.17823150753974915, 'total_val': 0.17823150753974915}031}
+epoch: 14 {'tooth_class_loss_1_val': 0.6603350639343262, 'total_val': 0.6603350639343262}5}031}
+Processing batch 0 of epoch 15_val': 0.6603350639343262, 'total_val': 0.6603350639343262}5}031}
+Processing batch 7 of epoch 15_val': 0.6603350639343262, 'total_val': 0.6603350639343262}5}031}
+epoch: 15 {'tooth_class_loss_1_train': 0.19907407462596893, 'total_train': 0.19907407462596893}
+Processing batch 26 of epoch 15train': 0.19907407462596893, 'total_train': 0.19907407462596893}
+Processing batch 35 of epoch 15train': 0.19907407462596893, 'total_train': 0.19907407462596893}
+Processing batch 41 of epoch 15train': 0.19907407462596893, 'total_train': 0.19907407462596893}
+epoch: 15 {'tooth_class_loss_1_train': 0.09588215500116348, 'total_train': 0.09588215500116348}
+Processing batch 60 of epoch 15train': 0.09588215500116348, 'total_train': 0.09588215500116348}
+epoch: 15 {'tooth_class_loss_1_train': 0.14128857851028442, 'total_train': 0.14128857851028442}
+Processing batch 79 of epoch 15train': 0.14128857851028442, 'total_train': 0.14128857851028442}
+Processing batch 88 of epoch 15train': 0.14128857851028442, 'total_train': 0.14128857851028442}
+Processing batch 97 of epoch 15train': 0.14128857851028442, 'total_train': 0.14128857851028442}
+Processing batch 106 of epoch 15rain': 0.14128857851028442, 'total_train': 0.14128857851028442}
+epoch: 15 {'tooth_class_loss_1_train': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 125 of epoch 15rain': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 134 of epoch 15rain': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 143 of epoch 15rain': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 152 of epoch 15rain': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 161 of epoch 15rain': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 170 of epoch 15rain': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 177 of epoch 15rain': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 186 of epoch 15rain': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 194 of epoch 15rain': 0.20572572946548462, 'total_train': 0.20572572946548462}
+Processing batch 213 of epoch 15rain': 0.17461177706718445, 'total_train': 0.17461177706718445}
+epoch: 15 {'tooth_class_loss_1_train': 0.12523460388183594, 'total_train': 0.12523460388183594}
+Processing batch 232 of epoch 15rain': 0.12523460388183594, 'total_train': 0.12523460388183594}
+Processing batch 232 of epoch 15rain': 0.12523460388183594, 'total_train': 0.12523460388183594}
+epoch: 15 {'tooth_class_loss_1_val': 1.2406103610992432, 'total_val': 1.2406103610992432}83594}
+epoch: 15 {'tooth_class_loss_1_val': 0.28510937094688416, 'total_val': 0.28510937094688416}594}
+Processing batch 2 of epoch 16_val': 0.28510937094688416, 'total_val': 0.28510937094688416}594}
+epoch: 16 {'tooth_class_loss_1_train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 21 of epoch 16train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 30 of epoch 16train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 39 of epoch 16train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 48 of epoch 16train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 57 of epoch 16train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 66 of epoch 16train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 75 of epoch 16train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 84 of epoch 16train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 93 of epoch 16train': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 102 of epoch 16rain': 0.16260498762130737, 'total_train': 0.16260498762130737}
+Processing batch 110 of epoch 16rain': 0.16260498762130737, 'total_train': 0.16260498762130737}
+epoch: 16 {'tooth_class_loss_1_train': 0.07387274503707886, 'total_train': 0.07387274503707886}
+Processing batch 129 of epoch 16rain': 0.07387274503707886, 'total_train': 0.07387274503707886}
+epoch: 16 {'tooth_class_loss_1_train': 0.27200692892074585, 'total_train': 0.27200692892074585}
+Processing batch 148 of epoch 16rain': 0.27200692892074585, 'total_train': 0.27200692892074585}
+epoch: 16 {'tooth_class_loss_1_train': 0.1331891268491745, 'total_train': 0.1331891268491745}5}
+Processing batch 167 of epoch 16rain': 0.1331891268491745, 'total_train': 0.1331891268491745}5}
+Processing batch 174 of epoch 16rain': 0.1331891268491745, 'total_train': 0.1331891268491745}5}
+epoch: 16 {'tooth_class_loss_1_train': 0.1411738246679306, 'total_train': 0.1411738246679306}5}
+Processing batch 193 of epoch 16rain': 0.1411738246679306, 'total_train': 0.1411738246679306}5}
+Processing batch 202 of epoch 16rain': 0.1411738246679306, 'total_train': 0.1411738246679306}5}
+Processing batch 211 of epoch 16rain': 0.1411738246679306, 'total_train': 0.1411738246679306}5}
+Processing batch 220 of epoch 16rain': 0.1411738246679306, 'total_train': 0.1411738246679306}5}
+Processing batch 229 of epoch 16rain': 0.1411738246679306, 'total_train': 0.1411738246679306}5}
+Processing batch 238 of epoch 16rain': 0.1411738246679306, 'total_train': 0.1411738246679306}5}
+epoch: 16 {'tooth_class_loss_1_val': 0.38577190041542053, 'total_val': 0.38577190041542053}6}5}
+epoch: 16 {'tooth_class_loss_1_val': 0.5620836615562439, 'total_val': 0.5620836615562439}3}6}5}
+Processing batch 5 of epoch 17_val': 0.5620836615562439, 'total_val': 0.5620836615562439}3}6}5}
+Processing batch 14 of epoch 17val': 0.5620836615562439, 'total_val': 0.5620836615562439}3}6}5}
+Processing batch 23 of epoch 17val': 0.5620836615562439, 'total_val': 0.5620836615562439}3}6}5}
+Processing batch 32 of epoch 17val': 0.5620836615562439, 'total_val': 0.5620836615562439}3}6}5}
+epoch: 17 {'tooth_class_loss_1_train': 0.45457178354263306, 'total_train': 0.45457178354263306}
+Processing batch 51 of epoch 17train': 0.45457178354263306, 'total_train': 0.45457178354263306}
+Processing batch 60 of epoch 17train': 0.45457178354263306, 'total_train': 0.45457178354263306}
+epoch: 17 {'tooth_class_loss_1_train': 0.1878674179315567, 'total_train': 0.1878674179315567}6}
+Processing batch 79 of epoch 17train': 0.1878674179315567, 'total_train': 0.1878674179315567}6}
+Processing batch 88 of epoch 17train': 0.1878674179315567, 'total_train': 0.1878674179315567}6}
+Processing batch 96 of epoch 17train': 0.1878674179315567, 'total_train': 0.1878674179315567}6}
+Processing batch 105 of epoch 17rain': 0.1878674179315567, 'total_train': 0.1878674179315567}6}
+Processing batch 114 of epoch 17rain': 0.1878674179315567, 'total_train': 0.1878674179315567}6}
+epoch: 17 {'tooth_class_loss_1_train': 0.28830233216285706, 'total_train': 0.28830233216285706}
+epoch: 17 {'tooth_class_loss_1_train': 0.28830233216285706, 'total_train': 0.28830233216285706}
+Processing batch 138 of epoch 17rain': 0.28830233216285706, 'total_train': 0.28830233216285706}
+epoch: 17 {'tooth_class_loss_1_train': 0.2057057023048401, 'total_train': 0.2057057023048401}6}
+Processing batch 157 of epoch 17rain': 0.2057057023048401, 'total_train': 0.2057057023048401}6}
+Processing batch 166 of epoch 17rain': 0.2057057023048401, 'total_train': 0.2057057023048401}6}
+Processing batch 175 of epoch 17rain': 0.2057057023048401, 'total_train': 0.2057057023048401}6}
+Processing batch 184 of epoch 17rain': 0.2057057023048401, 'total_train': 0.2057057023048401}6}
+epoch: 17 {'tooth_class_loss_1_train': 0.221261128783226, 'total_train': 0.221261128783226}1}6}
+epoch: 17 {'tooth_class_loss_1_train': 0.221261128783226, 'total_train': 0.221261128783226}1}6}
+Processing batch 203 of epoch 17rain': 0.221261128783226, 'total_train': 0.221261128783226}1}6}
+Processing batch 222 of epoch 17rain': 0.16568565368652344, 'total_train': 0.16568565368652344}
+epoch: 17 {'tooth_class_loss_1_train': 0.1364423781633377, 'total_train': 0.1364423781633377}4}
+epoch: 17 {'tooth_class_loss_1_val': 0.13723592460155487, 'total_val': 0.13723592460155487}7}4}
+epoch: 17 {'tooth_class_loss_1_val': 0.16932806372642517, 'total_val': 0.16932806372642517}7}4}
+epoch: 17 {'tooth_class_loss_1_val': 0.16932806372642517, 'total_val': 0.16932806372642517}7}4}
+Processing batch 5 of epoch 18_val': 0.16932806372642517, 'total_val': 0.16932806372642517}7}4}
+epoch: 18 {'tooth_class_loss_1_train': 0.29594168066978455, 'total_train': 0.29594168066978455}
+Processing batch 24 of epoch 18train': 0.29594168066978455, 'total_train': 0.29594168066978455}
+epoch: 18 {'tooth_class_loss_1_train': 0.13098424673080444, 'total_train': 0.13098424673080444}
+Processing batch 43 of epoch 18train': 0.13098424673080444, 'total_train': 0.13098424673080444}
+Processing batch 52 of epoch 18train': 0.13098424673080444, 'total_train': 0.13098424673080444}
+epoch: 18 {'tooth_class_loss_1_train': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 71 of epoch 18train': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 80 of epoch 18train': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 89 of epoch 18train': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 98 of epoch 18train': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 107 of epoch 18rain': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 115 of epoch 18rain': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 124 of epoch 18rain': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 133 of epoch 18rain': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 142 of epoch 18rain': 0.13071060180664062, 'total_train': 0.13071060180664062}
+Processing batch 151 of epoch 18rain': 0.13071060180664062, 'total_train': 0.13071060180664062}
+epoch: 18 {'tooth_class_loss_1_train': 0.3644470274448395, 'total_train': 0.3644470274448395}2}
+Processing batch 170 of epoch 18rain': 0.3644470274448395, 'total_train': 0.3644470274448395}2}
+Processing batch 179 of epoch 18rain': 0.3644470274448395, 'total_train': 0.3644470274448395}2}
+epoch: 18 {'tooth_class_loss_1_train': 0.2853867709636688, 'total_train': 0.2853867709636688}2}
+Processing batch 198 of epoch 18rain': 0.2853867709636688, 'total_train': 0.2853867709636688}2}
+Processing batch 207 of epoch 18rain': 0.2853867709636688, 'total_train': 0.2853867709636688}2}
+epoch: 18 {'tooth_class_loss_1_train': 0.17131659388542175, 'total_train': 0.17131659388542175}
+Processing batch 233 of epoch 18rain': 0.17131659388542175, 'total_train': 0.17131659388542175}
+epoch: 18 {'tooth_class_loss_1_val': 0.3488919734954834, 'total_val': 0.3488919734954834}42175}
+epoch: 18 {'tooth_class_loss_1_val': 0.7409921884536743, 'total_val': 0.7409921884536743}42175}
+epoch: 19 {'tooth_class_loss_1_train': 0.20103637874126434, 'total_train': 0.20103637874126434}
+Processing batch 16 of epoch 19train': 0.20103637874126434, 'total_train': 0.20103637874126434}
+epoch: 19 {'tooth_class_loss_1_train': 0.1273438036441803, 'total_train': 0.1273438036441803}4}
+epoch: 19 {'tooth_class_loss_1_train': 0.1273438036441803, 'total_train': 0.1273438036441803}4}
+Processing batch 35 of epoch 19train': 0.1273438036441803, 'total_train': 0.1273438036441803}4}
+epoch: 19 {'tooth_class_loss_1_train': 0.1009739562869072, 'total_train': 0.1009739562869072}4}
+Processing batch 54 of epoch 19train': 0.1009739562869072, 'total_train': 0.1009739562869072}4}
+epoch: 19 {'tooth_class_loss_1_train': 0.31708136200904846, 'total_train': 0.31708136200904846}
+Processing batch 73 of epoch 19train': 0.31708136200904846, 'total_train': 0.31708136200904846}
+epoch: 19 {'tooth_class_loss_1_train': 0.14442138373851776, 'total_train': 0.14442138373851776}
+Processing batch 92 of epoch 19train': 0.14442138373851776, 'total_train': 0.14442138373851776}
+Processing batch 101 of epoch 19rain': 0.14442138373851776, 'total_train': 0.14442138373851776}
+Processing batch 110 of epoch 19rain': 0.14442138373851776, 'total_train': 0.14442138373851776}
+Processing batch 119 of epoch 19rain': 0.14442138373851776, 'total_train': 0.14442138373851776}
+Processing batch 128 of epoch 19rain': 0.14442138373851776, 'total_train': 0.14442138373851776}
+Processing batch 137 of epoch 19rain': 0.14442138373851776, 'total_train': 0.14442138373851776}
+epoch: 19 {'tooth_class_loss_1_train': 0.09738606959581375, 'total_train': 0.09738606959581375}
+Processing batch 156 of epoch 19rain': 0.09738606959581375, 'total_train': 0.09738606959581375}
+Processing batch 165 of epoch 19rain': 0.09738606959581375, 'total_train': 0.09738606959581375}
+epoch: 19 {'tooth_class_loss_1_train': 0.1059989184141159, 'total_train': 0.1059989184141159}5}
+Processing batch 184 of epoch 19rain': 0.1059989184141159, 'total_train': 0.1059989184141159}5}
+Processing batch 193 of epoch 19rain': 0.1059989184141159, 'total_train': 0.1059989184141159}5}
+Processing batch 202 of epoch 19rain': 0.1059989184141159, 'total_train': 0.1059989184141159}5}
+Processing batch 211 of epoch 19rain': 0.1059989184141159, 'total_train': 0.1059989184141159}5}
+Processing batch 220 of epoch 19rain': 0.1059989184141159, 'total_train': 0.1059989184141159}5}
+epoch: 19 {'tooth_class_loss_1_train': 0.103705994784832, 'total_train': 0.103705994784832}9}5}
+epoch: 19 {'tooth_class_loss_1_train': 0.103705994784832, 'total_train': 0.103705994784832}9}5}
+epoch: 19 {'tooth_class_loss_1_val': 0.6637542247772217, 'total_val': 0.6637542247772217}2}9}5}
+epoch: 19 {'tooth_class_loss_1_val': 0.4162876307964325, 'total_val': 0.4162876307964325}2}9}5}
+Processing batch 5 of epoch 20_val': 0.4162876307964325, 'total_val': 0.4162876307964325}2}9}5}
+Processing batch 14 of epoch 20val': 0.4162876307964325, 'total_val': 0.4162876307964325}2}9}5}
+Processing batch 23 of epoch 20val': 0.4162876307964325, 'total_val': 0.4162876307964325}2}9}5}
+epoch: 20 {'tooth_class_loss_1_train': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 41 of epoch 20train': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 50 of epoch 20train': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 59 of epoch 20train': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 68 of epoch 20train': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 77 of epoch 20train': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 86 of epoch 20train': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 95 of epoch 20train': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 104 of epoch 20rain': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 113 of epoch 20rain': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 122 of epoch 20rain': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 131 of epoch 20rain': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 140 of epoch 20rain': 0.08256366848945618, 'total_train': 0.08256366848945618}
+Processing batch 148 of epoch 20rain': 0.08256366848945618, 'total_train': 0.08256366848945618}
+epoch: 20 {'tooth_class_loss_1_train': 0.061470404267311096, 'total_train': 0.061470404267311096}
+Processing batch 166 of epoch 20rain': 0.061470404267311096, 'total_train': 0.061470404267311096}
+Processing batch 175 of epoch 20rain': 0.061470404267311096, 'total_train': 0.061470404267311096}
+epoch: 20 {'tooth_class_loss_1_train': 0.38105079531669617, 'total_train': 0.38105079531669617}6}
+Processing batch 193 of epoch 20rain': 0.38105079531669617, 'total_train': 0.38105079531669617}6}
+epoch: 20 {'tooth_class_loss_1_train': 0.3288712501525879, 'total_train': 0.3288712501525879}7}6}
+Processing batch 212 of epoch 20rain': 0.3288712501525879, 'total_train': 0.3288712501525879}7}6}
+Processing batch 221 of epoch 20rain': 0.3288712501525879, 'total_train': 0.3288712501525879}7}6}
+epoch: 20 {'tooth_class_loss_1_train': 0.11928577721118927, 'total_train': 0.11928577721118927}6}
+Processing batch 236 of epoch 20rain': 0.11928577721118927, 'total_train': 0.11928577721118927}6}
+epoch: 20 {'tooth_class_loss_1_val': 0.6900589466094971, 'total_val': 0.6900589466094971}18927}6}
+epoch: 20 {'tooth_class_loss_1_val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 8 of epoch 21_val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 17 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 26 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 35 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 44 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 53 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 62 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 71 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 79 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 88 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+Processing batch 97 of epoch 21val': 0.2381315678358078, 'total_val': 0.2381315678358078}18927}6}
+epoch: 21 {'tooth_class_loss_1_train': 0.17950104176998138, 'total_train': 0.17950104176998138}6}
+Processing batch 116 of epoch 21rain': 0.17950104176998138, 'total_train': 0.17950104176998138}6}
+Processing batch 125 of epoch 21rain': 0.17950104176998138, 'total_train': 0.17950104176998138}6}
+Processing batch 134 of epoch 21rain': 0.17950104176998138, 'total_train': 0.17950104176998138}6}
+Processing batch 142 of epoch 21rain': 0.17950104176998138, 'total_train': 0.17950104176998138}6}
+epoch: 21 {'tooth_class_loss_1_train': 0.087806336581707, 'total_train': 0.087806336581707}138}6}
+Processing batch 161 of epoch 21rain': 0.087806336581707, 'total_train': 0.087806336581707}138}6}
+Processing batch 170 of epoch 21rain': 0.087806336581707, 'total_train': 0.087806336581707}138}6}
+Processing batch 179 of epoch 21rain': 0.087806336581707, 'total_train': 0.087806336581707}138}6}
+Processing batch 188 of epoch 21rain': 0.087806336581707, 'total_train': 0.087806336581707}138}6}
+Processing batch 197 of epoch 21rain': 0.087806336581707, 'total_train': 0.087806336581707}138}6}
+epoch: 21 {'tooth_class_loss_1_train': 0.06312564015388489, 'total_train': 0.06312564015388489}6}
+Processing batch 215 of epoch 21rain': 0.06312564015388489, 'total_train': 0.06312564015388489}6}
+Processing batch 224 of epoch 21rain': 0.06312564015388489, 'total_train': 0.06312564015388489}6}
+Processing batch 233 of epoch 21rain': 0.06312564015388489, 'total_train': 0.06312564015388489}6}
+epoch: 21 {'tooth_class_loss_1_val': 0.221424400806427, 'total_val': 0.221424400806427}5388489}6}
+epoch: 21 {'tooth_class_loss_1_val': 0.2846517264842987, 'total_val': 0.2846517264842987}88489}6}
+epoch: 22 {'tooth_class_loss_1_train': 0.0661601722240448, 'total_train': 0.0661601722240448}9}6}
+Processing batch 8 of epoch 22_train': 0.0661601722240448, 'total_train': 0.0661601722240448}9}6}
+Processing batch 17 of epoch 22train': 0.0661601722240448, 'total_train': 0.0661601722240448}9}6}
+Processing batch 26 of epoch 22train': 0.0661601722240448, 'total_train': 0.0661601722240448}9}6}
+Processing batch 35 of epoch 22train': 0.0661601722240448, 'total_train': 0.0661601722240448}9}6}
+epoch: 22 {'tooth_class_loss_1_train': 0.1115356981754303, 'total_train': 0.1115356981754303}9}6}
+epoch: 22 {'tooth_class_loss_1_train': 0.07711287587881088, 'total_train': 0.07711287587881088}6}
+Processing batch 63 of epoch 22train': 0.07711287587881088, 'total_train': 0.07711287587881088}6}
+Processing batch 72 of epoch 22train': 0.07711287587881088, 'total_train': 0.07711287587881088}6}
+Processing batch 81 of epoch 22train': 0.07711287587881088, 'total_train': 0.07711287587881088}6}
+Processing batch 89 of epoch 22train': 0.07711287587881088, 'total_train': 0.07711287587881088}6}
+epoch: 22 {'tooth_class_loss_1_train': 0.11328994482755661, 'total_train': 0.11328994482755661}6}
+Processing batch 108 of epoch 22rain': 0.11328994482755661, 'total_train': 0.11328994482755661}6}
+Processing batch 117 of epoch 22rain': 0.11328994482755661, 'total_train': 0.11328994482755661}6}
+epoch: 22 {'tooth_class_loss_1_train': 0.1385461986064911, 'total_train': 0.1385461986064911}1}6}
+Processing batch 136 of epoch 22rain': 0.1385461986064911, 'total_train': 0.1385461986064911}1}6}
+Processing batch 145 of epoch 22rain': 0.1385461986064911, 'total_train': 0.1385461986064911}1}6}
+Processing batch 154 of epoch 22rain': 0.1385461986064911, 'total_train': 0.1385461986064911}1}6}
+Processing batch 163 of epoch 22rain': 0.1385461986064911, 'total_train': 0.1385461986064911}1}6}
+Processing batch 172 of epoch 22rain': 0.1385461986064911, 'total_train': 0.1385461986064911}1}6}
+epoch: 22 {'tooth_class_loss_1_train': 0.08443893492221832, 'total_train': 0.08443893492221832}6}
+Processing batch 190 of epoch 22rain': 0.08443893492221832, 'total_train': 0.08443893492221832}6}
+epoch: 22 {'tooth_class_loss_1_train': 0.07463126629590988, 'total_train': 0.07463126629590988}6}
+Processing batch 209 of epoch 22rain': 0.07463126629590988, 'total_train': 0.07463126629590988}6}
+Processing batch 218 of epoch 22rain': 0.07463126629590988, 'total_train': 0.07463126629590988}6}
+Processing batch 227 of epoch 22rain': 0.07463126629590988, 'total_train': 0.07463126629590988}6}
+Processing batch 234 of epoch 22rain': 0.07463126629590988, 'total_train': 0.07463126629590988}6}
+epoch: 22 {'tooth_class_loss_1_val': 0.10849472135305405, 'total_val': 0.10849472135305405}988}6}
+epoch: 22 {'tooth_class_loss_1_val': 0.260946661233902, 'total_val': 0.260946661233902}405}988}6}
+epoch: 23 {'tooth_class_loss_1_train': 0.06400658190250397, 'total_train': 0.06400658190250397}6}
+Processing batch 7 of epoch 23_train': 0.06400658190250397, 'total_train': 0.06400658190250397}6}
+Processing batch 16 of epoch 23train': 0.06400658190250397, 'total_train': 0.06400658190250397}6}
+Processing batch 25 of epoch 23train': 0.06400658190250397, 'total_train': 0.06400658190250397}6}
+Processing batch 34 of epoch 23train': 0.06400658190250397, 'total_train': 0.06400658190250397}6}
+epoch: 23 {'tooth_class_loss_1_train': 0.07669363170862198, 'total_train': 0.07669363170862198}6}
+Processing batch 53 of epoch 23train': 0.07669363170862198, 'total_train': 0.07669363170862198}6}
+Processing batch 61 of epoch 23train': 0.07669363170862198, 'total_train': 0.07669363170862198}6}
+epoch: 23 {'tooth_class_loss_1_train': 0.04245531186461449, 'total_train': 0.04245531186461449}6}
+Processing batch 80 of epoch 23train': 0.04245531186461449, 'total_train': 0.04245531186461449}6}
+epoch: 23 {'tooth_class_loss_1_train': 0.06067093461751938, 'total_train': 0.06067093461751938}6}
+Processing batch 99 of epoch 23train': 0.06067093461751938, 'total_train': 0.06067093461751938}6}
+Processing batch 108 of epoch 23rain': 0.06067093461751938, 'total_train': 0.06067093461751938}6}
+Processing batch 117 of epoch 23rain': 0.06067093461751938, 'total_train': 0.06067093461751938}6}
+epoch: 23 {'tooth_class_loss_1_train': 0.14309217035770416, 'total_train': 0.14309217035770416}6}
+Processing batch 136 of epoch 23rain': 0.14309217035770416, 'total_train': 0.14309217035770416}6}
+Processing batch 145 of epoch 23rain': 0.14309217035770416, 'total_train': 0.14309217035770416}6}
+Processing batch 154 of epoch 23rain': 0.14309217035770416, 'total_train': 0.14309217035770416}6}
+Processing batch 163 of epoch 23rain': 0.14309217035770416, 'total_train': 0.14309217035770416}6}
+Processing batch 172 of epoch 23rain': 0.14309217035770416, 'total_train': 0.14309217035770416}6}
+epoch: 23 {'tooth_class_loss_1_train': 0.10232681035995483, 'total_train': 0.10232681035995483}6}
+Processing batch 190 of epoch 23rain': 0.10232681035995483, 'total_train': 0.10232681035995483}6}
+Processing batch 198 of epoch 23rain': 0.10232681035995483, 'total_train': 0.10232681035995483}6}
+Processing batch 207 of epoch 23rain': 0.10232681035995483, 'total_train': 0.10232681035995483}6}
+Processing batch 216 of epoch 23rain': 0.10232681035995483, 'total_train': 0.10232681035995483}6}
+Processing batch 225 of epoch 23rain': 0.10232681035995483, 'total_train': 0.10232681035995483}6}
+Processing batch 234 of epoch 23rain': 0.10232681035995483, 'total_train': 0.10232681035995483}6}
+epoch: 23 {'tooth_class_loss_1_val': 0.2763655483722687, 'total_val': 0.2763655483722687}95483}6}
+epoch: 23 {'tooth_class_loss_1_val': 0.26948434114456177, 'total_val': 0.26948434114456177}483}6}
+epoch: 24 {'tooth_class_loss_1_train': 0.06433747708797455, 'total_train': 0.06433747708797455}6}
+Processing batch 9 of epoch 24_train': 0.06433747708797455, 'total_train': 0.06433747708797455}6}
+Processing batch 18 of epoch 24train': 0.06433747708797455, 'total_train': 0.06433747708797455}6}
+Processing batch 27 of epoch 24train': 0.06433747708797455, 'total_train': 0.06433747708797455}6}
+Processing batch 36 of epoch 24train': 0.06433747708797455, 'total_train': 0.06433747708797455}6}
+epoch: 24 {'tooth_class_loss_1_train': 0.15102429687976837, 'total_train': 0.15102429687976837}6}
+Processing batch 55 of epoch 24train': 0.15102429687976837, 'total_train': 0.15102429687976837}6}
+Processing batch 64 of epoch 24train': 0.15102429687976837, 'total_train': 0.15102429687976837}6}
+epoch: 24 {'tooth_class_loss_1_train': 0.09688301384449005, 'total_train': 0.09688301384449005}6}
+Processing batch 83 of epoch 24train': 0.09688301384449005, 'total_train': 0.09688301384449005}6}
+Processing batch 92 of epoch 24train': 0.09688301384449005, 'total_train': 0.09688301384449005}6}
+Processing batch 101 of epoch 24rain': 0.09688301384449005, 'total_train': 0.09688301384449005}6}
+epoch: 24 {'tooth_class_loss_1_train': 0.04697437584400177, 'total_train': 0.04697437584400177}6}
+Processing batch 120 of epoch 24rain': 0.04697437584400177, 'total_train': 0.04697437584400177}6}
+epoch: 24 {'tooth_class_loss_1_train': 0.09190394729375839, 'total_train': 0.09190394729375839}6}
+Processing batch 138 of epoch 24rain': 0.09190394729375839, 'total_train': 0.09190394729375839}6}
+epoch: 24 {'tooth_class_loss_1_train': 0.1650049090385437, 'total_train': 0.1650049090385437}9}6}
+Processing batch 157 of epoch 24rain': 0.1650049090385437, 'total_train': 0.1650049090385437}9}6}
+Processing batch 164 of epoch 24rain': 0.1650049090385437, 'total_train': 0.1650049090385437}9}6}
+Processing batch 173 of epoch 24rain': 0.1650049090385437, 'total_train': 0.1650049090385437}9}6}
+epoch: 24 {'tooth_class_loss_1_train': 0.4850778877735138, 'total_train': 0.4850778877735138}9}6}
+Processing batch 196 of epoch 24rain': 0.4850778877735138, 'total_train': 0.4850778877735138}9}6}
+Processing batch 196 of epoch 24rain': 0.4850778877735138, 'total_train': 0.4850778877735138}9}6}
+epoch: 24 {'tooth_class_loss_1_train': 0.11941300332546234, 'total_train': 0.11941300332546234}6}
+epoch: 24 {'tooth_class_loss_1_train': 0.11941300332546234, 'total_train': 0.11941300332546234}6}
+Processing batch 220 of epoch 24rain': 0.11941300332546234, 'total_train': 0.11941300332546234}6}
+Processing batch 225 of epoch 24rain': 0.11941300332546234, 'total_train': 0.11941300332546234}6}
+Processing batch 232 of epoch 24rain': 0.11941300332546234, 'total_train': 0.11941300332546234}6}
+Processing batch 236 of epoch 24rain': 0.11941300332546234, 'total_train': 0.11941300332546234}6}
+epoch: 24 {'tooth_class_loss_1_val': 0.4058133661746979, 'total_val': 0.4058133661746979}46234}6}
+Processing batch 4 of epoch 25_val': 0.4058133661746979, 'total_val': 0.4058133661746979}46234}6}
+epoch: 25 {'tooth_class_loss_1_train': 0.13746196031570435, 'total_train': 0.13746196031570435}6}
+Processing batch 23 of epoch 25train': 0.13746196031570435, 'total_train': 0.13746196031570435}6}
+epoch: 25 {'tooth_class_loss_1_train': 0.0817376971244812, 'total_train': 0.0817376971244812}5}6}
+Processing batch 42 of epoch 25train': 0.0817376971244812, 'total_train': 0.0817376971244812}5}6}
+epoch: 25 {'tooth_class_loss_1_train': 0.22927378118038177, 'total_train': 0.22927378118038177}6}
+Processing batch 61 of epoch 25train': 0.22927378118038177, 'total_train': 0.22927378118038177}6}
+epoch: 25 {'tooth_class_loss_1_train': 0.039963800460100174, 'total_train': 0.039963800460100174}
+Processing batch 80 of epoch 25train': 0.039963800460100174, 'total_train': 0.039963800460100174}
+epoch: 25 {'tooth_class_loss_1_train': 0.0602971613407135, 'total_train': 0.0602971613407135}174}
+Processing batch 99 of epoch 25train': 0.0602971613407135, 'total_train': 0.0602971613407135}174}
+epoch: 25 {'tooth_class_loss_1_train': 0.10007871687412262, 'total_train': 0.10007871687412262}4}
+Processing batch 118 of epoch 25rain': 0.10007871687412262, 'total_train': 0.10007871687412262}4}
+epoch: 25 {'tooth_class_loss_1_train': 0.10307515412569046, 'total_train': 0.10307515412569046}4}
+Processing batch 137 of epoch 25rain': 0.10307515412569046, 'total_train': 0.10307515412569046}4}
+epoch: 25 {'tooth_class_loss_1_train': 0.10291813313961029, 'total_train': 0.10291813313961029}4}
+Processing batch 156 of epoch 25rain': 0.10291813313961029, 'total_train': 0.10291813313961029}4}
+epoch: 25 {'tooth_class_loss_1_train': 0.10130559653043747, 'total_train': 0.10130559653043747}4}
+Processing batch 175 of epoch 25rain': 0.10130559653043747, 'total_train': 0.10130559653043747}4}
+epoch: 25 {'tooth_class_loss_1_train': 0.30604419112205505, 'total_train': 0.30604419112205505}4}
+Processing batch 194 of epoch 25rain': 0.30604419112205505, 'total_train': 0.30604419112205505}4}
+epoch: 25 {'tooth_class_loss_1_train': 0.08061844110488892, 'total_train': 0.08061844110488892}4}
+Processing batch 213 of epoch 25rain': 0.08061844110488892, 'total_train': 0.08061844110488892}4}
+epoch: 25 {'tooth_class_loss_1_train': 0.07418257743120193, 'total_train': 0.07418257743120193}4}
+Processing batch 232 of epoch 25rain': 0.07418257743120193, 'total_train': 0.07418257743120193}4}
+Processing batch 232 of epoch 25rain': 0.07418257743120193, 'total_train': 0.07418257743120193}4}
+epoch: 25 {'tooth_class_loss_1_val': 1.1160813570022583, 'total_val': 1.1160813570022583}20193}4}
+epoch: 25 {'tooth_class_loss_1_val': 0.44895267486572266, 'total_val': 0.44895267486572266}193}4}
+epoch: 26 {'tooth_class_loss_1_train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 11 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 20 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 29 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 38 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 47 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 56 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 65 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 73 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 82 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 91 of epoch 26train': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 100 of epoch 26rain': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 109 of epoch 26rain': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Processing batch 109 of epoch 26rain': 0.06647315621376038, 'total_train': 0.06647315621376038}4}
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 36, in <module>
+    if args.model_name == "dgcnn":
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 105, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/pointnet_pp_model.py", line 25, in step
+    output = self.module(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 88, in forward
+    l0_points, l3_points, l0_xyz, l3_xyz, offset_result, dist_result, cls_pred = self.first_sem_model(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 49, in forward
+    l3_xyz, l3_points = self.sa3(l2_xyz, l2_points)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 277, in forward
+    new_xyz = index_points(xyz, farthest_point_sample(xyz, S))
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 94, in farthest_point_sample
+    results = results - (torch.arange(0, xyz.shape[0]).cuda().type(torch.long) * xyz.shape[1]).reshape(-1,1)
+KeyboardInterrupt

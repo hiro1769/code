@@ -1,0 +1,122 @@
+{
+    "os": "Linux-5.15.0-119-generic-x86_64-with-glibc2.17",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-08-30T09:35:37.123704",
+    "startedAt": "2024-08-30T09:35:35.922985",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/hiro/3d_tooth_seg/code/start_train.py",
+    "codePathLocal": "start_train.py",
+    "codePath": "start_train.py",
+    "host": "hiro-System-Product-Name",
+    "username": "hiro",
+    "executable": "/home/hiro/anaconda3/envs/3d_seg/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3846.8336875,
+        "min": 800.0,
+        "max": 5100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 4549.339,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        },
+        {
+            "current": 3800.0,
+            "min": 800.0,
+            "max": 5100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 186.6822395324707,
+            "used": 18.419551849365234
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Ti",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.513069152832031
+    }
+}

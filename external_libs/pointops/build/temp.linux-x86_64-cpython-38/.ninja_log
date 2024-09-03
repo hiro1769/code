@@ -1,0 +1,14 @@
+# ninja log v6
+0	7697	1724671374498851372	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/aggregation/aggregation_cuda.o	4f14e4619cd7e0b1
+0	8538	1724671374498851372	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda.o	ee8c44daddb2a421
+0	8733	1724671374498851372	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda.o	1ac2ee1f1f339ffc
+1	9100	1724671374502851338	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/subtraction/subtraction_cuda.o	9578fd2ecdfda69c
+0	9556	1724671374498851372	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/knnquery/knnquery_cuda.o	536e90b95cfeb0db
+1	9972	1724671374502851338	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda.o	2013cdd21054ab40
+0	18892	1724671374498851372	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/grouping/grouping_cuda_kernel.o	72ed12cddf906609
+0	18893	1724671374498851372	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/aggregation/aggregation_cuda_kernel.o	84331ebaaa01036e
+0	18920	1724671374498851372	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/interpolation/interpolation_cuda_kernel.o	ae24ec64f42f1caf
+1	18920	1724671374502851338	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/knnquery/knnquery_cuda_kernel.o	5b184dc957d2bc84
+1	18921	1724671374502851338	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/subtraction/subtraction_cuda_kernel.o	bca9a6a3bf6fd740
+1	18924	1724671374502851338	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/sampling/sampling_cuda_kernel.o	212bed2283735bad
+1	21662	1724671374502851338	/home/hiro/3d_tooth_seg/code/external_libs/pointops/build/temp.linux-x86_64-cpython-38/src/pointops_api.o	611cad019dd6fc1e

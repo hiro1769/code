@@ -1,0 +1,68 @@
+wandb_version: 1
+
+wandb:
+  desc: null
+  value:
+    entity: hiro1
+    wandb_on: true
+    project: 单独的下颚
+    tags: tooth mesh segmentation
+    notes: 不做去除底座处理
+    name: 单独下颚—不去底座
+generator:
+  desc: null
+  value:
+    input_data_dir_path: /home/hiro/3d_tooth_seg/data/data_prepeocessed_path
+    train_data_split_txt_path: /home/hiro/3d_tooth_seg/code/fold_path/base_name_train_fold.txt
+    val_data_split_txt_path: /home/hiro/3d_tooth_seg/code/fold_path/base_name_val_fold.txt
+    aug_obj_str: aug.Augmentator([aug.Scaling([0.85, 1.15]), aug.Rotation([-30,30],
+      'fixed'), aug.Translation([-0.2, 0.2])])
+    train_batch_size: 1
+    val_batch_size: 1
+checkpoint_path:
+  desc: null
+  value: ckpts/单独下颚—不去底座
+tr_set:
+  desc: null
+  value:
+    optimizer:
+      lr: 0.001
+      NAME: adam
+      weight_decay: 0.0001
+    scheduler:
+      sched: cosine
+      warmup_epochs: 0
+      full_steps: 40
+      schedueler_step: 15000000
+      min_lr: 1.0e-05
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.19
+    cli_version: 0.17.7
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1724843762
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 13
+      - 15
+      - 16
+      - 23
+      - 61
+      4: 3.8.19
+      5: 0.17.7
+      8:
+      - 5
+      13: linux-x86_64

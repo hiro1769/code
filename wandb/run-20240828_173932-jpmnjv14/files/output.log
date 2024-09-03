@@ -1,0 +1,41 @@
+Processing batch 0 of epoch 0
+epoch: 0 {'tooth_class_loss_1_train': 2.7794361114501953, 'total_train': 2.7794361114501953}
+epoch: 0 {'tooth_class_loss_1_val': 2.7998573780059814, 'total_val': 2.7998573780059814}
+epoch: 0 {'tooth_class_loss_1_val': 2.817838430404663, 'total_val': 2.817838430404663}
+epoch: 0 {'tooth_class_loss_1_val': 2.8137998580932617, 'total_val': 2.8137998580932617}
+Processing batch 0 of epoch 1
+epoch: 1 {'tooth_class_loss_1_train': 2.485780715942383, 'total_train': 2.485780715942383}
+epoch: 1 {'tooth_class_loss_1_val': 2.7965052127838135, 'total_val': 2.7965052127838135}
+epoch: 1 {'tooth_class_loss_1_val': 2.8150644302368164, 'total_val': 2.8150644302368164}
+epoch: 1 {'tooth_class_loss_1_val': 2.8109092712402344, 'total_val': 2.8109092712402344}
+Processing batch 0 of epoch 2
+epoch: 2 {'tooth_class_loss_1_train': 2.254305601119995, 'total_train': 2.254305601119995}
+epoch: 2 {'tooth_class_loss_1_val': 2.79177188873291, 'total_val': 2.79177188873291}
+epoch: 2 {'tooth_class_loss_1_val': 2.8110032081604004, 'total_val': 2.8110032081604004}
+epoch: 2 {'tooth_class_loss_1_val': 2.806778907775879, 'total_val': 2.806778907775879}
+Traceback (most recent call last):
+  File "/home/hiro/3d_tooth_seg/code/start_train.py", line 32, in <module>
+    runner(config, model)
+  File "/home/hiro/3d_tooth_seg/code/runner.py", line 57, in runner
+    trainner.run()
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 105, in run
+    self.train(epoch, train_data_loader)
+  File "/home/hiro/3d_tooth_seg/code/trainer.py", line 34, in train
+    loss = self.model.step(batch_idx, batch_item, "train")
+  File "/home/hiro/3d_tooth_seg/code/models/pointnet_pp_model.py", line 25, in step
+    output = self.module(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 88, in forward
+    l0_points, l3_points, l0_xyz, l3_xyz, offset_result, dist_result, cls_pred = self.first_sem_model(inputs)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/models/modules/pointnet_pp.py", line 48, in forward
+    l2_xyz, l2_points = self.sa2(l1_xyz, l1_points)
+  File "/home/hiro/anaconda3/envs/3d_seg/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 282, in forward
+    grouped_points = index_points(points, group_idx)
+  File "/home/hiro/3d_tooth_seg/code/external_libs/pointnet2_utils/pointnet2_utils.py", line 59, in index_points
+    batch_indices = torch.arange(B, dtype=torch.long).to(device).view(view_shape).repeat(repeat_shape)
+RuntimeError: CUDA error: device-side assert triggered
