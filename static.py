@@ -43,5 +43,5 @@ def main(json_file):
     print("Total Instance Count:", total_instance_count)
 
 if __name__ == "__main__":
-    json_file = '/home/hiro/3d_tooth_seg/data/json/01K17AN8/01K17AN8_lower.json'  # 将此处替换为你的JSON文件路径
+    json_file = '/home/hiro/3d_tooth_seg/data/json/C3TQ47Z0/C3TQ47Z0_lower.json'  # 将此处替换为你的JSON文件路径
     main(json_file)

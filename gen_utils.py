@@ -67,12 +67,30 @@ def get_colored_mesh(mesh, label_arr):
         [153,0,76],
         [64,64,64],
     ])/255
+
+    # 调整颜色强度
     palte[9:] *= 0.4
+
+    # 复制标签数组
     label_arr = label_arr.copy()
-    label_arr %= palte.shape[0]
-    label_colors = np.zeros((label_arr.shape[0], 3))
-    for idx, palte_color in enumerate(palte):
-        label_colors[label_arr==idx] = palte[idx]
+
+    # 定义映射规则，将11~18、21~28等标签映射到调色板索引范围
+    label_mapping = {
+        range(11, 19): range(1, 9),  # 11~18 映射到 1~8
+        range(21, 29): range(9, 17), # 21~28 映射到 9~16
+        range(31, 39): range(1, 9),  # 31~38 再次映射到 1~8
+        range(41, 49): range(9, 17), # 41~48 映射到 9~16
+    }
+
+    # 初始化颜色数组
+    label_colors = np.ones((label_arr.shape[0], 3))
+
+    # 遍历每个映射范围并应用对应的颜色
+    for label_range, color_range in label_mapping.items():
+        for label, color_idx in zip(label_range, color_range):
+            label_colors[label_arr == label] = palte[color_idx]
+
+    # 将颜色应用到网格顶点
     mesh.vertex_colors = o3d.utility.Vector3dVector(label_colors)
     return mesh
 

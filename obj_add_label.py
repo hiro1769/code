@@ -44,13 +44,13 @@ def write_obj_with_colors(file_path, lines, vertices, colors):
         f.writelines(color_lines)
 
 # 读取 JSON 文件
-with open('/home/hiro/3d_tooth_seg/data/json/01K17AN8/01K17AN8_lower.json', 'r') as f:
+with open('/home/hiro/3d_tooth_seg/data/test_results/pointpp_dg_adv_1test/C3TQ47Z0_lower.json', 'r') as f:
     data = json.load(f)
 
 labels = data['labels']
 
 # 读取 OBJ 文件并提取顶点和颜色
-lines, vertices, colors = read_obj_with_labels('/home/hiro/3d_tooth_seg/data/obj/01K17AN8/01K17AN8_lower.obj', labels)
+lines, vertices, colors = read_obj_with_labels('/home/hiro/3d_tooth_seg/data/obj/C3TQ47Z0/C3TQ47Z0_lower.obj', labels)
 
 # 写入带有颜色的 OBJ 文件
-write_obj_with_colors('/home/hiro/3d_tooth_seg/data/3_colored.obj', lines, vertices, colors)
+write_obj_with_colors('/home/hiro/3d_tooth_seg/data/4_colored.obj', lines, vertices, colors)

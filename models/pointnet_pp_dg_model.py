@@ -1,7 +1,9 @@
 import torch
-from loss_meter import LossMap
-from models.base_model import BaseModel
+
+torch.autograd.set_detect_anomaly(True)
 from . import tgn_loss
+from models.base_model import BaseModel
+from loss_meter import LossMap
 
 class PointPpFirstModel(BaseModel):
     def __init__(self, config, module):
@@ -10,6 +12,7 @@ class PointPpFirstModel(BaseModel):
         self.discriminator = Discriminator().cuda()
         self.optimizer_D = torch.optim.Adam(self.discriminator.parameters(), lr=0.0001, betas=(0.9, 0.999))
         self.adversarial_loss = torch.nn.BCELoss()
+        
         # 初始化自适应权重 λ1 和 λ2
         self.lambda_1 = torch.nn.Parameter(torch.ones(1, device='cuda'), requires_grad=True)
         self.lambda_2 = torch.nn.Parameter(torch.ones(1, device='cuda'), requires_grad=True)
@@ -18,18 +21,17 @@ class PointPpFirstModel(BaseModel):
         optimizer_config = config["tr_set"]["optimizer"]
         if optimizer_config["NAME"] == 'adam':
             self.optimizer = torch.optim.Adam(
-                list(self.module.parameters()) + list(self.discriminator.parameters()) + [self.lambda_1, self.lambda_2],
+                list(self.module.parameters()) + [self.lambda_1, self.lambda_2],
                 lr=optimizer_config["lr"],
                 weight_decay=optimizer_config["weight_decay"]
             )
         elif optimizer_config["NAME"] == 'sgd':
             self.optimizer = torch.optim.SGD(
-                list(self.module.parameters()) + list(self.discriminator.parameters()) + [self.lambda_1, self.lambda_2],
+                list(self.module.parameters()) + [self.lambda_1, self.lambda_2],
                 lr=optimizer_config["lr"],
                 weight_decay=optimizer_config["weight_decay"],
                 momentum=0.9
             )
-    
         
     def get_loss(self, gt_seg_label_1, sem_1, xyz, point): 
         # 计算分类损失
@@ -87,14 +89,15 @@ class PointPpFirstModel(BaseModel):
             regularization = self.lambda_1**2 + self.lambda_2**2
             print("self.lambda_1:", self.lambda_1.item(), "self.lambda_2:", self.lambda_2.item())
             total_loss = total_loss + regularization
-            
-            # 反向传播和优化
-            self.optimizer.zero_grad()
-            total_loss.backward(retain_graph=True)
-            self.optimizer.step()
-            
-        return loss_meter
 
-    def infer(self, batch_idx, batch_item, **options):
-        # 根据需要实现推理逻辑
-        pass
+            # 反向传播和优化（仅一次反向传播）
+            self.optimizer.zero_grad()
+            total_loss.backward(retain_graph=True)  # 一次反向传播
+            self.optimizer.step()
+
+            # # 判别器的优化（单独的优化器，用总损失中的对抗损失部分进行反向传播）
+            # self.optimizer_D.zero_grad()
+            # loss_D.backward()  # 仍需要对判别器单独更新
+            # self.optimizer_D.step()
+        
+        return loss_meter
