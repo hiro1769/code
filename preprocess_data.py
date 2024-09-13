@@ -7,7 +7,7 @@ import gen_utils as gu
 parser = argparse.ArgumentParser()
 parser.add_argument('--source_obj_data_path', default="/home/hiro/3d_tooth_seg/data/obj", type=str, help="data path in which original .obj data are saved")
 parser.add_argument('--source_json_data_path', default="/home/hiro/3d_tooth_seg/data/json", type=str, help="data path in which original .json data are saved")
-parser.add_argument('--save_data_path', default="/home/hiro/3d_tooth_seg/data/data_path", type=str, help="data path in which processed data will be saved")
+parser.add_argument('--save_data_path', default="/home/hiro/3d_tooth_seg/data/data_path_33", type=str, help="data path in which processed data will be saved")
 args = parser.parse_args()
 
 SAVE_PATH = args.save_data_path
@@ -47,19 +47,22 @@ for i in range(len(stl_path_ls)):
     labels: 将json文件中的labels字段转换为numpy数组,一维列数组
     
     """
+    # # 如果是下颚，先将标签减去20
     # if loaded_json['jaw'] == 'lower':
-    #     labels -= 20  # 如果是下颚，所有标签减去20，这样标签变为11~18, 21~28
+    #     labels -= 20  # 将下颚的标签范围从31~48变为11~28
 
-    # # 上颚的处理
-    # labels[labels // 10 == 1] %= 10  # 处理标签为11~18，转换为1~8
-    # labels[labels // 10 == 2] = (labels[labels // 10 == 2] % 10) + 8  # 处理标签为21~28，转换为9~16
-
-    # # 下颚的处理，偏移16以与上颚标签区分
-    # labels[labels // 10 == 3] = (labels[labels // 10 == 3] % 10) + 16  # 处理标签为31~38，转换为17~24
-    # labels[labels // 10 == 4] = (labels[labels // 10 == 4] % 10) + 24  # 处理标签为41~48，转换为25~32
+    #     # 处理下颚标签
+    #     labels[labels // 10 == 1] = (labels[labels // 10 == 1] % 10) + 16  # 将标签11~18转换为17~24
+    #     labels[labels // 10 == 2] = (labels[labels // 10 == 2] % 10) + 24  # 将标签21~28转换为25~32
+    # else:
+    #     # 处理上颚标签
+    #     labels[labels // 10 == 1] %= 10  # 将标签11~18转换为1~8
+    #     labels[labels // 10 == 2] = (labels[labels // 10 == 2] % 10) + 8  # 将标签21~28转换为9~16
 
     # # 将背景标签转化为0
-    # labels[labels < 0] = 0
+    # labels[labels <= 0] = 0  # 将所有小于等于0的标签设置为背景（0）
+
+    
     if loaded_json['jaw'] == 'lower':
         labels -= 20
     labels[labels//10==1] %= 10

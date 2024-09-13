@@ -15,7 +15,7 @@ class_names_dict = {
 parser = argparse.ArgumentParser(description='Batch Inference Models')
 parser.add_argument('--mesh_dir', default="/home/hiro/3d_tooth_seg/data/obj/", type=str, help="Directory containing OBJ files")
 parser.add_argument('--gt_json_dir', default="/home/hiro/3d_tooth_seg/data/json/", type=str, help="Directory containing ground truth JSON files")
-parser.add_argument('--pred_json_dir', default="/home/hiro/3d_tooth_seg/data/test_results/pointpp_dgtest/", type=str, help="Directory containing predicted JSON files")
+parser.add_argument('--pred_json_dir', default="/home/hiro/3d_tooth_seg/data/test_results/pointpp_dg_adv_1test", type=str, help="Directory containing predicted JSON files")
 args = parser.parse_args()
 
 def cal_metric(gt_labels, pred_sem_labels, pred_ins_labels, file_name, is_half=None, vertices=None):

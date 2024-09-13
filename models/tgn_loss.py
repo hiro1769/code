@@ -317,6 +317,42 @@ def chamfer_distance_with_gin_loss(pred_offset, sample_xyz, centroid):
     loss = torch.sum(ratio)
     return loss
 
+def compute_stat(gt_seg_label_1, current_xyz):
+    """计算标签的统计信息（均值和方差），处理除零错误"""
+    batch_size = gt_seg_label_1.shape[0]  # 获取 batch 大小
+    num_classes = 16  # 假设有 16 个类
+    num_features = 3  # 每个点有 3 个坐标 (x, y, z)
+    stats = torch.zeros((batch_size, num_classes, 2 * num_features), device=current_xyz.device)  # 最终的统计量 [batch_size, 16, 6]
+
+    epsilon = 1e-6  # 防止方差为 0 的保护值
+
+    for batch_idx in range(batch_size):
+        # 对每个 batch 处理
+        seg_label = gt_seg_label_1[batch_idx]  # 当前 batch 的分割标签, shape [24000]
+        xyz = current_xyz[batch_idx]  # 当前 batch 的点云坐标, shape [3, 24000]
+
+        for class_id in range(1, num_classes + 1):  # 类别 ID 从 1 到 16
+            # 获取当前类的掩码
+            mask = (seg_label == class_id)  # 掩码 shape [24000]
+
+            if mask.sum() > 0:  # 如果该类有点
+                # 获取该类所有选中的点
+                mask_indices = torch.nonzero(mask, as_tuple=True)[0]  # 获取掩码中为 True 的索引
+                points = xyz[:, mask_indices]  # 筛选出属于该类的点, points shape [3, num_selected_points]
+
+                # 计算每个维度的均值和方差
+                mean = points.mean(dim=1)  # 按列取均值，返回 [3]
+                variance = points.var(dim=1, unbiased=False)  # 使用无偏方差，返回 [3]
+                variance = torch.clamp(variance, min=epsilon)  # 防止方差为0，避免出现nan
+
+                # 将均值和方差存储到 stats 张量中
+                stats[batch_idx, class_id - 1, :num_features] = mean  # 将均值存入 stats
+                stats[batch_idx, class_id - 1, num_features:] = variance  # 将方差存入 stats
+            else:
+                stats[batch_idx, class_id - 1, :] = torch.zeros(6, device=current_xyz.device)  # 填充全零向量
+
+    return stats
+
 
 import torch.nn.functional as F
 
@@ -355,20 +391,19 @@ class LabelSmoothingLoss(torch.nn.Module):
 def tooth_class_loss(cls_pred, gt_cls, cls_num, weight=None, label_smoothing=None):
     """
     Input
-        cls_pred: 1, 17, 16000
-        gt_cls: 1, 1, 16000 -> -1 is background, 0~15 is foreground
+        cls_pred: [B, C, N] (e.g., [1, 17, 16000])
+        gt_cls: [B, 1, N] (e.g., [1, 1, 16000]) -> -1 is background, 0~15 is foreground
     """
     B, _, N = gt_cls.shape
-    gt_cls = gt_cls.view(B, -1) 
-    gt_cls = gt_cls.type(torch.long)
-    gt_cls = gt_cls + 1#-1~16 -> 0~17
+    gt_cls = gt_cls.view(B, -1).long()  # 将 gt_cls 转换为 [B, N] 并指定为 long 类型
+    gt_cls = gt_cls + 1  # -1~16 -> 0~17
+    
     if label_smoothing is None:
-        if weight is None:
-            loss = torch.nn.CrossEntropyLoss().type(torch.float).cuda()(cls_pred, gt_cls) #计算平均交叉熵损失
-        else:
-            loss = torch.nn.CrossEntropyLoss(weight=torch.tensor(weight).type(torch.float).cuda())(cls_pred, gt_cls)
+        criterion = torch.nn.CrossEntropyLoss(weight=torch.tensor(weight).float().cuda() if weight is not None else None)
+        loss = criterion(cls_pred, gt_cls)
     else:
         loss = LabelSmoothingLoss(cls_num, smoothing=label_smoothing)(cls_pred, gt_cls)
+    
     return loss
 
 def uncert_tooth_class_loss(cls_pred_1, cls_pred_2, gt_cls,weight):

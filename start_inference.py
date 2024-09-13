@@ -9,9 +9,9 @@ from predict_utils import ScanSegmentation
 parser = argparse.ArgumentParser(description='Inference models')
 parser.add_argument('--input_dir_path', default="/home/hiro/3d_tooth_seg/data/obj", type=str, help = "input directory path that contain obj files.")
 parser.add_argument('--split_txt_path', default="/home/hiro/3d_tooth_seg/code/fold_path/base_name_test_fold.txt" ,type=str,help = "split txt path.")
-parser.add_argument('--save_path', type=str, default="/home/hiro/3d_tooth_seg/data/test_results/pointpp_dgtest", help = "result save directory.")
+parser.add_argument('--save_path', type=str, default="/home/hiro/3d_tooth_seg/data/test_results/pointpp_dg_adv_1test", help = "result save directory.")
 parser.add_argument('--model_name', type=str, default="pointnetpp_dg", help = "model name. list: tsegnet | tgnet | pointnet | pointnetpp | dgcnn | pointtransformer")
-parser.add_argument('--checkpoint_path', default="/home/hiro/3d_tooth_seg/code/ckpts/pointpp_dg_test_val" ,type=str,help = "checkpoint path.")
+parser.add_argument('--checkpoint_path', default="/home/hiro/3d_tooth_seg/ckpts/pointnetpp_dg_test_adv_1_val" ,type=str,help = "checkpoint path.")
 #parser.add_argument('--checkpoint_path_bdl', default="ckpts/tgnet_bdl" ,type=str,help = "checkpoint path(for tgnet_bdl).")
 args = parser.parse_args()
 

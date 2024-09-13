@@ -1,71 +1,58 @@
 import torch
-from . import tgn_loss
-from models.base_model import BaseModel
 from loss_meter import LossMap
+from models.base_model import BaseModel
+from . import tgn_loss
 
 class PointPpFirstModel(BaseModel):
+    def __init__(self, config, module):
+        super(PointPpFirstModel, self).__init__(config, module)
+        from models.modules.pointnet_pp_dg import Discriminator
+        self.discriminator = Discriminator().cuda()
+        self.optimizer_D = torch.optim.Adam(self.discriminator.parameters(), lr=0.0001, betas=(0.9, 0.999))
+        self.adversarial_loss = torch.nn.BCELoss()
+        # 初始化自适应权重 λ1 和 λ2
+        self.lambda_1 = torch.nn.Parameter(torch.ones(1, device='cuda'), requires_grad=True)
+        self.lambda_2 = torch.nn.Parameter(torch.ones(1, device='cuda'), requires_grad=True)
+        
+        # 根据配置文件初始化优化器
+        optimizer_config = config["tr_set"]["optimizer"]
+        if optimizer_config["NAME"] == 'adam':
+            self.optimizer = torch.optim.Adam(
+                list(self.module.parameters()) + list(self.discriminator.parameters()) + [self.lambda_1, self.lambda_2],
+                lr=optimizer_config["lr"],
+                weight_decay=optimizer_config["weight_decay"]
+            )
+        elif optimizer_config["NAME"] == 'sgd':
+            self.optimizer = torch.optim.SGD(
+                list(self.module.parameters()) + list(self.discriminator.parameters()) + [self.lambda_1, self.lambda_2],
+                lr=optimizer_config["lr"],
+                weight_decay=optimizer_config["weight_decay"],
+                momentum=0.9
+            )
+    
+        
     def get_loss(self, gt_seg_label_1, sem_1, xyz, point): 
-        # 计算类别损失
+        # 计算分类损失
         tooth_class_loss_1 = tgn_loss.tooth_class_loss(sem_1, gt_seg_label_1, 17)
+        sem_1 = torch.argmax(sem_1, dim=1)
+        point = point[:, :3, :]
         
-        # 拼接真实坐标和真实标签
-        gt_xyz = torch.cat((xyz, gt_seg_label_1), dim=1)
+        # 计算统计量
+        real_stat = tgn_loss.compute_stat(gt_seg_label_1, xyz)
+        fake_stat = tgn_loss.compute_stat(sem_1, point)
         
-        # 拼接预测坐标和预测标签
-        sem_1 = torch.argmax(sem_1, dim=1).unsqueeze(1).float()  # 将预测标签进行 argmax 操作
-        pre_xyz = torch.cat((point[:, :3, :], sem_1), dim=1)
+        # 判别器输出
+        real_output = self.discriminator(real_stat)
+        fake_output = self.discriminator(fake_stat)
         
-        centroid_dist = []
-        
-        # 获取唯一的标签列表，排除背景标签 -1
-        unique_labels = torch.unique(gt_seg_label_1)
-        unique_labels = unique_labels[unique_labels >= 0]
-        
-        for label in unique_labels:
-            if label == -1:
-                continue  # 跳过标签为-1的点
-            
-            # 生成掩码并调整形状以匹配xyz
-            mask = gt_seg_label_1.squeeze(1) == label  # 掩码形状为 [1, 24000]
-            mask = mask.unsqueeze(1).expand_as(xyz)  # 调整掩码形状为 [1, 3, 24000]
-            
-            # 获取真实标签为当前label的点的坐标
-            gt_label_pts = xyz[mask].view(3, -1).t()  # 提取相应标签的真实坐标，形状为 [num_pts, 3]
-            
-            if gt_label_pts.size(0) == 0:
-                continue  # 如果没有对应标签的点，则跳过
-            
-            # 计算真实质心
-            gt_centroid = torch.mean(gt_label_pts, dim=0)  # 计算质心
-            
-            # 生成预测掩码并调整形状以匹配pre_xyz
-            mask_pre = sem_1.squeeze(1) == label  # 掩码形状为 [1, 24000]
-            mask_pre = mask_pre.unsqueeze(1).expand_as(point[:, :3, :])  # 调整掩码形状为 [1, 3, 24000]
-            
-            # 获取预测标签为当前label的点的坐标
-            pre_label_pts = point[:, :3, :][mask_pre].view(3, -1).t()  # 提取相应标签的预测坐标，形状为 [num_pts, 3]
-            
-            if pre_label_pts.size(0) == 0:
-                continue  # 如果没有对应标签的点，则跳过
-            
-            # 计算预测质心
-            pre_centroid = torch.mean(pre_label_pts, dim=0)  # 计算质心
-            
-            # 计算质心之间的欧氏距离并保存
-            centroid_dist.append(torch.sqrt(torch.sum(torch.square(pre_centroid - gt_centroid))))
-        
-        # 计算质心损失
-        if len(centroid_dist) > 0:
-            centroid_loss = sum(centroid_dist) / len(centroid_dist)
-        else:
-            centroid_loss = torch.tensor(0.0, device=gt_seg_label_1.device)
-        
-        # # 返回总损失
-        # total_loss = tooth_class_loss_1 + centroid_loss
-        # return total_loss
+        # 计算对抗损失
+        real_loss = self.adversarial_loss(real_output, torch.ones_like(real_output))
+        fake_loss = self.adversarial_loss(fake_output, torch.zeros_like(fake_output))
+        loss_D = real_loss + fake_loss
 
         return {
-            "ce_loss": (tooth_class_loss_1, 1), "centroid_loss": (centroid_loss, 0)
+            "ce_loss": (tooth_class_loss_1, self.lambda_1.item()),  # 分类损失
+            "adv_loss": (loss_D, self.lambda_2.item())  # 对抗损失
         }
 
     def step(self, batch_idx, batch_item, phase):
@@ -73,8 +60,6 @@ class PointPpFirstModel(BaseModel):
 
         points = batch_item["feat"].cuda()
         l0_xyz = batch_item["feat"][:,:3,:].cuda()
-        
-        #centroids = batch_item[1].cuda()
         seg_label = batch_item["gt_seg_label"].cuda()
         
         inputs = [points, seg_label]
@@ -84,23 +69,32 @@ class PointPpFirstModel(BaseModel):
         else:
             with torch.no_grad():
                 output = self.module(inputs)
+        
+        # 初始化 loss_meter
         loss_meter = LossMap()
-        
-        loss_meter.add_loss_by_dict(self.get_loss(
-            seg_label, 
-            output["cls_pred"], 
-            output["l0_xyz"],
-            output["l0_points"]
-            )
-        )
-        
-        if phase == "train":
-            loss_sum = loss_meter.get_sum()
-            self.optimizer.zero_grad() #梯度清零
-            loss_sum.backward() #反向传播
-            self.optimizer.step()
 
+        # 获取损失
+        loss_dict = self.get_loss(seg_label, output["cls_pred"], output["l0_xyz"], output["l0_points"])
+        loss_meter.add_loss_by_dict(loss_dict)
+
+        if phase == "train":
+            # 自适应损失计算
+            tooth_class_loss_1 = loss_dict["ce_loss"][0]
+            loss_D = loss_dict["adv_loss"][0]
+
+            # 自适应总损失 = 分类损失 / λ1^2 + 对抗损失 / λ2^2 + 正则化项
+            total_loss = (1 / self.lambda_1**2) * tooth_class_loss_1 + (1 / self.lambda_2**2) * loss_D
+            regularization = self.lambda_1**2 + self.lambda_2**2
+            print("self.lambda_1:", self.lambda_1.item(), "self.lambda_2:", self.lambda_2.item())
+            total_loss = total_loss + regularization
+            
+            # 反向传播和优化
+            self.optimizer.zero_grad()
+            total_loss.backward(retain_graph=True)
+            self.optimizer.step()
+            
         return loss_meter
 
     def infer(self, batch_idx, batch_item, **options):
+        # 根据需要实现推理逻辑
         pass

@@ -14,15 +14,15 @@ class Trainer:
         self.val_step_count = len(self.gen_set[0][1])
         self.count = 1
         self.num_count =0
-        if config["wandb"]["wandb_on"]:
-            wandb.init(
-            entity=self.config["wandb"]["entity"],
-            project=self.config["wandb"]["project"],
-            notes=self.config["wandb"]["notes"],
-            tags=self.config["wandb"]["tags"],
-            name=self.config["wandb"]["name"],
-            config=self.config,
-            )
+        # if config["wandb"]["wandb_on"]:
+        #     wandb.init(
+        #     entity=self.config["wandb"]["entity"],
+        #     project=self.config["wandb"]["project"],
+        #     notes=self.config["wandb"]["notes"],
+        #     tags=self.config["wandb"]["tags"],
+        #     name=self.config["wandb"]["name"],
+        #     config=self.config,
+        #     )
 
         self.best_val_loss = inf
 
@@ -35,10 +35,10 @@ class Trainer:
             torch.cuda.empty_cache()
             # total_loss_meter.aggr(loss.get_loss_dict_for_print("train")) 
             # step_loss_meter.aggr(loss.get_loss_dict_for_print("step"))
-            print(f"Processing batch {batch_idx} of epoch {epoch}")
+            print(f"Processing batch {batch_idx} of epoch {epoch}", )
             print("epoch:", epoch ,loss.get_loss_dict_for_print("train"))
             self.num_count += 1
-            wandb.log(loss.get_loss_dict_for_print("train"), step=self.num_count)
+            #wandb.log(loss.get_loss_dict_for_print("train"), step=self.num_count)
             if ((batch_idx+1) % self.config["tr_set"]["scheduler"]["schedueler_step"] == 0) or (self.train_step_count == pre_step and batch_idx == len(data_loader)-1):               
                 if self.config["wandb"]["wandb_on"]:
                     wandb.log(step_loss_meter.get_avg_results(), step=self.train_step_count * self.count)
@@ -68,40 +68,9 @@ class Trainer:
                 self.model.save("val")
                 print("Best model saved" + str(self.best_val_loss))
 
-    # def train_depr(self):
-    #     total_loss = 0
-    #     step_loss = 0
-    #     for batch_idx, batch_item in enumerate(self.train_loader):
-    #         loss = self.model.step(batch_idx, batch_item, "train")
-    #         total_loss += loss
-    #         step_loss += loss
-    #         if (batch_idx+1) % self.config["tr_set"]["schedueler_step"] == 0:
-    #             self.model.scheduler.step()
-    #             step_loss /= self.config["tr_set"]["schedueler_step"]
-    #             if self.config["wandb"]["wandb_on"]:
-    #                 wandb.log({"step_train_loss":step_loss})
-    #             step_loss = 0
-    #     total_loss /= len(self.train_loader)
-    #     if self.config["wandb"]["wandb_on"]:
-    #         wandb.log({"train_loss": total_loss})
-    #         self.model.save("train")
-
-    # def test_depr(self):
-    #     total_loss = 0
-    #     for batch_idx, batch_item in enumerate(self.val_loader):
-    #         loss = self.model.step(batch_idx, batch_item, "test")
-    #         total_loss += loss
-    #     total_loss /= len(self.val_loader)
-    #     if self.config["wandb"]["wandb_on"]:
-    #         wandb.log({"val_loss": total_loss})
-
-    #     if self.best_val_loss > total_loss:
-    #         self.best_val_loss = total_loss
-    #         self.model.save("val")
-    
     def run(self):
         train_data_loader = self.gen_set[0][0]
         val_data_loader = self.gen_set[0][1]
         for epoch in range(60):
             self.train(epoch, train_data_loader)
-            self.test(epoch, val_data_loader, True)#保存最好的模型
+            self.test(epoch, val_data_loader, True)#保存最好的模型添加早停

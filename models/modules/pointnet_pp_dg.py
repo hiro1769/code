@@ -121,6 +121,41 @@ class get_model(nn.Module):
         return output
 
 
+class Discriminator(nn.Module):
+    def __init__(self, input_dim=96):
+        super(Discriminator, self).__init__()
+        self.t_net = TNet(input_dim)  # 仿射变换层
+        self.fc1 = nn.Linear(input_dim, 128)  # 全连接层
+        self.fc2 = nn.Linear(128, 64)
+        self.fc3 = nn.Linear(64, 1)  # 输出维度为 1，表示判别器网络的预测结果
+        self.relu = nn.ReLU()  # 激活函数
+        self.sigmoid = nn.Sigmoid()  # 激活函数
+
+    def forward(self, x):
+        x = x.view(-1, 96)  # 将输入的 x 重塑为 96 维向量
+        x = self.t_net(x)  # 仿射变换
+        x = x.view(-1, 96)  # 将仿射变换的输出重塑为 96 维向量
+        x = self.relu(self.fc1(x))
+        x = self.relu(self.fc2(x))
+        x = self.sigmoid(self.fc3(x))  # 输出一个概率值，表示判断为真实样本的概率
+        return x
+
+class TNet(nn.Module):
+    def __init__(self, input_dim):
+        super(TNet, self).__init__()
+        self.fc1 = nn.Linear(input_dim, 64)
+        self.fc2 = nn.Linear(64, 128)
+        self.fc3 = nn.Linear(128, 16 * 6)
+        self.relu = nn.ReLU()
+
+    def forward(self, x):
+        x = self.relu(self.fc1(x))
+        x = self.relu(self.fc2(x))
+        x = self.fc3(x)
+        x = x.view(-1, 16, 6)  # 将输出重塑为 16x6 矩阵
+        return x
+
+
 class PointPpFirstModule(torch.nn.Module):
     def __init__(self, config):
         self.config = config

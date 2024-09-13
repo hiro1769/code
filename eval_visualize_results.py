@@ -11,9 +11,9 @@ import copy
 import argparse
 
 parser = argparse.ArgumentParser(description='Inference models')
-parser.add_argument('--mesh_path', default="/home/hiro/3d_tooth_seg/data/obj/TVSR5QBQ/TVSR5QBQ_lower.obj", type=str)
-parser.add_argument('--gt_json_path', default="/home/hiro/3d_tooth_seg/data/json/TVSR5QBQ/TVSR5QBQ_lower.json" ,type=str)
-parser.add_argument('--pred_json_path', type=str, default="/home/hiro/3d_tooth_seg/data/test_results/pointpp_dgtest/TVSR5QBQ_lower.json")
+parser.add_argument('--mesh_path', default="/home/hiro/3d_tooth_seg/data/obj/C3TQ47Z0/C3TQ47Z0_upper.obj", type=str)
+parser.add_argument('--gt_json_path', default="/home/hiro/3d_tooth_seg/data/json/C3TQ47Z0/C3TQ47Z0_upper.json" ,type=str)
+parser.add_argument('--pred_json_path', type=str, default="/home/hiro/3d_tooth_seg/data/test_results/pointpp_dgtest/C3TQ47Z0_upper.json")
 args = parser.parse_args()
 
 

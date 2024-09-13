@@ -17,9 +17,9 @@ def set_seed(seed):
 set_seed(42)
 
 parser = argparse.ArgumentParser(description='Inference models')
-parser.add_argument('--model_name', default="dgcnn", type=str, help = "model name. list: tsegnet | tgnet_fps/tgnet_bdl | pointnet | pointnetpp | dgcnn | pointtransformer")
-parser.add_argument('--config_path', default="train_configs/dgcnn.py", type=str, help = "train config file path.")
-parser.add_argument('--experiment_name', default="dgcnn_test", type=str, help = "experiment name.")
+parser.add_argument('--model_name', default="pointnetpp_dg", type=str, help = "model name. list:   | pointnetpp | dgcnn | pointnetpp_dg")
+parser.add_argument('--config_path', default="train_configs/pointnetpp.py", type=str, help = "train config file path.")
+parser.add_argument('--experiment_name', default="pointnetpp_dg_test_adv_2", type=str, help = "experiment name.")
 parser.add_argument('--input_data_dir_path', default="/home/hiro/3d_tooth_seg/data/data_path", type=str, help = "input data dir path.")
 parser.add_argument('--train_data_split_txt_path', default="/home/hiro/3d_tooth_seg/code/fold_path/base_name_train_fold.txt", type=str, help = "train cases list file path.")
 parser.add_argument('--val_data_split_txt_path', default="/home/hiro/3d_tooth_seg/code/fold_path/base_name_val_fold.txt", type=str, help = "val cases list file path.")
