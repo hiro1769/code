@@ -9,7 +9,7 @@ def get_default_config(experiment_name, input_data_dir_path, train_data_split_tx
         "wandb":{
             "entity": "hiro1", #change to your username
             "wandb_on": True,
-            "project": "test", 
+            "project": "小样本测试", 
             "tags": "tooth mesh segmentation",
             "notes": "不做去除底座处理",
             "name": experiment_name,
@@ -24,7 +24,7 @@ def get_default_config(experiment_name, input_data_dir_path, train_data_split_tx
             "train_batch_size": 1,
             "val_batch_size": 1,
         },
-        "checkpoint_path": f"ckpts/{experiment_name}",
+        "checkpoint_path": f"../ckpts/{experiment_name}",
     }
     return config
 

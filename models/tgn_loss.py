@@ -52,7 +52,7 @@ def batch_center_offset_loss(pred_offset, sample_xyz, gt_seg_label):
             if cls_offset_dir.shape[0] != 0:
                 dir_count += 1
                 dot_mat = torch.sum(points_to_center_dir * cls_offset_dir, dim=1)
-                dot_mat -= 1
+                dot_mat = dot_mat - 1
                 dot_mat = dot_mat * dot_mat
                 
                 dir_losses += torch.div(torch.sum(dot_mat), cls_offset_dir.shape[0])
@@ -122,12 +122,12 @@ def weighted_batch_center_offset_loss(pred_offset_1, pred_offset_2, sample_xyz, 
             cls_offset_dir = cls_offset_dir[cls_offset_norm.view(1,-1)>0.0002]
             points_to_center_dir = points_to_center_dir[cls_offset_norm.view(1,-1)>0.0002]
             if cls_offset_dir.shape[0] != 0:
-                dir_count += 1
+                dir_count = dir_count + 1
                 dot_mat = torch.sum(points_to_center_dir * cls_offset_dir, dim=1)
-                dot_mat -= 1
+                dot_mat = dot_mat - 1
                 dot_mat = dot_mat * dot_mat
                 
-                dir_losses += torch.div(torch.sum(dot_mat), cls_offset_dir.shape[0])
+                dir_losses = dir_losses + torch.div(torch.sum(dot_mat), cls_offset_dir.shape[0])
     if torch.isnan(dir_losses).any() or torch.isnan(centroid_losses).any():
         print(1)
     centroid_losses = torch.div(centroid_losses, centroid_count)
@@ -171,7 +171,7 @@ def distance_loss(pred_offset, sample_xyz, gt_seg_label):
             
         if cls_offset_dir.shape[0] != 0:
             dot_mat = torch.sum(points_to_center_dir * cls_offset_dir, dim=1)
-            dot_mat -= 1
+            dot_mat = dot_mat - 1
             dot_mat = dot_mat * dot_mat
             
             dir_losses += torch.sum(dot_mat)
@@ -220,7 +220,7 @@ def distance_loss_with_gin(pred_offset, sample_xyz, gt_seg_label):
             
         if cls_offset_dir.shape[0] != 0:
             dot_mat = torch.sum(points_to_center_dir * cls_offset_dir, dim=1)
-            dot_mat -= 1
+            dot_mat = dot_mat - 1
             dot_mat = dot_mat * dot_mat
             
     return centroid_losses + dir_losses * 0.1
@@ -317,9 +317,13 @@ def chamfer_distance_with_gin_loss(pred_offset, sample_xyz, centroid):
     loss = torch.sum(ratio)
     return loss
 
-def compute_stat(gt_seg_label_1, current_xyz):
+def compute_stat(label, current_xyz, gt):
     """计算标签的统计信息（均值和方差），处理除零错误"""
-    batch_size = gt_seg_label_1.shape[0]  # 获取 batch 大小
+    B, _, N = label.shape
+    label = label.view(1, -1)
+    if gt == True:
+        label = label + 1
+    batch_size = label.shape[0]  # 获取 batch 大小
     num_classes = 16  # 假设有 16 个类
     num_features = 3  # 每个点有 3 个坐标 (x, y, z)
     stats = torch.zeros((batch_size, num_classes, 2 * num_features), device=current_xyz.device)  # 最终的统计量 [batch_size, 16, 6]
@@ -328,7 +332,7 @@ def compute_stat(gt_seg_label_1, current_xyz):
 
     for batch_idx in range(batch_size):
         # 对每个 batch 处理
-        seg_label = gt_seg_label_1[batch_idx]  # 当前 batch 的分割标签, shape [24000]
+        seg_label = label[batch_idx]  # 当前 batch 的分割标签, shape [24000]
         xyz = current_xyz[batch_idx]  # 当前 batch 的点云坐标, shape [3, 24000]
 
         for class_id in range(1, num_classes + 1):  # 类别 ID 从 1 到 16
@@ -351,6 +355,55 @@ def compute_stat(gt_seg_label_1, current_xyz):
             else:
                 stats[batch_idx, class_id - 1, :] = torch.zeros(6, device=current_xyz.device)  # 填充全零向量
 
+    return stats
+
+def compute_centroids(labels, points, gt):
+    """
+    计算每个类别的质心。
+
+    Args:
+        labels (Tensor): 标签，形状为 [B, 1, N]
+        points (Tensor): 点云坐标，形状为 [B, 3, N]
+        gt (bool): 是否为 ground truth
+
+    Returns:
+        Tensor: 质心信息，形状为 [B, 16, 6]（均值和方差）
+    """
+    B, _, N = labels.shape
+    labels = labels.view(B, -1)
+    if gt:
+        labels = labels + 1  # 将标签范围从 [-1, 15] 转为 [0, 16]
+    
+    batch_size = labels.shape[0]
+    num_classes = 16
+    num_features = 3
+    stats = torch.zeros((batch_size, num_classes, 2 * num_features), device=points.device)
+    
+    epsilon = 1e-6  # 防止方差为0
+
+    
+    # 转置 points 为 [B, N, 3]
+    points = points.permute(0, 2, 1)  # 从 [B, 3, N] 转为 [B, N, 3]
+    
+    for batch_idx in range(batch_size):
+        for class_id in range(1, num_classes + 1):
+            mask = (labels[batch_idx] == class_id)  # 形状为 [N]
+            
+            if mask.sum() > 0:
+                selected_points = points[batch_idx][mask]  # 形状为 [M, 3]
+                
+                # 计算均值和方差
+                mean = selected_points.mean(dim=0)  # 形状为 [3]
+                variance = selected_points.var(dim=0, unbiased=False)  # 形状为 [3]
+                variance = torch.clamp(variance, min=epsilon)  # 防止方差为0
+                
+                # 存储均值和方差
+                stats[batch_idx, class_id - 1, :num_features] = mean
+                stats[batch_idx, class_id - 1, num_features:] = variance
+            else:
+                # 如果没有该类别的点，填充为零
+                stats[batch_idx, class_id - 1, :] = torch.zeros(2 * num_features, device=points.device)
+    
     return stats
 
 

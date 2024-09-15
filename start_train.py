@@ -1,4 +1,5 @@
 import torch
+torch.autograd.set_detect_anomaly(True)
 import numpy as np
 import random
 from runner import runner
@@ -19,10 +20,10 @@ set_seed(42)
 parser = argparse.ArgumentParser(description='Inference models')
 parser.add_argument('--model_name', default="pointnetpp_dg", type=str, help = "model name. list:   | pointnetpp | dgcnn | pointnetpp_dg")
 parser.add_argument('--config_path', default="train_configs/pointnetpp.py", type=str, help = "train config file path.")
-parser.add_argument('--experiment_name', default="pointnetpp_dg_test_adv_2", type=str, help = "experiment name.")
+parser.add_argument('--experiment_name', default="pointnetpp_dg", type=str, help = "experiment name.")
 parser.add_argument('--input_data_dir_path', default="/home/hiro/3d_tooth_seg/data/data_path", type=str, help = "input data dir path.")
-parser.add_argument('--train_data_split_txt_path', default="/home/hiro/3d_tooth_seg/code/fold_path/base_name_train_fold.txt", type=str, help = "train cases list file path.")
-parser.add_argument('--val_data_split_txt_path', default="/home/hiro/3d_tooth_seg/code/fold_path/base_name_val_fold.txt", type=str, help = "val cases list file path.")
+parser.add_argument('--train_data_split_txt_path', default="/home/hiro/3d_tooth_seg/code/fold_path_1/base_name_train_fold.txt", type=str, help = "train cases list file path.")
+parser.add_argument('--val_data_split_txt_path', default="/home/hiro/3d_tooth_seg/code/fold_path_1/base_name_val_fold.txt", type=str, help = "val cases list file path.")
 args = parser.parse_args()
 
 config = train_config_maker.get_train_config(

@@ -56,7 +56,7 @@ class Rotation:
     def reload_val(self):
         if self.angle_axis == "rand":
             self.angle_axis_val = np.random.rand(3)
-            self.angle_axis_val /= np.linalg.norm(self.angle_axis_val)
+            self.angle_axis_val = self.angle_axis_val / np.linalg.norm(self.angle_axis_val)
         elif self.angle_axis == "fixed":
             self.angle_axis_val = np.array([0,0,1])
         elif self.angle_axis == "pca":

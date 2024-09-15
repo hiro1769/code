@@ -3,7 +3,7 @@ import wandb
 from loss_meter import LossMeter
 from math import inf
 class EarlyStopping:
-    def __init__(self, patience=5, min_delta=0):
+    def __init__(self, patience=30, min_delta=0):
         """
         :param patience: How many epochs to wait after last time validation loss improved.
         :param min_delta: Minimum change in the monitored quantity to qualify as an improvement.
@@ -23,7 +23,7 @@ class EarlyStopping:
             self.counter = 0
         else:
             # Otherwise, increase the counter
-            self.counter += 1
+            self.counter = self.counter + 1
             if self.counter >= self.patience:
                 self.early_stop = True
 
@@ -39,7 +39,7 @@ class Trainer:
         self.count = 1
         self.num_count = 0
         self.best_val_loss = inf
-        self.early_stopping = EarlyStopping(patience=10, min_delta=0.001)  # 设定早停
+        self.early_stopping = EarlyStopping(patience=30, min_delta=0.001)  # 设定早停
         
         if config["wandb"]["wandb_on"]:
             wandb.init(
@@ -60,7 +60,7 @@ class Trainer:
             torch.cuda.empty_cache()
             print(f"Processing batch {batch_idx} of epoch {epoch}")
             print("epoch:", epoch, loss.get_loss_dict_for_print("train"))
-            self.num_count += 1
+            self.num_count = self.num_count + 1
             wandb.log(loss.get_loss_dict_for_print("train"), step=self.num_count)
             if ((batch_idx + 1) % self.config["tr_set"]["scheduler"]["schedueler_step"] == 0) or (self.train_step_count == pre_step and batch_idx == len(data_loader) - 1):
                 if self.config["wandb"]["wandb_on"]:
@@ -71,7 +71,7 @@ class Trainer:
 
         if self.config["wandb"]["wandb_on"]:
             wandb.log(total_loss_meter.get_avg_results(), step=self.train_step_count * self.count)
-            self.train_epoch += 1
+            self.train_epoch = self.train_epoch + 1
         self.model.save("train")
 
     def test(self, epoch, data_loader, save_best_model):
@@ -84,7 +84,7 @@ class Trainer:
         avg_total_loss = total_loss_meter.get_avg_results()
         if self.config["wandb"]["wandb_on"]:
             wandb.log(avg_total_loss, step=self.train_step_count * self.count)
-            self.count += 1
+            self.count = self.count + 1
 
         # Early stopping logic
         if save_best_model:

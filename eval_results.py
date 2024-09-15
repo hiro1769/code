@@ -15,7 +15,9 @@ class_names_dict = {
 parser = argparse.ArgumentParser(description='Batch Inference Models')
 parser.add_argument('--mesh_dir', default="/home/hiro/3d_tooth_seg/data/obj/", type=str, help="Directory containing OBJ files")
 parser.add_argument('--gt_json_dir', default="/home/hiro/3d_tooth_seg/data/json/", type=str, help="Directory containing ground truth JSON files")
-parser.add_argument('--pred_json_dir', default="/home/hiro/3d_tooth_seg/data/test_results/pointpp_dg_adv_1test", type=str, help="Directory containing predicted JSON files")
+parser.add_argument('--pred_json_dir', default="/home/hiro/3d_tooth_seg/data/test_results/pointpp_dg_adv_3test", type=str, help="Directory containing predicted JSON files")
+parser.add_argument('--model_name', default="pointpp_dg_adv_3test", type=str, help="模型名称，用于保存结果文件")
+parser.add_argument('--output_dir', default="/home/hiro/3d_tooth_seg/data/test_results/evaluate", type=str, help="保存评估结果的目录")
 args = parser.parse_args()
 
 def cal_metric(gt_labels, pred_sem_labels, pred_ins_labels, file_name, is_half=None, vertices=None):
@@ -73,9 +75,12 @@ def cal_metric(gt_labels, pred_sem_labels, pred_ins_labels, file_name, is_half=N
     else:
         mF1 = 0
 
-    print(f"mIoU for {file_name}: {mIoU:.4f}")
-    print(f"mF1 for {file_name}: {mF1:.4f}")
-    return mIoU, mF1, iou_list, f1_list
+    output = f"\n处理文件: {file_name}\n"
+
+    output += f"{file_name} 的 mIoU: {mIoU:.4f}\n"
+    output += f"{file_name} 的 mF1: {mF1:.4f}\n"
+
+    return mIoU, mF1, iou_list, f1_list, output
 
 mesh_files = sorted(glob(os.path.join(args.mesh_dir, '**/*.obj'), recursive=True))
 gt_json_files = sorted(glob(os.path.join(args.gt_json_dir, '**/*.json'), recursive=True))
@@ -96,6 +101,8 @@ if len(common_keys) != len(mesh_files) or len(common_keys) != len(gt_json_files)
 # Batch processing
 total_IoU = 0
 total_F1 = 0
+all_output = ""
+
 for key in common_keys:
     gt_loaded_json = gu.load_json(gt_json_dict[key])
     gt_labels = np.array(gt_loaded_json['labels']).reshape(-1)
@@ -103,12 +110,23 @@ for key in common_keys:
     pred_loaded_json = gu.load_json(pred_json_dict[key])
     pred_labels = np.array(pred_loaded_json['labels']).reshape(-1)
 
-    IoU, F1, iou_list, f1_list = cal_metric(gt_labels, pred_labels, pred_labels, key)
+    IoU, F1, iou_list, f1_list, file_output = cal_metric(gt_labels, pred_labels, pred_labels, key)
     total_IoU += IoU
     total_F1 += F1
+    all_output += file_output
 
 average_IoU = total_IoU / len(common_keys)
 average_F1 = total_F1 / len(common_keys)
 
-print(f"Average IoU: {average_IoU:.4f}")
-print(f"Average F1 Score: {average_F1:.4f}")
+all_output += f"\n平均 IoU: {average_IoU:.4f}\n"
+all_output += f"平均 F1 分数: {average_F1:.4f}\n"
+
+# 确保输出目录存在
+os.makedirs(args.output_dir, exist_ok=True)
+
+# 根据模型名称创建输出文件
+output_file = os.path.join(args.output_dir, f"{args.model_name}_evaluation_results.txt")
+with open(output_file, "w", encoding="utf-8") as f:
+    f.write(all_output)
+
+print(f"评估结果已保存到: {output_file}")

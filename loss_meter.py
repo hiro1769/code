@@ -10,8 +10,8 @@ class LossMeter:
         for key in loss_map.keys():
             if key not in self.loss_meter_dict:
                 self.loss_meter_dict[key] = 0
-            self.loss_meter_dict[key] += loss_map[key]
-        self.step_num += 1
+            self.loss_meter_dict[key] = self.loss_meter_dict[key] + loss_map[key]
+        self.step_num = self.step_num + 1
 
     def get_avg_results(self):
         avg_loss_meter_dict = {}
@@ -43,7 +43,7 @@ class LossMap:
     def get_sum(self):#计算总损失，每个损失乘以权重
         summation = 0
         for key in self.loss_dict.keys():
-            summation += self.loss_dict[key][0] * self.loss_dict[key][1]
+            summation = summation + self.loss_dict[key][0] * self.loss_dict[key][1]
         return summation
     
     def get_loss_dict_for_print(self, post_fix):
@@ -54,7 +54,7 @@ class LossMap:
         
         total = 0
         for key in loss_dict_for_print.keys():
-            total += loss_dict_for_print[key]
+            total = total + loss_dict_for_print[key]
         
         loss_dict_for_print["total" + "_" + post_fix] = total
 
